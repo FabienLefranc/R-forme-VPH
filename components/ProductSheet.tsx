@@ -239,7 +239,9 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
         )}
 
         {/* Points forts / Limites */}
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {(pros.length > 0 || cons.length > 0) && (
+        <section className={`grid grid-cols-1 gap-6 ${pros.length > 0 && cons.length > 0 ? 'md:grid-cols-2' : ''}`}>
+          {pros.length > 0 && (
           <div className="bg-emerald-50 rounded-xl p-5 border border-emerald-100">
             <h4 className="font-bold text-emerald-800 mb-3 flex items-center gap-2">
               <span className="text-xl">👍</span> Points forts
@@ -252,7 +254,9 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
               ))}
             </ul>
           </div>
+          )}
 
+          {cons.length > 0 && (
           <div className="bg-amber-50 rounded-xl p-5 border border-amber-100">
              <h4 className="font-bold text-amber-800 mb-3 flex items-center gap-2">
               <span className="text-xl">⚠️</span> Limites à vérifier
@@ -265,7 +269,9 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
               ))}
             </ul>
           </div>
+          )}
         </section>
+        )}
         
         <div className="text-center pt-8 border-t border-slate-100">
             <p className="text-xs text-slate-400 italic">

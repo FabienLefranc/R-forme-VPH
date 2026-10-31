@@ -1013,8 +1013,7 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur limité à 115 kg.",
                     "Prévu pour des déplacements de courte distance, pas pour un usage permanent.",
                     "Hauteur (490 mm) et profondeur (420 mm) d'assise fixes.",
-                    "Dossier de 440 mm : maintien limité du haut du tronc.",
-                    "Les brochures donnent des poids différents (9,6 à 10 kg ou 12,4 kg), à confirmer."
+                    "Dossier de 440 mm : maintien limité du haut du tronc."
                   ],
                   colors: [{ name: "Bleu", hex: "#0055A4" }]
                 }
@@ -2496,8 +2495,7 @@ export const CATEGORIES: Category[] = [
                     "Fauteuil à pousser : l'utilisateur ne peut pas se propulser seul avec des roues de 12''.",
                     "Poids max. utilisateur de 125 kg.",
                     "Plus lourd que l'Alu Lite (13,5 kg contre 11 kg).",
-                    "Hauteur d'assise avant de 460 mm minimum : pas de position basse.",
-                    "Nombreuses incompatibilités entre options : à vérifier avec le configurateur du fabricant."
+                    "Hauteur d'assise avant de 460 mm minimum : pas de position basse."
                   ],
                   colors: [
                     { name: "Gris Ardoise", hex: "#474A51" },
@@ -2664,8 +2662,7 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 125 kg.",
                     "Plus lourd que l'Action 4NG sans double main courante (à partir de 15,4 kg).",
                     "Gouttière Hémi possible uniquement du côté opposé à la double main courante.",
-                    "Crash test valable seulement avec l'option kit de transport.",
-                    "Nombreuses incompatibilités entre options : à vérifier avec le configurateur du fabricant."
+                    "Crash test valable seulement avec l'option kit de transport."
                   ],
                   colors: [
                     { name: "Gris Ardoise", hex: "#5A6370" },
@@ -2748,8 +2745,7 @@ export const CATEGORIES: Category[] = [
                     "Plus lourd que l'Action 4NG standard (à partir de 20,2 kg).",
                     "Largeur d'assise minimale de 505 mm : pas de petites tailles.",
                     "Dossier inclinable proposé en une seule hauteur (430 mm) ; poignées fixes sur le dossier fixe.",
-                    "Crash test valable seulement avec l'option kit de transport.",
-                    "Nombreuses incompatibilités entre options (coussins, roues, freins) : à vérifier avec le configurateur du fabricant."
+                    "Crash test valable seulement avec l'option kit de transport."
                   ],
                   colors: [
                     { name: "Gris Ardoise", hex: "#5A6370" },
@@ -3252,7 +3248,6 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids important (21 kg, dont 13,35 kg pour la pièce la plus lourde).",
-                    "Largeur totale de 740 à 810 mm : à vérifier pour les portes et le transport.",
                     "Diamètre de braquage élevé (1500 mm).",
                     "Ne doit pas être utilisé comme siège dans un véhicule.",
                     "Dossier de 400 mm : maintien limité du haut du tronc."
@@ -3386,8 +3381,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids max. utilisateur limité à 130 kg.",
-                    "Largeurs d'assise limitées à 420, 460 et 500 mm (3 tailles).",
-                    "Largeur totale de 620 à 700 mm : à vérifier pour les portes étroites."
+                    "Largeurs d'assise limitées à 420, 460 et 500 mm (3 tailles)."
                   ],
                   colors: [
                     { name: "Gris carbone", hex: "#4A4D52" },
@@ -3806,8 +3800,7 @@ export const CATEGORIES: Category[] = [
                     "Plus lourd que l'Action 4NG standard (à partir de 20,2 kg).",
                     "Largeur d'assise minimale de 505 mm : pas de petites tailles.",
                     "Dossier inclinable proposé en une seule hauteur (430 mm) ; poignées fixes sur le dossier fixe.",
-                    "Crash test valable seulement avec l'option kit de transport.",
-                    "Nombreuses incompatibilités entre options (coussins, roues, freins) : à vérifier avec le configurateur du fabricant."
+                    "Crash test valable seulement avec l'option kit de transport."
                   ],
                   colors: [
                     { name: "Gris Ardoise", hex: "#5A6370" },
@@ -4055,7 +4048,6 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 130 kg.",
                     "Pente max. de sécurité de 7°.",
                     "Largeur d'assise maximale de 500 mm.",
-                    "Croisillon simple ou double selon la largeur d'assise : à vérifier à la commande.",
                     "Fauteuil entièrement configuré : mesures précises à fournir (guide de prise de mesures Küschall) et nombreuses options à choisir."
                   ],
                   colors: [
@@ -5149,7 +5141,6 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 120 kg en version standard (159 kg seulement avec le kit HD).",
                     "Largeur d'assise minimale de 35,6 cm.",
                     "Largeur hors-tout pouvant atteindre 85,1 cm.",
-                    "Liste détaillée des options à confirmer avec les bons de commande (version USA).",
                     "Coloris de cadre à choisir parmi 19 teintes ; croisillon toujours noir."
                   ],
                   colors: [
@@ -5236,7 +5227,6 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 120 kg en version standard (159 kg seulement avec le kit HD).",
                     "Largeur d'assise minimale de 35,6 cm.",
                     "Largeur hors-tout pouvant atteindre 85,1 cm.",
-                    "Liste détaillée des options à confirmer avec le bon de commande (version USA).",
                     "Croisillon toujours noir, coloris de cadre à choisir parmi 19 teintes."
                   ],
                   colors: [
@@ -5323,7 +5313,6 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 120 kg en version standard (159 kg seulement avec le kit HD).",
                     "Largeur d'assise minimale de 35,6 cm.",
                     "Largeur hors-tout pouvant atteindre 85,1 cm.",
-                    "Liste détaillée des options à confirmer avec le bon de commande (version USA).",
                     "Fibre de carbone : prix plus élevé que les versions en aluminium (HELIO A6 et A7) et finition à protéger."
                   ],
                   colors: [
@@ -5408,8 +5397,7 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 74,8 kg.",
                     "Largeur d'assise limitée à 40,6 cm.",
                     "Largeur hors-tout pouvant atteindre 68,3 cm.",
-                    "Dossier réglable en profondeur et kit de croissance en option.",
-                    "Liste détaillée des options à confirmer avec le bon de commande (version USA)."
+                    "Dossier réglable en profondeur et kit de croissance en option."
                   ],
                   colors: [
                     { name: "Bordeaux", hex: "#6D1A2B" },
@@ -5496,7 +5484,7 @@ export const CATEGORIES: Category[] = [
                     "Largeur d'assise limitée à 40,6 cm.",
                     "Largeur hors-tout pouvant atteindre 68,3 cm.",
                     "Dossier réglable en profondeur et kit de croissance en option.",
-                    "Fibre de carbone : prix plus élevé que la version en aluminium (HELIO Kids A) ; liste détaillée des options à confirmer avec le bon de commande (version USA)."
+                    "Fibre de carbone : prix plus élevé que la version en aluminium (HELIO Kids A)."
                   ],
                   colors: [
                     { name: "Carbone (fibre apparente)", hex: "#1B1B1D" },
@@ -5581,8 +5569,7 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 120 kg en version standard (159 kg seulement avec le kit HD, jusqu'à 50,8 cm de largeur d'assise).",
                     "Largeur d'assise minimale de 35,6 cm.",
                     "Largeur hors-tout pouvant atteindre 80 cm.",
-                    "Fibre de carbone : prix plus élevé que les versions en aluminium ; finition à protéger.",
-                    "Liste détaillée des options à confirmer avec le bon de commande (version USA)."
+                    "Fibre de carbone : prix plus élevé que les versions en aluminium ; finition à protéger."
                   ],
                   colors: [
                     { name: "Carbone (fibre apparente)", hex: "#1B1B1D" },
@@ -6234,8 +6221,7 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 125 kg.",
                     "Largeur d'assise maximale de 480 mm.",
                     "Fauteuil entièrement configuré : de nombreuses combinaisons d'options sont incompatibles (longueur de châssis selon la profondeur d'assise), il faut utiliser le configurateur.",
-                    "Mesures précises de l'utilisateur à fournir à la commande.",
-                    "Libellés des caractéristiques techniques de la page incomplets : plusieurs valeurs (largeur et profondeur d'assise, distance du repose-pieds) sont à confirmer avec la fiche de mesure."
+                    "Mesures précises de l'utilisateur à fournir à la commande."
                   ],
                   colors: [
                     { name: "Noir opaque", hex: "#1A1A1C" },
@@ -6305,8 +6291,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids max. utilisateur de 125 kg.",
                     "Largeur d'assise maximale de 480 mm.",
-                    "Fauteuil entièrement configuré : mesures précises à fournir (guide de mesures Exelle Vario) et nombreuses options à choisir.",
-                    "Libellés des caractéristiques techniques de la page incomplets : plusieurs valeurs sont à confirmer avec la fiche de mesure Exelle Vario 2026 (non ouverte)."
+                    "Fauteuil entièrement configuré : mesures précises à fournir (guide de mesures Exelle Vario) et nombreuses options à choisir."
                   ],
                   colors: [
                     { name: "Noir opaque", hex: "#1A1A1C" },
@@ -6440,8 +6425,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids max. utilisateur de 125 kg.",
                     "Largeur d'assise maximale de 480 mm.",
-                    "Fauteuil entièrement configuré : mesures précises à fournir (guide de mesures Ego) et nombreuses options à choisir.",
-                    "Libellés des caractéristiques techniques de la page incomplets : plusieurs valeurs sont à confirmer avec la fiche de mesure Ego 2026 (non ouverte)."
+                    "Fauteuil entièrement configuré : mesures précises à fournir (guide de mesures Ego) et nombreuses options à choisir."
                   ],
                   colors: [
                     { name: "Noir opaque", hex: "#1A1A1C" },
@@ -6509,8 +6493,7 @@ export const CATEGORIES: Category[] = [
                     "Châssis rigide : ne se plie pas.",
                     "Poids max. utilisateur de 125 kg.",
                     "Largeur d'assise maximale de 480 mm.",
-                    "Fauteuil entièrement configuré : mesures précises à fournir (guide de mesures Joker) et nombreuses options à choisir.",
-                    "Libellés des caractéristiques techniques de la page incomplets : plusieurs valeurs sont à confirmer avec la fiche de mesure Joker 2026 (non ouverte)."
+                    "Fauteuil entièrement configuré : mesures précises à fournir (guide de mesures Joker) et nombreuses options à choisir."
                   ],
                   colors: [
                     { name: "Noir opaque", hex: "#1A1A1C" },
@@ -6581,8 +6564,7 @@ export const CATEGORIES: Category[] = [
                     "Châssis rigide : ne se plie pas.",
                     "Poids max. utilisateur de 100 kg pour la version standard (150 kg pour la version renforcée).",
                     "Largeur hors-tout importante (largeur d'assise + 210 mm).",
-                    "Un seul coloris de série (Anodic Black), les autres en options premium.",
-                    "Libellés des caractéristiques techniques de la page incomplets : plusieurs valeurs sont à confirmer avec la fiche de mesure Panthera S3 2026 (non ouverte)."
+                    "Un seul coloris de série (Anodic Black), les autres en options premium."
                   ],
                   colors: [
                     { name: "Noir anodisé (Anodic Black)", hex: "#1C1C1E" }
@@ -7858,7 +7840,6 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 70 ou de 130 kg selon la configuration.",
                     "Repose-pieds non amovibles (intégrés au châssis) : le Trigo T est à choisir pour des repose-pieds repliables et amovibles.",
                     "Fauteuil entièrement configuré : mesures précises à fournir et nombreuses combinaisons d'options.",
-                    "Fiche faite d'après la brochure Vermeiren (Pays-Bas, édition de juin 2020), car le site vermeiren.fr n'est pas accessible : à confirmer avec la fiche de commande française à jour.",
                     "Image non récupérée."
                   ],
                   colors: [
@@ -7945,8 +7926,6 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids max. utilisateur de 70 ou de 130 kg selon la configuration.",
                     "Fauteuil entièrement configuré : mesures précises à fournir et nombreuses combinaisons d'options.",
-                    "La brochure donne un tableau technique commun au Trigo S et au Trigo T : les valeurs propres au Trigo T (poids, largeurs) sont à confirmer avec la fiche de commande.",
-                    "Fiche faite d'après la brochure Vermeiren (Pays-Bas, édition de juin 2020), car le site vermeiren.fr n'est pas accessible : à confirmer avec la fiche de commande française à jour.",
                     "Image non récupérée."
                   ],
                   colors: [
@@ -8027,7 +8006,6 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 100 kg.",
                     "Largeur d'assise minimale de 360 mm et maximale de 460 mm.",
                     "Largeur pliée non indiquée dans la brochure.",
-                    "Fiche faite d'après la brochure Vermeiren (Pays-Bas, août 2024), car le site vermeiren.fr n'est pas accessible : à confirmer avec la fiche de commande française à jour.",
                     "Image non récupérée."
                   ],
                   colors: [
@@ -8150,7 +8128,6 @@ export const CATEGORIES: Category[] = [
                     "Châssis rigide : ne se plie pas.",
                     "Poids max. utilisateur de 90 kg (200 lb).",
                     "Largeur d'assise maximale de 45,7 cm.",
-                    "Fiche faite d'après des sources du fabricant et de revendeurs étrangers, car la page ami-autonomie.com n'est pas accessible : à confirmer avec la fiche de commande française (largeurs, hauteurs, coloris nommés).",
                     "Coloris non nommés (image non récupérée)."
                   ],
                   colors: [
@@ -8220,7 +8197,6 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Châssis rigide : ne se plie pas, les roues doivent être retirées pour le transport.",
                     "Poids max. utilisateur de 124,7 kg.",
-                    "Fiche faite d'après des sources du fabricant (Etac) et de revendeurs étrangers, car la page ami-autonomie.com n'est pas accessible : à confirmer avec la fiche de commande française (options, coloris nommés).",
                     "Coloris non nommés (image non récupérée).",
                     "Fauteuil configurable : mesures précises à fournir pour la commande."
                   ],
@@ -8298,8 +8274,7 @@ export const CATEGORIES: Category[] = [
                     "Châssis soudé : pas de réglage après fabrication (centre de gravité fixe).",
                     "Poids max. utilisateur de 100 kg.",
                     "Largeur d'assise maximale de 440 mm.",
-                    "Châssis rigide : les roues arrière doivent être retirées pour le transport.",
-                    "Les caractéristiques chiffrées viennent de la fiche assistant-ergo.fr (le tableau technique n'apparaît pas sur la page DHCare) : à confirmer avec la fiche de mesure."
+                    "Châssis rigide : les roues arrière doivent être retirées pour le transport."
                   ],
                   colors: [
                     { name: "Noir Spatial", hex: "#1C1C1E" },
@@ -8367,8 +8342,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids légèrement supérieur au KSL ultra-léger (environ 7,9 kg), du fait des options de réglage.",
                     "Réglages fins pouvant nécessiter une expertise pour une optimisation parfaite.",
-                    "Poids max. utilisateur de 130 kg.",
-                    "Les caractéristiques chiffrées viennent de la fiche assistant-ergo.fr (le tableau technique n'apparaît pas sur la page DHCare) : à confirmer avec la fiche de mesure."
+                    "Poids max. utilisateur de 130 kg."
                   ],
                   colors: [
                     { name: "Noir Espace", hex: "#1C1C1E" },
@@ -8599,8 +8573,7 @@ export const CATEGORIES: Category[] = [
                     "Faible modularité après fabrication : les réglages sont fixés lors de la soudure.",
                     "Poids légèrement supérieur aux modèles ultra-légers, du fait de sa robustesse (à partir de 9 kg).",
                     "Poids max. utilisateur de 100 kg en standard (120 kg en option).",
-                    "Fauteuil sur mesure : mesures précises à fournir à la commande.",
-                    "Dimensions et poids max. repris de la fiche assistant-ergo.fr (la page Meyra n'a pas de tableau technique) : à confirmer avec le bon de commande."
+                    "Fauteuil sur mesure : mesures précises à fournir à la commande."
                   ],
                   colors: [
                     { name: "Gris titan", hex: "#6C7073" },
@@ -8681,8 +8654,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Châssis rigide : moins compact pour le voyage qu'un fauteuil pliant.",
                     "Poids max. utilisateur de 120 kg.",
-                    "Fauteuil configurable : mesures précises à fournir à la commande.",
-                    "Page fabricant en anglais (liens français de ton site en erreur 404) : bon de commande français à confirmer."
+                    "Fauteuil configurable : mesures précises à fournir à la commande."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -8768,8 +8740,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Investissement initial plus élevé, du fait des matériaux premium (carbone).",
                     "Châssis rigide moins compact que les modèles pliants pour certains petits espaces de rangement.",
-                    "Poids max. utilisateur de 120 kg.",
-                    "Page fabricant en anglais (liens français de ton site en erreur 404) : bon de commande français à confirmer."
+                    "Poids max. utilisateur de 120 kg."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -8859,8 +8830,7 @@ export const CATEGORIES: Category[] = [
                     "Poids total (11,8 kg) supérieur à certains modèles ultra-légers en carbone.",
                     "Châssis rigide : les roues doivent être retirées pour le transport.",
                     "Nécessite des réglages précis pour éviter les vibrations des roues directrices.",
-                    "Poids max. utilisateur de 100 kg en version standard (140 kg seulement en Heavy Duty).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page Ottobock)."
+                    "Poids max. utilisateur de 100 kg en version standard (140 kg seulement en Heavy Duty)."
                   ],
                   colors: [
                     { name: "Argent brillant", hex: "#C0C0C0" },
@@ -8926,8 +8896,7 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 120 kg (100 kg pour la version CLT).",
                     "Largeur d'assise maximale de 460 mm.",
                     "Châssis rigide : moins compact que le Zenit pliant pour certains petits espaces.",
-                    "Conception orientée vers les utilisateurs actifs ayant un bon équilibre du tronc.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page Ottobock) ; la page Ottobock donne 7,4 kg alors que ta fiche indique 8,5 kg (alu) / 7,5 kg (carbone)."
+                    "Conception orientée vers les utilisateurs actifs ayant un bon équilibre du tronc."
                   ],
                   colors: [
                     { name: "Noir mat", hex: "#1E1E1E" },
@@ -9005,8 +8974,7 @@ export const CATEGORIES: Category[] = [
                     "Châssis rigide : moins compact qu'un pliant pour le stockage.",
                     "Délai de fabrication lié à la personnalisation complète, et prix élevé (titane et carbone).",
                     "Repose-pieds non amovibles.",
-                    "Poids max. utilisateur de 120 kg ; non crash-testé.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (la page fabricant annonce 32 coloris de cadre, sans les nommer) ; page fabricant en anglais (le lien Orthinea de ton site renvoie une erreur 404)."
+                    "Poids max. utilisateur de 120 kg ; non crash-testé."
                   ],
                   colors: [
                     { name: "Titane brossé", hex: "#8E9094" },
@@ -9077,8 +9045,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Délai de fabrication lié à la personnalisation complète sur mesure.",
                     "Châssis rigide ; repose-pieds non amovibles.",
-                    "Poids max. utilisateur de 120 kg ; largeur d'assise limitée à 44 cm pour le GT.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (la page fabricant annonce 32 coloris de cadre, sans les nommer) ; page fabricant en anglais."
+                    "Poids max. utilisateur de 120 kg ; largeur d'assise limitée à 44 cm pour le GT."
                   ],
                   colors: [
                     { name: "Titane naturel", hex: "#8E9094" },
@@ -9343,8 +9310,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Prix très élevé, dû au titane aérospatial.",
                     "Châssis rigide : démontage des roues nécessaire pour certains petits coffres.",
-                    "Poids max. utilisateur de 120,2 kg (136 kg en châssis renforcé).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page Permobil)."
+                    "Poids max. utilisateur de 120,2 kg (136 kg en châssis renforcé)."
                   ],
                   colors: [
                     { name: "Titane naturel (brossé / poli)", hex: "#8E9094" },
@@ -9405,8 +9371,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Prix premium, lié au titane aérospatial.",
                     "Poids légèrement supérieur au ZR, du fait des mécanismes de réglage.",
-                    "Châssis rigide : ne se plie pas.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page Permobil)."
+                    "Châssis rigide : ne se plie pas."
                   ],
                   colors: [
                     { name: "Titane naturel", hex: "#8E9094" },
@@ -9467,8 +9432,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Prix parmi les plus élevés du marché.",
                     "Réglages après fabrication limités par rapport au TRA.",
-                    "Châssis rigide : ne se plie pas.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page Permobil)."
+                    "Châssis rigide : ne se plie pas."
                   ],
                   colors: [
                     { name: "Titane naturel (satiné ou poli)", hex: "#8E9094" },
@@ -9529,8 +9493,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids légèrement supérieur au TR (fixe), du fait des systèmes de réglage.",
                     "Investissement financier élevé.",
-                    "Châssis rigide : ne se plie pas.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page Permobil)."
+                    "Châssis rigide : ne se plie pas."
                   ],
                   colors: [
                     { name: "Titane naturel", hex: "#8E9094" },
@@ -9603,8 +9566,7 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 50 kg (strictement pédiatrique).",
                     "Non homologué pour le transport en véhicule (pas de crash test).",
                     "Châssis rigide : ne se plie pas.",
-                    "Les étapes de croissance demandent des connaissances techniques (revendeur spécialisé).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page, une page « Designs de couleurs » existe)."
+                    "Les étapes de croissance demandent des connaissances techniques (revendeur spécialisé)."
                   ],
                   colors: [
                     { name: "Blanc pur", hex: "#F8F9FA" },
@@ -9671,8 +9633,7 @@ export const CATEGORIES: Category[] = [
                     "Poids max. utilisateur de 50 kg.",
                     "Non homologué pour le transport en véhicule (pas de crash test).",
                     "Châssis rigide : ne se plie pas.",
-                    "Mesures précises à fournir (cadre sur mesure).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Mesures précises à fournir (cadre sur mesure)."
                   ],
                   colors: [
                     { name: "Bleu azur", hex: "#007FFF" },
@@ -9742,8 +9703,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Cadre rigide, non pliant en largeur : nécessite un coffre adapté malgré les roues amovibles.",
                     "Ajustements de croissance techniques : l'aide d'un revendeur spécialisé est recommandée.",
-                    "Poids de 9,5 kg minimum ; poids max. utilisateur de 100 kg (inadapté aux charges bariatriques).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page, une page « Designs de couleurs » existe) ; page fabricant en anglais."
+                    "Poids de 9,5 kg minimum ; poids max. utilisateur de 100 kg (inadapté aux charges bariatriques)."
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F8F9FA" },
@@ -9823,8 +9783,7 @@ export const CATEGORIES: Category[] = [
                     "Cadre rigide non pliant en largeur : volume de coffre adapté nécessaire.",
                     "Pas de retrait de châssis pour le guidage des cuisses (voir le SPEEDY 4you Ergo).",
                     "Réglages optimaux du centre de gravité : bonne maîtrise technique nécessaire à la configuration.",
-                    "Poids de 9,7 kg minimum.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page, une page « Designs de couleurs » existe)."
+                    "Poids de 9,7 kg minimum."
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F8F9FA" },
@@ -9903,8 +9862,7 @@ export const CATEGORIES: Category[] = [
                     "Aucune modification possible de la géométrie (point de basculement, hauteur d'assise arrière) après la fabrication.",
                     "Cadre rigide non pliant en largeur : espace fixe nécessaire dans le véhicule.",
                     "Configuration initiale technique : l'appui d'un professionnel est nécessaire.",
-                    "Amortissement plus direct, pneumatiques adaptés recommandés sur sols pavés.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Amortissement plus direct, pneumatiques adaptés recommandés sur sols pavés."
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F8F9FA" },
@@ -9980,8 +9938,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Aucune modification possible de la géométrie (hauteur, centre de gravité) après la fabrication.",
                     "Nécessite une parfaite connaissance de ses besoins posturaux avant la commande.",
-                    "Châssis rigide non pliant : espace dégagé nécessaire pour le chargement du cadre.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Châssis rigide non pliant : espace dégagé nécessaire pour le chargement du cadre."
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F8F9FA" },
@@ -10060,8 +10017,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Cadre rigide non pliable en largeur : volume libre suffisant nécessaire dans le véhicule.",
                     "Demande une définition rigoureuse des mesures posturales à la commande (cadre sur mesure).",
-                    "Poids de 9,7 kg minimum.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page) ; la fiche indique aussi que la position d'assise est fixe après fabrication, alors que le fabricant annonce un réglage du point de basculement par pas de 1 cm."
+                    "Poids de 9,7 kg minimum."
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F8F9FA" },
@@ -10139,8 +10095,7 @@ export const CATEGORIES: Category[] = [
                     "Poids de départ légèrement plus élevé qu'un modèle entièrement soudé sur mesure (9,9 kg).",
                     "Cadre rigide non pliable en largeur : place nécessaire dans le coffre.",
                     "Ajustements réguliers nécessaires si le centre de gravité est configuré très activement.",
-                    "Pas de pliage de siège ni de retrait de cadre.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Pas de pliage de siège ni de retrait de cadre."
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F8F9FA" },
@@ -10281,8 +10236,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "La version entièrement soudée ne permet aucun ajustement après la fabrication.",
                     "Délai de fabrication lié à la production artisanale sur mesure au Danemark.",
-                    "Châssis rigide : ne se plie pas.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (la page fabricant montre les teintes sous forme de pastilles, sans les nommer)."
+                    "Châssis rigide : ne se plie pas."
                   ],
                   colors: [
                     { name: "Noir anodisé", hex: "#1C1C1E" },
@@ -10359,8 +10313,7 @@ export const CATEGORIES: Category[] = [
                     "La version entièrement soudée ne permet aucune modification ultérieure de la position.",
                     "Nécessite une excellente connaissance de ses besoins posturaux à la commande.",
                     "Châssis rigide : ne se plie pas.",
-                    "Poids de 9 kg minimum ; 120 kg max.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (la page fabricant montre les teintes sous forme de pastilles, sans les nommer)."
+                    "Poids de 9 kg minimum ; 120 kg max."
                   ],
                   colors: [
                     { name: "Noir anodisé", hex: "#1C1C1E" },
@@ -10430,8 +10383,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Capacité de poids limitée à 100 kg.",
                     "Le magnésium demande un entretien spécifique : éviter les rayures profondes qui altèrent la protection anticorrosion.",
-                    "Châssis rigide : ne se plie pas.",
-                    "Dimensions reprises de ta fiche assistant-ergo.fr (la page fabricant renvoie à la fiche de mesure)."
+                    "Châssis rigide : ne se plie pas."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -10719,8 +10671,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids un peu plus élevé que le Nitrum Pro (renfort de cadre).",
                     "Cadre avant à double tube plus imposant visuellement.",
-                    "Cadre rigide non pliant.",
-                    "Données reprises de ta fiche assistant-ergo.fr (la page Sunrise détaille surtout le Nitrum et le Nitrum Pro)."
+                    "Cadre rigide non pliant."
                   ],
                   colors: [
                     { name: "Noir mat", hex: "#1E1E1E" },
@@ -10789,8 +10740,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Absence totale de réglages après fabrication (centre de gravité et dossier fixes).",
                     "Aucune erreur de prise de mesure permise à la commande.",
-                    "Cadre rigide non pliant.",
-                    "Données reprises de ta fiche assistant-ergo.fr (la page Sunrise détaille surtout le Nitrum et le Nitrum Pro)."
+                    "Cadre rigide non pliant."
                   ],
                   colors: [
                     { name: "Noir mat", hex: "#1E1E1E" },
@@ -11032,8 +10982,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids total plus élevé que les modèles ultra-légers type Sub4.",
                     "Prise de mesure initiale experte nécessaire.",
-                    "Cadre rigide non pliant ; poids max. utilisateur de 115 kg.",
-                    "Données reprises de ta fiche assistant-ergo.fr : la page Sunrise France de ce modèle n'est plus accessible (erreur 404)."
+                    "Cadre rigide non pliant ; poids max. utilisateur de 115 kg."
                   ],
                   colors: []
                 }
@@ -11258,8 +11207,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids total pouvant atteindre 15 kg selon les configurations.",
                     "Réglages plus complexes sur les versions à centre de gravité fixe.",
-                    "Prise de mesures sur mesure experte nécessaire.",
-                    "Page Sunrise France de ce modèle non accessible (erreur 404) : fiche faite à partir de ta fiche assistant-ergo.fr et de la page de l'importateur Loh Medical (en anglais). Coloris de finition non détaillés."
+                    "Prise de mesures sur mesure experte nécessaire."
                   ],
                   colors: [
                     { name: "Titane naturel", hex: "#8E9094" }
@@ -11320,8 +11268,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Rayon de braquage différent d'un fauteuil à 4 roues classique.",
                     "Poids (environ 15,5 kg) supérieur à celui des fauteuils rigides ultra-légers de ville.",
-                    "Poids max. utilisateur de 90 kg.",
-                    "Profondeur d'assise, poids, coloris et options d'après ta fiche assistant-ergo.fr : la page Janton ne les détaille pas (page générique « Solutions complètes »)."
+                    "Poids max. utilisateur de 90 kg."
                   ],
                   colors: [
                     { name: "Noir carbone", hex: "#1A1A1C" },
@@ -11388,8 +11335,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids max. utilisateur de 60 kg (voir le CLEO Teen pour les adolescents plus corpulents).",
                     "Cadre rigide : demande un espace de transport spécifique, même s'il est très compact.",
-                    "Nécessite une certaine stabilité du tronc chez l'enfant.",
-                    "Page fabricant en allemand : le lien anglais de ton site renvoie une erreur 404 (noms de coloris traduits en français)."
+                    "Nécessite une certaine stabilité du tronc chez l'enfant."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -11545,8 +11491,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids élevé (37,5 kg) : difficile à manipuler pour les transferts fréquents en véhicule.",
-                    "Surtout optimisé pour l'intérieur, moins adapté aux terrains extérieurs irréguliers.",
-                    "Dimensions et coloris repris de ta fiche assistant-ergo.fr (la page DHCare ne détaille pas les caractéristiques techniques)."
+                    "Surtout optimisé pour l'intérieur, moins adapté aux terrains extérieurs irréguliers."
                   ],
                   colors: [
                     { name: "Beige nacré", hex: "#D8C8A8" }
@@ -11594,8 +11539,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids important du châssis : limite la portabilité pour les aidants.",
-                    "Encombrement extérieur parfois complexe dans les domiciles très étroits.",
-                    "Dimensions et coloris repris de ta fiche assistant-ergo.fr (la page DHCare présente toute la gamme sans tableau technique)."
+                    "Encombrement extérieur parfois complexe dans les domiciles très étroits."
                   ],
                   colors: [
                     { name: "Gris perle", hex: "#B7B9BC" },
@@ -11647,8 +11591,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids total élevé pour un fauteuil de petite taille (environ 32 kg).",
                     "Manipulation du pliage et du transport complexe.",
-                    "Poids max. utilisateur de 75 kg.",
-                    "Dimensions et coloris repris de ta fiche assistant-ergo.fr (la page DHCare ne détaille que la gamme Azalea)."
+                    "Poids max. utilisateur de 75 kg."
                   ],
                   colors: [
                     { name: "Gris perle", hex: "#B7B9BC" },
@@ -11696,8 +11639,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids important (38 kg) : transport difficile sans aide ou véhicule adapté.",
-                    "Encombrement total élevé, qui peut limiter l'accès dans les intérieurs étroits.",
-                    "Dimensions et coloris repris de ta fiche assistant-ergo.fr : le lien Azalea Max de ton site renvoie une erreur 404 (la page de la gamme Azalea le présente)."
+                    "Encombrement total élevé, qui peut limiter l'accès dans les intérieurs étroits."
                   ],
                   colors: [
                     { name: "Gris perle", hex: "#B7B9BC" },
@@ -11747,8 +11689,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids élevé (35 kg), transport manuel complexe.",
-                    "Basculement limité à 30° (45° sur le Dahlia 45), parfois insuffisant cliniquement.",
-                    "Page DHCare inaccessible à la lecture automatique : fiche faite à partir de ta fiche assistant-ergo.fr (image et coloris non vérifiés)."
+                    "Basculement limité à 30° (45° sur le Dahlia 45), parfois insuffisant cliniquement."
                   ],
                   colors: [
                     { name: "Gris perle", hex: "#B7B9BC" },
@@ -11796,8 +11737,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids important (35 kg et plus) : inadapté à une propulsion active autonome intense.",
-                    "Encombrement au transport supérieur à un fauteuil pliant ou actif ultra-léger.",
-                    "Page DHCare inaccessible à la lecture automatique : fiche faite à partir de ta fiche assistant-ergo.fr (image et coloris non vérifiés)."
+                    "Encombrement au transport supérieur à un fauteuil pliant ou actif ultra-léger."
                   ],
                   colors: [
                     { name: "Gris perle", hex: "#B7B9BC" },
@@ -11847,8 +11787,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Recharge régulière de la batterie nécessaire pour les fonctions électriques.",
                     "Poids important et structure non pliable : transport complexe.",
-                    "Inadapté à une propulsion autonome active (bras).",
-                    "Dimensions et coloris repris de ta fiche assistant-ergo.fr ; la fiche indique un dossier à vérin manuel, alors que la page DHCare annonce bascule et dossier électriques de série."
+                    "Inadapté à une propulsion autonome active (bras)."
                   ],
                   colors: [
                     { name: "Gris perle", hex: "#B7B9BC" },
@@ -11901,8 +11840,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids important (35,5 kg) : portabilité manuelle limitée.",
-                    "Usage de la version électrique dépendant de l'autonomie de la batterie.",
-                    "Dimensions et coloris repris de ta fiche assistant-ergo.fr (la page DHCare ne détaille pas ce modèle configuré)."
+                    "Usage de la version électrique dépendant de l'autonomie de la batterie."
                   ],
                   colors: [
                     { name: "Beige nacré", hex: "#D8C8A8" }
@@ -11965,8 +11903,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Dossier souple standard non réglable en tension.",
                     "Options de personnalisation posturale plus limitées que sur le 4U CED.",
-                    "Largeur d'assise minimale de 400 mm.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Largeur d'assise minimale de 400 mm."
                   ],
                   colors: [
                     { name: "Argent", hex: "#C0C0C0" }
@@ -12022,8 +11959,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids à vide plus élevé (35 kg) que les modèles plus simples de la gamme 4U.",
-                    "La multiplicité des réglages demande un temps d'ajustement initial plus long.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "La multiplicité des réglages demande un temps d'ajustement initial plus long."
                   ],
                   colors: [
                     { name: "Argent / gris", hex: "#B7B9BC" }
@@ -12082,8 +12018,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids important : limite la propulsion manuelle active.",
                     "Encombrement au transport supérieur à un modèle actif pliant.",
-                    "Le dossier Libertas n'est pas approuvé pour le transport en véhicule avec l'utilisateur assis (voir le 4U CED avec dossier Dynamic).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Le dossier Libertas n'est pas approuvé pour le transport en véhicule avec l'utilisateur assis (voir le 4U CED avec dossier Dynamic)."
                   ],
                   colors: [
                     { name: "Argent", hex: "#C0C0C0" }
@@ -12141,9 +12076,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids élevé (29 kg) : difficile à propulser de façon autonome sur de longues distances.",
-                    "Réglages précis à faire par un professionnel pour exploiter tout le potentiel ergonomique.",
-                    "Poids max. utilisateur de 160 kg sur la page my-netti.com, contre 135 kg sur ta fiche assistant-ergo.fr.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Réglages précis à faire par un professionnel pour exploiter tout le potentiel ergonomique."
                   ],
                   colors: [
                     { name: "Argent", hex: "#C0C0C0" }
@@ -12205,8 +12138,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids total pouvant être élevé selon la configuration et les options de positionnement.",
                     "Réglages précis nécessaires par un professionnel pour exploiter tout le potentiel de positionnement.",
-                    "Poids max. utilisateur de 84 kg.",
-                    "Bascule, angle du dossier, accessoires et coloris repris de ta fiche assistant-ergo.fr (la page Pride ne les détaille pas)."
+                    "Poids max. utilisateur de 84 kg."
                   ],
                   colors: [
                     { name: "Graphite grey", hex: "#4A4D50" }
@@ -12258,8 +12190,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids de 33 kg : conséquent pour le chargement manuel dans un coffre.",
-                    "Encombrement dû aux 6 roues : temps d'adaptation à la conduite.",
-                    "Coloris, options et largeur hors tout repris de ta fiche assistant-ergo.fr ; elle indiquait 38 kg, la page Pride annonce 33 kg."
+                    "Encombrement dû aux 6 roues : temps d'adaptation à la conduite."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -12311,8 +12242,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids important (33 kg) : transport manuel du châssis complexe.",
-                    "Suivi régulier des composants dynamiques nécessaire.",
-                    "Options et coloris repris de ta fiche assistant-ergo.fr (elle indiquait une bascule de 0° à 35°, la page Pride annonce 25°)."
+                    "Suivi régulier des composants dynamiques nécessaire."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -12366,8 +12296,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Configuration précise de la hauteur d'assise nécessaire (longueur de jambe de l'utilisateur).",
                     "Poids de 33 kg : limite le transport fréquent en véhicule léger.",
-                    "Plage de bascule de -3° à +15° (inférieure aux autres Weely).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Plage de bascule de -3° à +15° (inférieure aux autres Weely)."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -12419,8 +12348,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Bascule d'assise limitée à 25° (35° sur le Weely Original).",
-                    "Poids de 33 kg : conséquent pour le chargement manuel dans un coffre.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Poids de 33 kg : conséquent pour le chargement manuel dans un coffre."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -12473,8 +12401,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Bascule d'assise limitée à 25° (35° sur le Weely Original).",
                     "La complexité du système EPIC peut demander des réglages initiaux plus pointus.",
-                    "Poids de 33 kg.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Poids de 33 kg."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -12539,8 +12466,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids à vide important (36 kg et plus) : chargement en coffre complexe.",
                     "Réglages fins du dossier avec outils (vis arrière).",
-                    "Largeur d'assise minimale de 400 mm.",
-                    "Fiche faite à partir de la brochure Vermeiren (en néerlandais) ; galbe du dossier, accessoires et revêtement repris de ta fiche assistant-ergo.fr, qui indiquait 350 à 500 mm de largeur d'assise et 37,8 kg."
+                    "Largeur d'assise minimale de 400 mm."
                   ],
                   colors: [
                     { name: "Cuivre", hex: "#B87333" }
@@ -12590,8 +12516,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids très important (43 kg) : chargement manuel en véhicule très difficile.",
                     "Inadapté à une vie active avec propulsion autonome rapide.",
-                    "Gestion de la batterie nécessaire pour les fonctions électriques.",
-                    "Données reprises de ta fiche assistant-ergo.fr : pas de brochure Vermeiren dédiée à l'E-Evo trouvée, seule la brochure de l'Inovys II Evo mentionne la version E (largeurs 400 à 500 mm, 36 kg). Pédiatrique selon la largeur minimale de 350 mm de ta fiche ; coloris à confirmer (ta fiche indique gris anthracite, alors que le châssis de l'Evo est cuivre)."
+                    "Gestion de la batterie nécessaire pour les fonctions électriques."
                   ],
                   colors: [
                     { name: "Gris anthracite", hex: "#3A3D40" }
@@ -12706,8 +12631,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Demande une bonne force et dextérité des membres supérieurs pour actionner la verticalisation.",
                     "Profondeur d'assise segmentée en deux tailles de châssis (S-M ou L-XL).",
-                    "Poids max. utilisateur de 120 kg.",
-                    "Données reprises de ta fiche assistant-ergo.fr : la page du fabricant renvoie à l'accueil du site (page non lisible)."
+                    "Poids max. utilisateur de 120 kg."
                   ],
                   colors: [
                     { name: "Aluminium poli", hex: "#B8BCC0" }
@@ -12765,8 +12689,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids plus élevé (25-26 kg) que la version purement manuelle (LAE).",
                     "Dépendance à la charge de la batterie pour la verticalisation.",
-                    "Poids max. utilisateur de 120 kg.",
-                    "Données de la brochure Levo (en pouces, converties) et de ta fiche assistant-ergo.fr : la page du fabricant renvoie à l'accueil du site."
+                    "Poids max. utilisateur de 120 kg."
                   ],
                   colors: [
                     { name: "Platine", hex: "#A8A9AD" },
@@ -12823,8 +12746,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Nécessite une bonne stabilité du tronc pour profiter de la conduite active.",
                     "Coût généralement plus élevé (carbone et technologie Summit).",
-                    "Poids max. utilisateur de 125 kg.",
-                    "Structure hybride aluminium/carbone, poids, batterie, hauteurs d'assise et coloris repris de ta fiche assistant-ergo.fr (non vérifiés). Dimensions et poids max. confirmés par les fiches des distributeurs scandinaves ; la page du fabricant renvoie à l'accueil."
+                    "Poids max. utilisateur de 125 kg."
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F8F9FA" },
@@ -12878,8 +12800,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids max. utilisateur non précisé dans la brochure pour la version Kid & Junior.",
-                    "Dépendance à la batterie pour la verticalisation.",
-                    "Le lien et le texte de ta fiche assistant-ergo.fr ne correspondent pas : ta fiche décrit un fauteuil de confort à bascule (-5° à +35°, 80 kg), alors que le lien mène à la page du LCEV, un verticalisateur. Cette fiche suit la brochure LCEV Kid & Junior (dimensions converties depuis les pouces) : à confirmer avec Life & Mobility."
+                    "Dépendance à la batterie pour la verticalisation."
                   ],
                   colors: [
                     { name: "Platine", hex: "#A8A9AD" },
@@ -13011,8 +12932,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Moins compact pour le transport qu'une version pliante (encombrement du châssis fixe) : voir l'Action5 pliant.",
                     "Confort pouvant être perçu comme plus ferme, à cause de la rigidité structurelle.",
-                    "Poids max. utilisateur de 130 kg.",
-                    "Coloris repris de la brochure DHCare (ta fiche assistant-ergo.fr indiquait noir mat, bleu pop et gris anthracite) ; carrossage et roues avant de ta fiche. Le lien de ton site renvoie une erreur 404."
+                    "Poids max. utilisateur de 130 kg."
                   ],
                   colors: [
                     { name: "Bleu ultramarin", hex: "#120A8F" },
@@ -13129,8 +13049,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids max. utilisateur limité à 115 kg.",
                     "Moins polyvalent pour les clubs que l'AllStar A2 (moins de réglages multi-utilisateurs).",
-                    "Conception rigide : prise de mesures précise nécessaire dès la commande.",
-                    "Données reprises de ta fiche assistant-ergo.fr : la page Sunrise France de ce modèle renvoie une erreur 404 ; description issue de la page britannique. Coloris non nommés."
+                    "Conception rigide : prise de mesures précise nécessaire dès la commande."
                   ],
                   colors: []
                 }
@@ -13368,8 +13287,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Autonomie relativement courte (15 km) : sorties quotidiennes, pas de longs trajets.",
                     "Conçu principalement pour l'intérieur et les terrains aménagés (pente max. de 11 %).",
-                    "Poids max. utilisateur de 110 kg.",
-                    "Largeur hors tout de 56 à 62 cm, pente maximale et accessoires repris de ta fiche assistant-ergo.fr."
+                    "Poids max. utilisateur de 110 kg."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -13428,8 +13346,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Autonomie standard (18 km).",
                     "Franchissement d'obstacles limité à 3,5 cm.",
-                    "Pas conçu pour les voyages au sens strict, même si la batterie est homologuée IATA.",
-                    "Largeur hors tout, dimensions pliées, pente maximale et coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Pas conçu pour les voyages au sens strict, même si la batterie est homologuée IATA."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -13485,8 +13402,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Dominante intérieure : moins adapté à un usage extérieur intensif.",
-                    "Poids total de 40 à 45 kg.",
-                    "Caractéristiques, options et coloris repris de ta fiche assistant-ergo.fr (la page DHCare ne présente que le texte et l'image)."
+                    "Poids total de 40 à 45 kg."
                   ],
                   colors: [
                     { name: "Noir anthracite", hex: "#2B2B2D" },
@@ -13540,8 +13456,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids de 33 kg (sans batterie) : une aide peut être nécessaire pour le levage en voiture.",
                     "Options de personnalisation posturale limitées par rapport à un fauteuil électrique non pliant.",
-                    "Largeur d'assise unique de 450 mm.",
-                    "Caractéristiques, options et coloris repris de ta fiche assistant-ergo.fr (la page DHCare ne présente que le texte et l'image)."
+                    "Largeur d'assise unique de 450 mm."
                   ],
                   colors: [
                     { name: "Noir anthracite", hex: "#2B2B2D" },
@@ -13603,8 +13518,7 @@ export const CATEGORIES: Category[] = [
                     "Roues pleines de diamètre modéré : usage prioritaire sur surfaces lisses ou pavés réguliers.",
                     "Franchissement de trottoirs et pentes très limités (pente max. recommandée de 6°).",
                     "Possibilités d'ajustements anatomiques et posturaux restreintes par rapport aux fauteuils de positionnement.",
-                    "Largeur d'assise unique de 45 cm ; autonomie de 13 km.",
-                    "Caractéristiques, options et coloris repris de ta fiche assistant-ergo.fr (la page du fabricant est en anglais et ne donne que le poids, la charge max. et le pliage)."
+                    "Largeur d'assise unique de 45 cm ; autonomie de 13 km."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -13669,8 +13583,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids max. utilisateur de 100 kg.",
                     "Autonomie de base de 20 km (batterie supplémentaire en option).",
-                    "Non habilité à être utilisé comme siège dans un véhicule à moteur (ISO 7176-19).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (ta fiche indiquait 22 km, la page annonce 20 km)."
+                    "Non habilité à être utilisé comme siège dans un véhicule à moteur (ISO 7176-19)."
                   ],
                   colors: [
                     { name: "Aluminium", hex: "#B7B9BC" }
@@ -13732,8 +13645,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Pente de sécurité limitée à 6°.",
                     "Autonomie de base de 24 km.",
-                    "Non habilité à être utilisé comme siège dans un véhicule à moteur (ISO 7176-19).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (ta fiche indiquait 22 km, la page annonce 24 km)."
+                    "Non habilité à être utilisé comme siège dans un véhicule à moteur (ISO 7176-19)."
                   ],
                   colors: [
                     { name: "Aluminium", hex: "#B7B9BC" }
@@ -13797,8 +13709,7 @@ export const CATEGORIES: Category[] = [
                     "Autonomie standard de 20 km.",
                     "Franchissement d'obstacles limité à 5 cm.",
                     "Poids de 30 kg sans batterie.",
-                    "Non habilité à être utilisé comme siège dans un véhicule à moteur (ISO 7176-19).",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Non habilité à être utilisé comme siège dans un véhicule à moteur (ISO 7176-19)."
                   ],
                   colors: [
                     { name: "Aluminium", hex: "#B7B9BC" }
@@ -13859,8 +13770,7 @@ export const CATEGORIES: Category[] = [
                     "Moins de personnalisation posturale fine qu'un fauteuil manuel sur mesure.",
                     "Batterie compatible avion en option seulement.",
                     "Poids de 24 kg sans batterie à anticiper pour les manipulations fréquentes.",
-                    "Non habilité à être utilisé comme siège dans un véhicule à moteur (ISO 7176-19).",
-                    "Coloris repris de ta fiche assistant-ergo.fr, qui annonçait 23,5 kg, 25 km et des largeurs de 430 à 500 mm : la page ErgoConcept annonce 24 kg, 30 km et 380 à 445 mm."
+                    "Non habilité à être utilisé comme siège dans un véhicule à moteur (ISO 7176-19)."
                   ],
                   colors: [
                     { name: "Gris silver", hex: "#9EA2A6" },
@@ -13916,8 +13826,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Autonomie standard limitée (jusqu'à 20 km).",
                     "Poids max. utilisateur de 120 kg.",
-                    "Largeurs d'assise non précisées sur la page.",
-                    "Vitesse, roues, roulettes anti-bascule et coloris repris de ta fiche assistant-ergo.fr."
+                    "Largeurs d'assise non précisées sur la page."
                   ],
                   colors: [
                     { name: "Aluminium", hex: "#B7B9BC" }
@@ -13967,8 +13876,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Plus lourd que le FlixOne (26 kg contre 22,7 kg sans batteries).",
-                    "Une ou deux batteries nécessaires pour atteindre 24 km d'autonomie (la configuration peut varier).",
-                    "Fiche entièrement reprise de ta fiche assistant-ergo.fr : le lien de ton site redirige vers la page des produits Ergoflix, qui ne présente plus ce modèle (elle liste le LX, le vario, le FlixOne et le Heavy). À confirmer avec Ergoflix."
+                    "Une ou deux batteries nécessaires pour atteindre 24 km d'autonomie (la configuration peut varier)."
                   ],
                   colors: [
                     { name: "Aluminium", hex: "#B7B9BC" }
@@ -14035,8 +13943,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Franchissement d'obstacle de 2,5 cm seulement : adapté aux sols lisses.",
                     "Petites roues avant : confort limité sur terrains très accidentés.",
-                    "Largeur d'assise fixe (43 cm) : pas de personnalisation morphologique poussée.",
-                    "Options et coloris repris de ta fiche assistant-ergo.fr, qui indiquait 23 kg, 15 km, 45 cm de largeur d'assise : la page actuelle donne 21 kg sans batteries, 25 km, 43 cm."
+                    "Largeur d'assise fixe (43 cm) : pas de personnalisation morphologique poussée."
                   ],
                   colors: [
                     { name: "Gris aluminium", hex: "#B7B9BC" },
@@ -14100,8 +14007,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids de 32 kg avec batteries.",
                     "Sols lisses conseillés ; pente maximale de 8°.",
-                    "Poids max. utilisateur de 120 kg.",
-                    "Ta fiche assistant-ergo.fr décrit une version « élargie » (51 cm, 150 kg, 26 kg) qui ne correspond pas à la page actuelle (44 cm, 120 kg, 32 kg) : à confirmer avec Logo Silver. Options et coloris repris de ta fiche."
+                    "Poids max. utilisateur de 120 kg."
                   ],
                   colors: [
                     { name: "Gris argent", hex: "#C0C0C0" },
@@ -14160,7 +14066,6 @@ export const CATEGORIES: Category[] = [
                     "Usage intérieur : pente maximale de 3° et franchissement de 2,5 cm.",
                     "Roues de petit diamètre, moins adaptées aux sols extérieurs irréguliers.",
                     "Assise fixe : pas de réglages posturaux complexes ; vitesse de 4,5 km/h ; 100 kg max.",
-                    "Autonomie de 10 km ; options et coloris repris de ta fiche assistant-ergo.fr (qui indiquait 25 kg, 15 à 20 km, 6 km/h, 120 kg, 45 cm : la page actuelle donne 15,8 kg, 10 km, 4,5 km/h, 100 kg, 42 cm).",
                     "Coloris non précisés sur la page."
                   ],
                   colors: [
@@ -14226,8 +14131,7 @@ export const CATEGORIES: Category[] = [
                   "Poids global plus élevé qu'un déambulateur classique (batterie et moteurs).",
                   "Poids max. utilisateur de 100 kg.",
                   "Plusieurs éléments amovibles à manipuler lors de la transformation complète.",
-                  "Contrôles avant chaque déplacement : pression des pneus, batterie, freins.",
-                  "Accessoires de confort et coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                  "Contrôles avant chaque déplacement : pression des pneus, batterie, freins."
                 ],
                 colors: [
                   { name: "Noir mat", hex: "#1E1E1E" }
@@ -14294,8 +14198,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids à vide de 66 kg : démontage nécessaire pour le transport.",
                     "Poids max. utilisateur de 100 kg.",
-                    "Franchissement de 15 mm de série seulement : franchissement limité en extérieur sans l'option.",
-                    "Options, coloris et éclairage repris de ta fiche assistant-ergo.fr (non détaillés sur la page, qui indique un rayon de braquage de 870 mm contre 70 cm sur ta fiche)."
+                    "Franchissement de 15 mm de série seulement : franchissement limité en extérieur sans l'option."
                   ],
                   colors: [
                     { name: "Gris argent", hex: "#C0C0C0" },
@@ -14474,8 +14377,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Autonomie de 17 km, pouvant être juste pour de très longues sorties quotidiennes.",
                     "Largeur hors tout (71 cm pour une assise de 45 cm) importante pour certains passages étroits.",
-                    "Largeur d'assise minimale de 40 cm.",
-                    "Coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page)."
+                    "Largeur d'assise minimale de 40 cm."
                   ],
                   colors: [
                     { name: "Gris anthracite", hex: "#293133" },
@@ -14530,8 +14432,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Roues avant de diamètre modéré : franchissement d'obstacles hauts ou de bordures limité.",
                     "Moins de réglages anatomiques sur mesure qu'un fauteuil électrique de positionnement.",
-                    "Autonomie de 15 km avec la batterie standard : recharge fréquente en usage intensif.",
-                    "Largeur d'assise et coloris repris de ta fiche assistant-ergo.fr (non détaillés sur la page, qui annonce 125 kg et une batterie de 10 Ah ; ta fiche indiquait 136 kg et 24 V 12 Ah)."
+                    "Autonomie de 15 km avec la batterie standard : recharge fréquente en usage intensif."
                   ],
                   colors: [
                     { name: "Noir carbone", hex: "#1A1A1A" },
@@ -14598,8 +14499,7 @@ export const CATEGORIES: Category[] = [
                     "Roues de diamètre réduit : franchissement de trottoirs hauts plus délicat.",
                     "Capacité d'absorption des chocs limitée sur les chemins très accidentés.",
                     "Autonomie de base moyenne (15 km), réservée aux déplacements quotidiens et urbains.",
-                    "Largeur d'assise unique de 440 mm.",
-                    "Options reprises de ta fiche assistant-ergo.fr, qui annonçait un châssis en alliage d'aluminium, 120 kg et 45 cm de largeur d'assise : la page du fabricant annonce un châssis en fibre de carbone, 136 kg et 44 cm."
+                    "Largeur d'assise unique de 440 mm."
                   ],
                   colors: [
                     { name: "Aurora Green", hex: "#4FA88B" },
@@ -14671,8 +14571,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids de 98 kg et plus : plus lourd qu'un fauteuil pliable de voyage.",
                     "Vitesse de 6 km/h ; franchissement de 7 cm de série.",
-                    "Fonctions d'assise manuelles de série : bascule et dossier électriques en option.",
-                    "Coloris de châssis repris de ta fiche assistant-ergo.fr (la page cite un châssis noir et 4 inserts de couleur ; ta fiche indiquait noir, rouge, vert pomme et bleu)."
+                    "Fonctions d'assise manuelles de série : bascule et dossier électriques en option."
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -14736,8 +14635,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids de 110 kg et plus avec batteries : pas de démontage prévu pour voyager.",
                     "Largeur étroite : confort pouvant être limité pour les fortes corpulences, comparé aux modèles plus larges.",
-                    "La page indique un rayon de giration de 560 mm dans son texte et 600 mm dans son tableau (j'ai retenu 600 mm), et 35 km dans le texte contre 36 km dans le tableau.",
-                    "Coloris de châssis non listés comme « châssis » sur ta fiche (noir, rouge, blanc, bleu) : j'ai repris ceux de la page, plus complets."
+                    "La page indique un rayon de giration de 560 mm dans son texte et 600 mm dans son tableau (j'ai retenu 600 mm), et 35 km dans le texte contre 36 km dans le tableau."
                   ],
                   colors: [
                     { name: "Pure White Burst", hex: "#F5F5F0" },
@@ -14805,8 +14703,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Autonomie standard limitée à 15 km",
-                    "Pente de sécurité limitée à 10° en standard",
-                    "Données issues de la fiche du site assistant-ergo.fr : page fabricant non consultable (ancien site Vermeiren), à vérifier"
+                    "Pente de sécurité limitée à 10° en standard"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -14932,9 +14829,7 @@ export const CATEGORIES: Category[] = [
                     "Chargement facilité grâce au SmartRoll®"
                   ],
                   cons: [
-                    "30 kg hors batteries : le SmartRoll® reste nécessaire pour limiter l'effort de levage",
-                    "Le site assistant-ergo.fr indique 30 kg « avec batteries », le fabricant 30 kg hors batterie : à vérifier",
-                    "Coloris du châssis non détaillé par le fabricant (gris indiqué sur le site assistant-ergo.fr)"
+                    "30 kg hors batteries : le SmartRoll® reste nécessaire pour limiter l'effort de levage"
                   ],
                   colors: [
                     { name: "Gris", hex: "#808080" }
@@ -14981,8 +14876,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "L'option repose-jambes supprime la fonction de pliage",
-                    "Autonomie de 28 km, un peu inférieure à certains concurrents",
-                    "Charge max, largeurs d'assise et coloris (gris) issus du site assistant-ergo.fr : la page fabricant n'a pas permis de les confirmer"
+                    "Autonomie de 28 km, un peu inférieure à certains concurrents"
                   ],
                   colors: [
                     { name: "Gris", hex: "#808080" }
@@ -15029,9 +14923,7 @@ export const CATEGORIES: Category[] = [
                     "Large choix de largeurs d'assise (38 à 54 cm)"
                   ],
                   cons: [
-                    "Poids total de 62 kg : démontage nécessaire pour le chargement manuel",
-                    "Pente : 17 % (10°) sur le site assistant-ergo.fr contre 15 % (8°) chez le fabricant, à vérifier",
-                    "Vitesse, hauteur du lift et coloris non précisés par le fabricant (noir indiqué sur le site assistant-ergo.fr)"
+                    "Poids total de 62 kg : démontage nécessaire pour le chargement manuel"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -15088,9 +14980,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Vitesse limitée à 6,5 km/h",
-                    "Roues pleines moins confortables sur sols irréguliers",
-                    "Charge max (120 kg) absente de la fiche du site assistant-ergo.fr, issue du fabricant",
-                    "Coloris du châssis non précisé par le fabricant (gris indiqué sur le site assistant-ergo.fr)"
+                    "Roues pleines moins confortables sur sols irréguliers"
                   ],
                   colors: [
                     { name: "Gris", hex: "#808080" }
@@ -15139,8 +15029,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Rayon de braquage de 88 cm, plus grand que les modèles les plus compacts de la gamme",
-                    "Roues arrière gonflables : pression à surveiller",
-                    "Coloris du châssis non précisé par le fabricant (gris indiqué sur le site assistant-ergo.fr)"
+                    "Roues arrière gonflables : pression à surveiller"
                   ],
                   colors: [
                     { name: "Gris", hex: "#808080" }
@@ -15194,9 +15083,7 @@ export const CATEGORIES: Category[] = [
                     "Repose-pieds à double articulation facilitant l'accès"
                   ],
                   cons: [
-                    "Pression des pneus arrière à surveiller (roues gonflables)",
-                    "Charge max (120 kg) absente de la fiche du site assistant-ergo.fr, issue du fabricant",
-                    "Coloris du châssis non précisé par le fabricant (gris indiqué sur le site assistant-ergo.fr)"
+                    "Pression des pneus arrière à surveiller (roues gonflables)"
                   ],
                   colors: [
                     { name: "Gris", hex: "#808080" }
@@ -15249,9 +15136,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids de 30 kg hors batteries (33,5 kg avec)",
-                    "Moins maniable dans les espaces très exigus (rayon de braquage 85 cm)",
-                    "Le site assistant-ergo.fr indique 28 kg « batterie incluse » : écart avec le fabricant, à vérifier",
-                    "Coloris du châssis non précisé par le fabricant (noir indiqué sur le site assistant-ergo.fr)"
+                    "Moins maniable dans les espaces très exigus (rayon de braquage 85 cm)"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -15305,8 +15190,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids total de 34 kg avec batteries, supérieur à d'autres modèles Eloflex",
-                    "Rayon de braquage de 89 cm",
-                    "Coloris du châssis non précisé par le fabricant (gris indiqué sur le site assistant-ergo.fr)"
+                    "Rayon de braquage de 89 cm"
                   ],
                   colors: [
                     { name: "Gris", hex: "#808080" }
@@ -15367,9 +15251,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Franchissement limité à 5 cm",
-                    "Non conforme ISO 7176-19 selon le fabricant",
-                    "Écarts avec le site assistant-ergo.fr (23,5 kg, 6 km/h, 25 km, assise 43 à 50 cm, pente 12 %) : données fabricant retenues, à vérifier",
-                    "Coloris du châssis non précisés par le fabricant (gris silver et noir intense indiqués sur le site assistant-ergo.fr)"
+                    "Non conforme ISO 7176-19 selon le fabricant"
                   ],
                   colors: [
                     { name: "Gris Silver", hex: "#A8A9AD" },
@@ -15432,8 +15314,7 @@ export const CATEGORIES: Category[] = [
                     "Autonomie de 29 km et vitesse de 8 km/h"
                   ],
                   cons: [
-                    "Poids de 28 kg sans batterie, plus lourd que les modèles BR7L et 08L",
-                    "Écarts avec le site assistant-ergo.fr (24,5 kg, 25 km, 6 km/h, 120 kg, assise 43 à 50 cm) : données fabricant retenues, à vérifier"
+                    "Poids de 28 kg sans batterie, plus lourd que les modèles BR7L et 08L"
                   ],
                   colors: [
                     { name: "Bleu", hex: "#1F5FA8" },
@@ -15490,9 +15371,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Pente de sécurité limitée à 6°",
-                    "Rayon de braquage de 90 cm",
-                    "Écarts avec le site assistant-ergo.fr (24 kg, 25 km, 120 kg, assise 42 à 50 cm, moteurs 250 W, roues arrière 12\") : données fabricant retenues, à vérifier",
-                    "Coloris du châssis non précisés par le fabricant (gris silver et noir indiqués sur le site assistant-ergo.fr)"
+                    "Rayon de braquage de 90 cm"
                   ],
                   colors: [
                     { name: "Gris Silver", hex: "#A8A9AD" },
@@ -15530,7 +15409,6 @@ export const CATEGORIES: Category[] = [
                     "Accoudoirs et repose-pieds réglables"
                   ],
                   cons: [
-                    "⚠️ La page fabricant décrit l'Ergo 09L 2.0 : les données de la 3.0 (poids max, batterie) sont à vérifier",
                     "Valeurs converties depuis des unités américaines (mph, mi, lb, in)"
                   ],
                   colors: []
@@ -15565,8 +15443,8 @@ export const CATEGORIES: Category[] = [
                     { label: "Autonomie", value: "jusqu'à 20 km (2 batteries pleines)" },
                     { label: "Vitesse maximale", value: "6 km/h" },
                     { label: "Largeurs d'assise", value: "35, 40, 42 ou 44 cm" },
-                    { label: "Largeur hors tout (site assistant-ergo.fr)", value: "61,5 cm" },
-                    { label: "Pente maximale (site assistant-ergo.fr)", value: "12 %" },
+                    { label: "Largeur hors tout", value: "61,5 cm" },
+                    { label: "Pente maximale", value: "12 %" },
                     { label: "Roues avant", value: "8\" increvables" },
                     { label: "Épaisseur du coussin standard", value: "8 cm" },
                     { label: "Garantie", value: "3 ans" }
@@ -15585,10 +15463,9 @@ export const CATEGORIES: Category[] = [
                     "Confort d'assise : coussin à mémoire de forme"
                   ],
                   cons: [
-                    "Autonomie de 20 km sur le site du fabricant (24 km sur le site assistant-ergo.fr) : à vérifier",
-                    "Poids de 25,1 kg sans batteries (26,5 kg avec, selon assistant-ergo.fr), physique à soulever seul",
+                    "Poids de 25,1 kg sans batteries : physique à soulever seul",
                     "Dimensions, pente et rayon de braquage non précisés par le fabricant",
-                    "Suspensions fermes sur terrains très accidentés ou pavés (site assistant-ergo.fr)"
+                    "Suspensions fermes sur terrains très accidentés ou pavés"
                   ],
                   colors: [
                     { name: "Rouge", hex: "#C8102E" },
@@ -15683,8 +15560,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids global de 45 kg : retirer roues et batteries pour charger",
                     "Autonomie standard limitée à 14 km",
-                    "Moins nerveux qu'un fauteuil actif rigide",
-                    "Données issues du site assistant-ergo.fr uniquement : page fabricant bloquée (403), à vérifier"
+                    "Moins nerveux qu'un fauteuil actif rigide"
                   ],
                   colors: [
                     { name: "Noir Brillant", hex: "#0A0A0A" },
@@ -15731,8 +15607,6 @@ export const CATEGORIES: Category[] = [
                     "Maintenance facilitée"
                   ],
                   cons: [
-                    "Données limitées sur le site assistant-ergo.fr : page fabricant bloquée (403), à compléter",
-                    "Largeur d'assise (33 à 48 cm) issue de sources secondaires : isPediatric à confirmer",
                     "Versions différentes selon la charge (136 à 160 kg) : à détailler en fiches séparées si besoin",
                     "Dimensions, poids et rayon de braquage non renseignés"
                   ],
@@ -15784,8 +15658,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Encombrement légèrement supérieur à la version standard",
                     "Batterie 30 Ah plus lourde à manipuler",
-                    "Poids total, dimensions et rayon de braquage non renseignés",
-                    "Données issues du site assistant-ergo.fr : page fabricant bloquée (403), à vérifier"
+                    "Poids total, dimensions et rayon de braquage non renseignés"
                   ],
                   colors: [
                     { name: "Noir Anthracite", hex: "#2B2D2F" },
@@ -15839,8 +15712,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Non pliant : transport par véhicule à rampe",
-                    "Poids d'environ 90 kg : aucun levage manuel possible",
-                    "Données issues du site assistant-ergo.fr uniquement : pages fabricant inaccessibles (redirection vers l'accueil), largeur d'assise non renseignée"
+                    "Poids d'environ 90 kg : aucun levage manuel possible"
                   ],
                   colors: [
                     { name: "Bleu Océan", hex: "#1F4E79" },
@@ -15887,8 +15759,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids d'environ 105 kg : véhicule adapté nécessaire",
                     "Structure non pliable",
-                    "Encombrement vertical plus important",
-                    "Données issues du site assistant-ergo.fr uniquement : pages fabricant inaccessibles, largeur d'assise non renseignée"
+                    "Encombrement vertical plus important"
                   ],
                   colors: [
                     { name: "Bleu", hex: "#1F5FA8" },
@@ -15942,8 +15813,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids un peu supérieur au modèle standard",
                     "Dimensions pliées plus importantes que le modèle classique",
-                    "Suspensions fermes sur sols très irréguliers",
-                    "Données issues du site assistant-ergo.fr : la page fabricant indiquée décrit le LightChair standard (120 kg, assise 44 cm, 32 kg), pas la version +, à vérifier"
+                    "Suspensions fermes sur sols très irréguliers"
                   ],
                   colors: [
                     { name: "Gris Argent", hex: "#A8A9AD" },
@@ -15999,8 +15869,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids total de 180 kg avec batteries : transport adapté nécessaire",
                     "Pente maximale de 6°",
-                    "Batteries 70 Ah recommandées pour une utilisation active en extérieur",
-                    "Coloris issus du site assistant-ergo.fr (non détaillés sur la page fabricant)"
+                    "Batteries 70 Ah recommandées pour une utilisation active en extérieur"
                   ],
                   colors: [
                     { name: "Noir mat onyx", hex: "#16181A" },
@@ -16053,8 +15922,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Largeur totale plus importante dans certaines configurations HD",
                     "Poids du fauteuil très élevé : équipement de transport spécifique",
-                    "Consommation de batterie plus rapide",
-                    "Données issues du site assistant-ergo.fr : la page fabricant ne détaille pas la version HD, à vérifier"
+                    "Consommation de batterie plus rapide"
                   ],
                   colors: [
                     { name: "Noir mat onyx", hex: "#16181A" },
@@ -16134,8 +16002,7 @@ export const CATEGORIES: Category[] = [
                     "Systèmes d'assise variés (dont ErgoSeat)"
                   ],
                   cons: [
-                    "Poids de transport minimal de 100 kg : véhicule adapté ou équipement de levage nécessaire",
-                    "Coloris issus du site assistant-ergo.fr (non précisés sur la page Meyra)"
+                    "Poids de transport minimal de 100 kg : véhicule adapté ou équipement de levage nécessaire"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -16179,7 +16046,7 @@ export const CATEGORIES: Category[] = [
                     { label: "Pente autorisée", value: "15 %" },
                     { label: "Roues", value: "Avant 8\" / arrière 14\"" },
                     { label: "Motorisation", value: "2 x 180 W ou 2 x 350 W" },
-                    { label: "Rayon de braquage (site assistant-ergo.fr)", value: "550 mm" }
+                    { label: "Rayon de braquage", value: "550 mm" }
                   ],
                   options: [
                     "Lift électrique (jusqu'à 300 mm)",
@@ -16204,11 +16071,10 @@ export const CATEGORIES: Category[] = [
                     "Très modulaire pour le positionnement"
                   ],
                   cons: [
-                    "Poids d'environ 115 kg selon le site assistant-ergo.fr (120 à 165 kg à vide selon Meyra) : aucun levage manuel",
+                    "Poids de 120 à 165 kg à vide : aucun levage manuel",
                     "Encombrement au sol plus important qu'un fauteuil manuel actif",
                     "Transport nécessitant un véhicule aménagé",
-                    "Versions 120 kg et 160 kg regroupées ici : à séparer si besoin",
-                    "Coloris issus du site assistant-ergo.fr (non précisés sur la page Meyra)"
+                    "Versions 120 kg et 160 kg regroupées ici : à séparer si besoin"
                   ],
                   colors: [
                     { name: "Noir Pur", hex: "#0D0D0D" },
@@ -16276,8 +16142,6 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids élevé (à partir de 93,5 kg) : pas de levage manuel, véhicule adapté nécessaire",
                     "Pente limitée à 7° (12 %)",
-                    "Données issues de la page fabricant en anglais (Royaume-Uni) : la page française ne détaille pas le B4",
-                    "Charge max : 140 kg selon une fiche de mesures de distributeur (AA2), 160 kg selon Ottobock : à vérifier selon la version",
                     "Coloris du châssis non précisés (seuls le boîtier TEN° et la coque de dossier existent en plusieurs couleurs)"
                   ],
                   colors: [
@@ -16339,8 +16203,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids très important (à partir de 199 kg)",
-                    "Pente, rayon de braquage et motorisation non précisés par le fabricant",
-                    "Coloris non précisés par le fabricant (noir, orange, bleu et rouge foncé indiqués sur le site assistant-ergo.fr)"
+                    "Pente, rayon de braquage et motorisation non précisés par le fabricant"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -16448,8 +16311,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids important (à partir de 145 kg)",
-                    "Pente et motorisation non précisées par le fabricant",
-                    "Coloris : « nombreux coloris » selon le fabricant, liste issue du site assistant-ergo.fr"
+                    "Pente et motorisation non précisées par le fabricant"
                   ],
                   colors: [
                     { name: "Noir mat", hex: "#1C1C1C" },
@@ -16590,8 +16452,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Rayon de giration plus large qu'un modèle à roues motrices centrales",
                     "Monte-trottoir en option pour les usages urbains",
-                    "Poids élevé (131 kg minimum) : transport par véhicule adapté",
-                    "Batterie : 60 Ah de série selon le site assistant-ergo.fr, 64 Ah selon Sunrise : à vérifier"
+                    "Poids élevé (131 kg minimum) : transport par véhicule adapté"
                   ],
                   colors: [
                     { name: "Jaune", hex: "#F2C500" },
@@ -16616,13 +16477,13 @@ export const CATEGORIES: Category[] = [
                     "Suspension intégrale sur les 6 roues.",
                     "Assise SEDEO LITE compatible avec les dossiers et coussins JAY.",
                     "Moteurs 4 pôles à couple élevé.",
-                    "Crash-testé et approuvé pour le transport en véhicule (site assistant-ergo.fr)."
+                    "Crash-testé et approuvé pour le transport en véhicule."
                   ],
                   specs: [
                     { label: "Poids minimal du fauteuil (sans batteries)", value: "130 kg" },
                     { label: "Poids maximal utilisateur", value: "136 kg" },
                     { label: "Autonomie maximale", value: "40 km (batteries 80 Ah)" },
-                    { label: "Vitesses", value: "6 et 10 km/h (8 km/h selon le site assistant-ergo.fr)" },
+                    { label: "Vitesses", value: "6 et 10 km/h" },
                     { label: "Largeur d'assise", value: "385 à 510 mm" },
                     { label: "Profondeur d'assise", value: "410 à 510 mm" },
                     { label: "Hauteur d'assise", value: "415 à 490 mm" },
@@ -16652,9 +16513,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Franchissement d'obstacle de 75 mm, inférieur aux modèles à propulsion",
                     "Poids de la base : 130 kg sans batteries",
-                    "Réglages complexes : intervention d'un professionnel conseillée",
-                    "Largeur : 610 mm (moteurs 2 pôles) sur le site assistant-ergo.fr, 620 mm (4 pôles) chez Sunrise",
-                    "Coloris issus du site assistant-ergo.fr (non précisés sur la page Sunrise)"
+                    "Réglages complexes : intervention d'un professionnel conseillée"
                   ],
                   colors: [
                     { name: "Argent", hex: "#C0C0C0" },
@@ -16695,7 +16554,7 @@ export const CATEGORIES: Category[] = [
                     { label: "Pente maximale de sécurité", value: "6°" },
                     { label: "Franchissement maximal", value: "80 mm (100 mm avec monte-trottoir)" },
                     { label: "Rayon de braquage", value: "950 mm" },
-                    { label: "Batteries", value: "80 Ah (60 Ah selon le site assistant-ergo.fr)" }
+                    { label: "Batteries", value: "80 Ah" }
                   ],
                   options: [
                     "Dossier flexible SEDEO",
@@ -16711,13 +16570,12 @@ export const CATEGORIES: Category[] = [
                     "Très bonne stabilité en extérieur",
                     "Ajustements rapides de l'assise",
                     "Compatible avec les dossiers et coussins JAY",
-                    "Assise basse (dès 415 mm selon assistant-ergo.fr)"
+                    "Assise basse"
                   ],
                   cons: [
                     "Rayon de braquage de 950 mm, plus grand qu'un modèle à roues centrales",
                     "Poids à vide de 130 kg sans batteries",
-                    "Franchissement limité à 80 mm sans monte-trottoir",
-                    "Coloris issus du site assistant-ergo.fr (non précisés sur la page Sunrise)"
+                    "Franchissement limité à 80 mm sans monte-trottoir"
                   ],
                   colors: [
                     { name: "Vert Pomme", hex: "#8DB600" },
@@ -16775,7 +16633,7 @@ export const CATEGORIES: Category[] = [
                     "Conduite souple grâce aux suspensions indépendantes"
                   ],
                   cons: [
-                    "Poids de transport à partir de 110 kg (130 kg selon le site assistant-ergo.fr) : véhicule adapté nécessaire",
+                    "Poids de transport à partir de 110 kg : véhicule adapté nécessaire",
                     "Franchissement limité à 70 mm maximum",
                     "Options électriques complexes",
                     "Carénages : 12 motifs au choix chez Sunrise (liste des principaux ci-dessous)"
@@ -16831,8 +16689,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Vitesse limitée à 6 km/h en version initiale",
-                    "Poids élevé (plus de 125 kg) : véhicule adapté",
-                    "Données issues du site assistant-ergo.fr et de sources secondaires (distributeurs) : page fabricant non consultable, à vérifier"
+                    "Poids élevé (plus de 125 kg) : véhicule adapté"
                   ],
                   colors: [
                     { name: "Vert pomme", hex: "#8DB600" }
@@ -16875,8 +16732,6 @@ export const CATEGORIES: Category[] = [
                     "Entièrement configurable"
                   ],
                   cons: [
-                    "Poids et dimensions détaillées non fournis par le site assistant-ergo.fr",
-                    "Données issues du site assistant-ergo.fr et de sources secondaires : page fabricant non consultable, à vérifier"
                   ],
                   colors: [
                     { name: "Vert", hex: "#2F7D4F" },
@@ -16925,9 +16780,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Moins de franchissement d'obstacles que les modèles à propulsion",
-                    "Confort plus ferme que les versions Advance à suspension All-Tracks",
-                    "Données issues du site assistant-ergo.fr : page fabricant non consultable, à vérifier",
-                    "Coloris : bleu royal, gris silver et noir indiqués par le site assistant-ergo.fr"
+                    "Confort plus ferme que les versions Advance à suspension All-Tracks"
                   ],
                   colors: [
                     { name: "Bleu Royal", hex: "#1F3FA8" },
@@ -16986,9 +16839,7 @@ export const CATEGORIES: Category[] = [
                 ],
                 cons: [
                   "Poids de 105 kg : rampe ou véhicule adapté nécessaire",
-                  "Batterie plomb-acide, plus lourde qu'une lithium",
-                  "Largeur d'assise : 45 cm sur le site assistant-ergo.fr, 460 à 560 mm chez Wizemed",
-                  "Coloris : « plusieurs options de garniture » chez le fabricant ; bleu roi, vert jade et violet indiqués sur le site assistant-ergo.fr"
+                  "Batterie plomb-acide, plus lourde qu'une lithium"
                 ],
                 colors: [
                   { name: "Bleu Roi", hex: "#2B4FCB" },
@@ -17027,7 +16878,7 @@ export const CATEGORIES: Category[] = [
                     { label: "Longueur plié", value: "465 mm" },
                     { label: "Pente", value: "jusqu'à 10°" },
                     { label: "Rayon de braquage", value: "780 mm" },
-                    { label: "Franchissement d'obstacle (site assistant-ergo.fr)", value: "35 mm" }
+                    { label: "Franchissement d'obstacle", value: "35 mm" }
                   ],
                   options: [
                     "Panier de rangement sous le siège",
@@ -17040,9 +16891,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Franchissement d'obstacle limité (35 mm)",
-                    "Charge maximale plus faible (115 kg)",
-                    "Largeur d'assise non précisée : isPediatric à vérifier",
-                    "Coloris issus du site assistant-ergo.fr (non précisés sur la page WHILL)"
+                    "Charge maximale plus faible (115 kg)"
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F5F5F5" },
@@ -17072,11 +16921,11 @@ export const CATEGORIES: Category[] = [
                   specs: [
                     { label: "Poids", value: "17 kg" },
                     { label: "Autonomie", value: "23,4 km (batterie standard) ; 38,5 km (batterie grande capacité en option)" },
-                    { label: "Vitesse maximale (site assistant-ergo.fr)", value: "6 km/h" },
+                    { label: "Vitesse maximale", value: "6 km/h" },
                     { label: "Rayon de braquage", value: "811 mm" },
-                    { label: "Poids maximal utilisateur (site assistant-ergo.fr)", value: "115 kg" },
-                    { label: "Largeur hors tout (site assistant-ergo.fr)", value: "63,6 cm" },
-                    { label: "Franchissement d'obstacle (site assistant-ergo.fr)", value: "5 cm" }
+                    { label: "Poids maximal utilisateur", value: "115 kg" },
+                    { label: "Largeur hors tout", value: "63,6 cm" },
+                    { label: "Franchissement d'obstacle", value: "5 cm" }
                   ],
                   options: [
                     "Lift Assist (bras de chargement)",
@@ -17093,9 +16942,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Franchissement plus limité que les modèles non pliables",
                     "Peu adapté aux terrains très accidentés ou aux pentes de plus de 10 %",
-                    "Largeur d'assise fixe, pas adaptée aux morphologies larges",
-                    "Autonomie : 15 à 20 km sur le site assistant-ergo.fr, 23,4 km chez WHILL : à vérifier",
-                    "Coloris issus du site assistant-ergo.fr (non précisés sur la page WHILL)"
+                    "Largeur d'assise fixe, pas adaptée aux morphologies larges"
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F5F5F5" },
@@ -17216,10 +17063,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "31 kg sans batterie : l'un des modèles les plus lourds à soulever une fois plié",
-                    "Rayon de braquage plus large que les versions à petites roues avant",
-                    "Largeur d'assise, dimensions et rayon non indiqués : isPediatric à vérifier",
-                    "Données issues du site assistant-ergo.fr : la page fabricant n'a pas pu être lue en détail",
-                    "Coloris non précisés par le fabricant (gris anthracite et noir indiqués sur le site assistant-ergo.fr)"
+                    "Rayon de braquage plus large que les versions à petites roues avant"
                   ],
                   colors: [
                     { name: "Gris Anthracite", hex: "#3A3F44" },
@@ -17260,7 +17104,7 @@ export const CATEGORIES: Category[] = [
                     { label: "Longueur (sans repose-jambes)", value: "910 mm" },
                     { label: "Largeur hors tout", value: "600 ou 640 mm" },
                     { label: "Hauteur", value: "1100 mm" },
-                    { label: "Hauteur sol-siège (site assistant-ergo.fr)", value: "395 à 475 mm" },
+                    { label: "Hauteur sol-siège", value: "395 à 475 mm" },
                     { label: "Pente maximale", value: "6° (stabilité statique 9°)" },
                     { label: "Rayon de braquage", value: "55 cm" },
                     { label: "Motorisation", value: "2 x 350 W" },
@@ -17282,8 +17126,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Franchissement limité à 6 cm sans aide spécifique",
                     "Poids d'environ 180 kg : rampes ou véhicule adapté",
-                    "Vitesse limitée à 10 km/h",
-                    "Coloris issus du site assistant-ergo.fr (non listés sur la page fabricant)"
+                    "Vitesse limitée à 10 km/h"
                   ],
                   colors: [
                     { name: "Noir mat onyx", hex: "#16181A" },
@@ -17377,8 +17220,8 @@ export const CATEGORIES: Category[] = [
                   specs: [
                     { label: "Poids du fauteuil (sans coussin)", value: "102 kg" },
                     { label: "Poids maximal utilisateur", value: "125 kg" },
-                    { label: "Autonomie", value: "22 km (10 à 15 km selon batteries, site assistant-ergo.fr)" },
-                    { label: "Vitesse maximale (site assistant-ergo.fr)", value: "6 km/h" },
+                    { label: "Autonomie", value: "22 km" },
+                    { label: "Vitesse maximale", value: "6 km/h" },
                     { label: "Largeur d'assise", value: "250, 300, 350, 380, 400, 450, 500 ou 550 mm" },
                     { label: "Profondeur d'assise", value: "250 à 590 mm" },
                     { label: "Hauteur d'assise (plaque)", value: "400 mm" },
@@ -17408,8 +17251,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Autonomie limitée, usage surtout intérieur",
-                    "Garde au sol réduite (70 mm) : peu adapté à l'extérieur sauvage",
-                    "Coloris : gris et noir issus du site assistant-ergo.fr (non précisés sur la page Meyra)"
+                    "Garde au sol réduite (70 mm) : peu adapté à l'extérieur sauvage"
                   ],
                   colors: [
                     { name: "Gris", hex: "#8C8C8C" },
@@ -17443,16 +17285,16 @@ export const CATEGORIES: Category[] = [
                     { label: "Poids, batteries incluses", value: "173,0 / 185,6 kg" },
                     { label: "Poids maximal utilisateur", value: "150 kg" },
                     { label: "Vitesses", value: "6 / 8 / 10 km/h" },
-                    { label: "Autonomie (site assistant-ergo.fr)", value: "jusqu'à 30 km" },
+                    { label: "Autonomie", value: "jusqu'à 30 km" },
                     { label: "Largeur d'assise", value: "420 à 570 mm" },
                     { label: "Profondeur d'assise", value: "370 à 570 mm" },
                     { label: "Hauteur du siège au sol", value: "450 à 750 mm" },
                     { label: "Largeur de la base", value: "615 mm" },
                     { label: "Longueur de la base", value: "1080 mm" },
                     { label: "Rayon de braquage minimal", value: "1120 mm" },
-                    { label: "Élévation d'assise (site assistant-ergo.fr)", value: "300 mm" },
-                    { label: "Bascule d'assise (site assistant-ergo.fr)", value: "0° à 50°" },
-                    { label: "Franchissement d'obstacle (site assistant-ergo.fr)", value: "75 mm" },
+                    { label: "Élévation d'assise", value: "300 mm" },
+                    { label: "Bascule d'assise", value: "0° à 50°" },
+                    { label: "Franchissement d'obstacle", value: "75 mm" },
                     { label: "Batteries", value: "Group 34 : 65 Ah / Group 24 : 85 Ah" }
                   ],
                   options: [
@@ -17470,9 +17312,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids de 173 à 186 kg avec batteries : transport adapté",
-                    "Réglage professionnel précis nécessaire",
-                    "Rayon de braquage de 1120 mm selon Permobil (560 mm sur le site assistant-ergo.fr) : écart à vérifier",
-                    "Autonomie, lift et bascule issus du site assistant-ergo.fr (non repris sur la page Permobil)"
+                    "Réglage professionnel précis nécessaire"
                   ],
                   colors: [
                     { name: "Ocean Blue", hex: "#1F5FA8" },
@@ -17569,8 +17409,8 @@ export const CATEGORIES: Category[] = [
                     "Base motrice centrale Stretto, très étroite.",
                     "Suspension indépendante SRS.",
                     "Lift iLevel jusqu'à 30 cm en roulant.",
-                    "Électronique Q-Logic 3 avec Bluetooth intégré (site assistant-ergo.fr).",
-                    "Phares LED et port USB (site assistant-ergo.fr)."
+                    "Électronique Q-Logic 3 avec Bluetooth intégré.",
+                    "Phares LED et port USB."
                   ],
                   specs: [
                     { label: "Poids maximal utilisateur", value: "136 kg" },
@@ -17578,8 +17418,8 @@ export const CATEGORIES: Category[] = [
                     { label: "Autonomie", value: "jusqu'à 33 km (EN 12184)" },
                     { label: "Largeur d'assise", value: "30 à 35 cm (Kids) / 35 à 40 cm (Junior)" },
                     { label: "Profondeur d'assise", value: "30 à 40 cm (Kids) / 35 à 45 cm (Junior)" },
-                    { label: "Rayon de giration (site assistant-ergo.fr)", value: "53,3 cm" },
-                    { label: "Garde au sol (site assistant-ergo.fr)", value: "74 mm" },
+                    { label: "Rayon de giration", value: "53,3 cm" },
+                    { label: "Garde au sol", value: "74 mm" },
                     { label: "Roues", value: "Motrices centrales pneumatiques 12\" ; avant bandages 5\" ; arrière bandages 6\"" },
                     { label: "Batteries", value: "2 x 62 Ah" }
                   ],
@@ -17597,8 +17437,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids de la base élevé pour le transport manuel",
-                    "Configuration précise nécessaire pour suivre la croissance",
-                    "Coloris non précisés par Pride (liste issue du site assistant-ergo.fr)"
+                    "Configuration précise nécessaire pour suivre la croissance"
                   ],
                   colors: [
                     { name: "Red Corvette", hex: "#B5121B" },
@@ -17723,9 +17562,7 @@ export const CATEGORIES: Category[] = [
                     "Réglages quasi infinis de l'assise"
                   ],
                   cons: [
-                    "L'option 10 km/h a un couple moteur plus faible",
-                    "Poids, charge max, largeurs d'assise et dimensions non précisés : la page Sunrise ne les a pas fournis, à compléter (isPediatric / isBariatric à vérifier)",
-                    "Coloris de carénage issus du site assistant-ergo.fr"
+                    "L'option 10 km/h a un couple moteur plus faible"
                   ],
                   colors: [
                     { name: "Vert Pomme", hex: "#8DB600" },
@@ -17787,8 +17624,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Moins maniable que la version à roues centrales (Q500 M) en espaces confinés",
-                    "Poids de 140 kg sans batteries",
-                    "Coloris de carénage issus du site assistant-ergo.fr"
+                    "Poids de 140 kg sans batteries"
                   ],
                   colors: [
                     { name: "Vert Pomme", hex: "#8DB600" },
@@ -17901,8 +17737,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Stabilité latérale plus sensible en extérieur (châssis étroit)",
-                    "Franchissement limité par rapport aux modèles tout-terrain",
-                    "Données techniques issues du site assistant-ergo.fr : la page Dietz ne détaille pas les caractéristiques"
+                    "Franchissement limité par rapport aux modèles tout-terrain"
                   ],
                   colors: [
                     { name: "Rouge métallisé brillant", hex: "#A5141F" },
@@ -17949,8 +17784,6 @@ export const CATEGORIES: Category[] = [
                     "Même base que l'adulte, avec les trois motricités"
                   ],
                   cons: [
-                    "Charge maximale de 75 kg : à vérifier pour les grands adolescents",
-                    "Données issues du site assistant-ergo.fr (page Dietz non détaillée), pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Rouge métallisé brillant", hex: "#A5141F" },
@@ -17998,8 +17831,7 @@ export const CATEGORIES: Category[] = [
                     "Charge de 160 kg de série"
                   ],
                   cons: [
-                    "Base de 61,5 cm, plus large que le Slimline",
-                    "Données issues du site assistant-ergo.fr (page Dietz non récupérée), pas d'image récupérée"
+                    "Base de 61,5 cm, plus large que le Slimline"
                   ],
                   colors: [
                     { name: "Rouge métallisé brillant", hex: "#A5141F" },
@@ -18049,8 +17881,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Largeur de 70 cm et plus : accès difficile aux portes standard",
                     "Rayon de braquage plus large",
-                    "Poids élevé : transport en véhicule renforcé",
-                    "Données issues du site assistant-ergo.fr (page Dietz non récupérée), pas d'image récupérée"
+                    "Poids élevé : transport en véhicule renforcé"
                   ],
                   colors: [
                     { name: "Rouge métallisé brillant", hex: "#A5141F" },
@@ -18105,8 +17936,7 @@ export const CATEGORIES: Category[] = [
                     "Commandes avancées LiNX® et REM400"
                   ],
                   cons: [
-                    "Poids à vide important (154 kg)",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Poids à vide important (154 kg)"
                   ],
                   colors: [
                     { name: "Noir obsidien", hex: "#14141A" },
@@ -18155,8 +17985,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Autonomie limitée (26 km)",
-                    "Hauteur d'assise de base élevée (440 mm)",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Hauteur d'assise de base élevée (440 mm)"
                   ],
                   colors: [
                     { name: "Noir obsidien", hex: "#14141A" },
@@ -18204,8 +18033,7 @@ export const CATEGORIES: Category[] = [
                     "Assise basse (400 mm) et charge de 150 kg"
                   ],
                   cons: [
-                    "Grand diamètre de braquage (1770 mm) : moins adapté aux espaces exigus",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Grand diamètre de braquage (1770 mm) : moins adapté aux espaces exigus"
                   ],
                   colors: [
                     { name: "Bleu transparent", hex: "#3A7DC9" },
@@ -18253,8 +18081,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Grand diamètre de braquage (1770 mm) : moins agile en intérieur",
-                    "Poids de 174 kg",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Poids de 174 kg"
                   ],
                   colors: [
                     { name: "Bleu transparent", hex: "#3A7DC9" },
@@ -18301,8 +18128,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Rayon de braquage plus grand qu'un fauteuil à roues centrales",
-                    "Poids élevé : véhicule équipé nécessaire",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Poids élevé : véhicule équipé nécessaire"
                   ],
                   colors: [
                     { name: "Bleu Neptune", hex: "#1F4E8C" },
@@ -18351,9 +18177,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids important dû au système d'assise",
-                    "Paramétrage clinique qui demande une expertise approfondie",
-                    "Le lien du site pointe vers la page RX40 Modulite : à vérifier",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Paramétrage clinique qui demande une expertise approfondie"
                   ],
                   colors: [
                     { name: "Bleu Neptune", hex: "#1F4E8C" },
@@ -18401,8 +18225,7 @@ export const CATEGORIES: Category[] = [
                     "10 coloris de carénage"
                   ],
                   cons: [
-                    "Charge de 180 kg uniquement pour certaines configurations (160 kg sinon)",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Charge de 180 kg uniquement pour certaines configurations (160 kg sinon)"
                   ],
                   colors: [
                     { name: "Bleu Azur", hex: "#2E86DE" },
@@ -18454,8 +18277,7 @@ export const CATEGORIES: Category[] = [
                     "10 coloris de carénage"
                   ],
                   cons: [
-                    "Autonomie réduite (26 km)",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Autonomie réduite (26 km)"
                   ],
                   colors: [
                     { name: "Bleu Azur", hex: "#2E86DE" },
@@ -18508,8 +18330,7 @@ export const CATEGORIES: Category[] = [
                     "Conduite douce et silencieuse"
                   ],
                   cons: [
-                    "Suspension non précisée comme CTC",
-                    "Données issues du site assistant-ergo.fr : page DHCare inaccessible (403), pas d'image récupérée"
+                    "Suspension non précisée comme CTC"
                   ],
                   colors: [
                     { name: "Noir Anthracite", hex: "#2B2D31" },
@@ -18566,8 +18387,7 @@ export const CATEGORIES: Category[] = [
                     "Maniable (giration de 150 cm)"
                   ],
                   cons: [
-                    "Poids important (165 kg le châssis seul)",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Poids important (165 kg le châssis seul)"
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F5F5F5" },
@@ -18613,8 +18433,7 @@ export const CATEGORIES: Category[] = [
                     "Bascule d'assise de 3 à 48°"
                   ],
                   cons: [
-                    "Coloris du châssis non indiqués sur la page",
-                    "Page Life & Mobility France non vérifiable : lien vers le site Karma UK"
+                    "Coloris du châssis non indiqués sur la page"
                   ],
                   colors: []
                 }
@@ -18655,8 +18474,7 @@ export const CATEGORIES: Category[] = [
                     "Équipement électrique complet de série"
                   ],
                   cons: [
-                    "Poids total de 165 à 187 kg",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Poids total de 165 à 187 kg"
                   ],
                   colors: [
                     { name: "Noir mat", hex: "#1C1C1C" },
@@ -18704,8 +18522,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Rayon de braquage plus grand qu'un fauteuil à roues centrales",
-                    "Poids conséquent : transport équipé",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Poids conséquent : transport équipé"
                   ],
                   colors: [
                     { name: "Rouge", hex: "#C8102E" },
@@ -18752,8 +18569,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Charge limitée à 57 kg",
-                    "Largeurs d'assise non précisées",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Largeurs d'assise non précisées"
                   ],
                   colors: [
                     { name: "Rouge", hex: "#C8102E" },
@@ -18801,8 +18617,7 @@ export const CATEGORIES: Category[] = [
                     "Positionnement jusqu'au couché"
                   ],
                   cons: [
-                    "Poids important (175 kg le châssis seul)",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Poids important (175 kg le châssis seul)"
                   ],
                   colors: [
                     { name: "Orange", hex: "#F28C28" },
@@ -18846,8 +18661,7 @@ export const CATEGORIES: Category[] = [
                     "Très stable"
                   ],
                   cons: [
-                    "Poids important (165 kg le châssis seul)",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Poids important (165 kg le châssis seul)"
                   ],
                   colors: [
                     { name: "Orange", hex: "#F28C28" },
@@ -18890,8 +18704,7 @@ export const CATEGORIES: Category[] = [
                     "Transport et stockage faciles"
                   ],
                   cons: [
-                    "Autonomie standard limitée (25 km)",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Autonomie standard limitée (25 km)"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -18933,8 +18746,7 @@ export const CATEGORIES: Category[] = [
                     "Léger pour sa catégorie"
                   ],
                   cons: [
-                    "Franchissement limité (5 cm)",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Franchissement limité (5 cm)"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -18986,8 +18798,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids de 160 kg : transport manuel impossible",
                     "Encombrement supérieur aux fauteuils électriques pliants",
-                    "Formation nécessaire pour le mode escalier",
-                    "Données issues du site assistant-ergo.fr, page Logo Silver non relue, pas d'image récupérée"
+                    "Formation nécessaire pour le mode escalier"
                   ],
                   colors: [
                     { name: "Gris Anthracite", hex: "#3A3D42" },
@@ -19032,8 +18843,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Rayon de braquage supérieur à celui d'un modèle à roues centrales",
                     "Garde au sol et configuration sportive : usage quotidien limité",
-                    "Poids élevé : véhicule adapté nécessaire",
-                    "Données issues du site assistant-ergo.fr, page Logo Silver non relue, pas d'image récupérée"
+                    "Poids élevé : véhicule adapté nécessaire"
                   ],
                   colors: [
                     { name: "Noir Mat", hex: "#1C1C1C" },
@@ -19087,8 +18897,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Inadapté au sable mou, à l'herbe haute et à la boue profonde",
-                    "Poids à vide d'au moins 132 kg : chargement manuel impossible",
-                    "Données issues du site assistant-ergo.fr (lien vers l'accueil du constructeur), pas d'image récupérée"
+                    "Poids à vide d'au moins 132 kg : chargement manuel impossible"
                   ],
                   colors: [
                     { name: "Blanc", hex: "#F5F5F5" },
@@ -19140,8 +18949,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Largeur de 68 cm : intérieurs très étroits difficiles",
                     "Rayon de braquage important",
-                    "Transport adapté nécessaire (rampes ou véhicule aménagé)",
-                    "Données issues du site assistant-ergo.fr, page Osmoso non relue (site inaccessible), pas d'image récupérée"
+                    "Transport adapté nécessaire (rampes ou véhicule aménagé)"
                   ],
                   colors: [
                     { name: "Gris Anthracite", hex: "#3A3D42" },
@@ -19194,8 +19002,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids à vide de 118 kg : transport équipé",
-                    "Dossier électrique et moteur puissant en option",
-                    "Données issues du site assistant-ergo.fr, page Meyra non relue, pas d'image récupérée"
+                    "Dossier électrique et moteur puissant en option"
                   ],
                   colors: []
                 }
@@ -19236,8 +19043,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids très élevé, pas un fauteuil de transport",
-                    "Fonctions électriques de positionnement en option",
-                    "Données issues du site assistant-ergo.fr, page Meyra non relue, pas d'image récupérée"
+                    "Fonctions électriques de positionnement en option"
                   ],
                   colors: [
                     { name: "Gris", hex: "#8C8C8C" }
@@ -19282,8 +19088,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Tilt et lift en options",
-                    "Coloris non précisés par la page : liste issue de la fiche FRE classe B (Orbit)",
-                    "Données issues du site assistant-ergo.fr, page Meyra non relue, pas d'image récupérée"
+                    "Coloris non précisés par la page : liste issue de la fiche FRE classe B (Orbit)"
                   ],
                   colors: [
                     { name: "Noir mat", hex: "#1C1C1C" },
@@ -19332,8 +19137,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Rayon de braquage de 1,20 m : usage intérieur très limité",
-                    "Poids et dimensions imposants : véhicule spécifique pour le transport",
-                    "Données issues du site assistant-ergo.fr, page Meyra non relue, pas d'image récupérée"
+                    "Poids et dimensions imposants : véhicule spécifique pour le transport"
                   ],
                   colors: [
                     { name: "Gris Argent", hex: "#B5B9BD" },
@@ -19380,8 +19184,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Rayon de braquage plus important qu'à roues centrales",
-                    "Style plus fonctionnel qu'élégant",
-                    "Données issues du site assistant-ergo.fr, page Meyra non relue, pas d'image récupérée"
+                    "Style plus fonctionnel qu'élégant"
                   ],
                   colors: [
                     { name: "Noir mat structuré", hex: "#1C1C1C" },
@@ -19430,8 +19233,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Rayon de braquage plus grand qu'à roues centrales",
                     "Poids élevé de la base : véhicule adapté",
-                    "Paramétrage de l'électronique par un technicien spécialisé",
-                    "Données issues du site assistant-ergo.fr, page Meyra non relue, pas d'image récupérée"
+                    "Paramétrage de l'électronique par un technicien spécialisé"
                   ],
                   colors: [
                     { name: "Noir Jet", hex: "#0D0D0D" },
@@ -19477,9 +19279,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Base de 63 cm, plus large que le Q300 M Mini (52 cm)",
-                    "Poids important du châssis : véhicule aménagé",
-                    "Lien du site vers la page générale « TA produits »",
-                    "Données issues du site assistant-ergo.fr, pas d'image récupérée"
+                    "Poids important du châssis : véhicule aménagé"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -19530,7 +19330,6 @@ export const CATEGORIES: Category[] = [
                     "Bon amortissement en extérieur"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Ottobock non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Marine blue", hex: "#1B3A6B" },
@@ -19577,7 +19376,6 @@ export const CATEGORIES: Category[] = [
                     "Jusqu'à 200 kg en Taille 2"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Ottobock non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Bleu Marine", hex: "#1B3A6B" },
@@ -19624,8 +19422,7 @@ export const CATEGORIES: Category[] = [
                     "Accès aux hauteurs de travail grâce à Active Touch"
                   ],
                   cons: [
-                    "Largeurs d'assise non précisées par la source",
-                    "Données issues du site assistant-ergo.fr, page Ottobock non relue, pas d'image récupérée"
+                    "Largeurs d'assise non précisées par la source"
                   ],
                   colors: [
                     { name: "Bleu Marine", hex: "#1B3A6B" },
@@ -19680,8 +19477,7 @@ export const CATEGORIES: Category[] = [
                     "Active Reach et Active Height"
                   ],
                   cons: [
-                    "Autonomie en km non indiquée",
-                    "Données issues du site assistant-ergo.fr cette fois (la fiche FREP classe A reprend les données Permobil), pas d'image récupérée"
+                    "Autonomie en km non indiquée"
                   ],
                   colors: [
                     { name: "Noir de Jais", hex: "#0D0D0D" },
@@ -19732,8 +19528,7 @@ export const CATEGORIES: Category[] = [
                     "Active Height et Active Reach"
                   ],
                   cons: [
-                    "Poids total de 173 à 186 kg",
-                    "Données issues du site assistant-ergo.fr, pas d'image récupérée"
+                    "Poids total de 173 à 186 kg"
                   ],
                   colors: [
                     { name: "Noir de Jais", hex: "#0D0D0D" },
@@ -19781,8 +19576,7 @@ export const CATEGORIES: Category[] = [
                     "Programmation simplifiée (QuickConfig)"
                   ],
                   cons: [
-                    "Largeur de base et autonomie non précisées",
-                    "Données issues du site assistant-ergo.fr, pas d'image récupérée"
+                    "Largeur de base et autonomie non précisées"
                   ],
                   colors: [
                     { name: "Noir de Jais", hex: "#0D0D0D" },
@@ -19834,8 +19628,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids total de 189 kg",
-                    "Autonomie en km non indiquée",
-                    "Données issues du site assistant-ergo.fr, pas d'image récupérée"
+                    "Autonomie en km non indiquée"
                   ],
                   colors: [
                     { name: "Noir de Jais", hex: "#0D0D0D" },
@@ -19889,7 +19682,6 @@ export const CATEGORIES: Category[] = [
                     "Grande personnalisation"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Pride non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Blue Jean", hex: "#3B5F8F" },
@@ -19936,9 +19728,7 @@ export const CATEGORIES: Category[] = [
                     "Très configurable"
                   ],
                   cons: [
-                    "Vitesse réduite à 5,6 km/h avec le lift",
-                    "Largeur de 545 mm sur le site contre « moins de 530 mm » dans la description : à vérifier",
-                    "Données issues du site assistant-ergo.fr, page Pride non relue, pas d'image récupérée"
+                    "Vitesse réduite à 5,6 km/h avec le lift"
                   ],
                   colors: [
                     { name: "Red Corvette", hex: "#B5121B" },
@@ -19993,7 +19783,6 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Page Quantum (États-Unis), unités en pouces et livres converties",
-                    "Pas d'image ni de coloris trouvés sur la page",
                     "Largeur hors tout et franchissement non indiqués"
                   ],
                   colors: []
@@ -20031,7 +19820,6 @@ export const CATEGORIES: Category[] = [
                     "Vitesse élevée pour l'extérieur"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Pride non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Red Corvette", hex: "#B5121B" },
@@ -20085,8 +19873,7 @@ export const CATEGORIES: Category[] = [
                     "Assise modulable"
                   ],
                   cons: [
-                    "Poids à partir de 145 kg",
-                    "Données issues du site assistant-ergo.fr, page Pride non relue, pas d'image récupérée"
+                    "Poids à partir de 145 kg"
                   ],
                   colors: [
                     { name: "Red Corvette", hex: "#B5121B" },
@@ -20143,8 +19930,7 @@ export const CATEGORIES: Category[] = [
                     "Très adaptable"
                   ],
                   cons: [
-                    "Poids à partir de 162 kg",
-                    "Données issues du site assistant-ergo.fr, page Pride non relue, pas d'image récupérée"
+                    "Poids à partir de 162 kg"
                   ],
                   colors: [
                     { name: "Red Corvette", hex: "#B5121B" },
@@ -20198,8 +19984,6 @@ export const CATEGORIES: Category[] = [
                     "Bonne maniabilité en intérieur"
                   ],
                   cons: [
-                    "Coloris châssis non vérifiés (Rouge Corvette, Bleu, Noir selon le site)",
-                    "Données issues du site assistant-ergo.fr, page Pride non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Rouge Corvette", hex: "#B5121B" },
@@ -20251,8 +20035,7 @@ export const CATEGORIES: Category[] = [
                     "Assise personnalisable"
                   ],
                   cons: [
-                    "Fonctions électriques en options",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Fonctions électriques en options"
                   ],
                   colors: [
                     { name: "Anthracite Mat", hex: "#3A3D42" },
@@ -20304,9 +20087,7 @@ export const CATEGORIES: Category[] = [
                     "Bon compromis intérieur / extérieur"
                   ],
                   cons: [
-                    "Diamètre de giration important (1700 à 1800 mm)",
-                    "Charge maximale non précisée par la source (isBariatric à vérifier)",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Diamètre de giration important (1700 à 1800 mm)"
                   ],
                   colors: [
                     { name: "Jaune", hex: "#F5D90A" },
@@ -20354,7 +20135,6 @@ export const CATEGORIES: Category[] = [
                     "Réglages rapides de l'assise"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Vert Pomme", hex: "#8DB600" },
@@ -20399,7 +20179,6 @@ export const CATEGORIES: Category[] = [
                     "Contrôle de l'environnement (IR, Bluetooth)"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Jaune", hex: "#F5D90A" },
@@ -20441,8 +20220,7 @@ export const CATEGORIES: Category[] = [
                     "Charge accrue par rapport aux Q300 / Q400"
                   ],
                   cons: [
-                    "Largeur hors-tout non précisée par la source",
-                    "Données issues du site assistant-ergo.fr (la fiche FREP classe A n'avait pas de données chiffrées)"
+                    "Largeur hors-tout non précisée par la source"
                   ],
                   colors: [
                     { name: "Vert Pomme Standard", hex: "#8DB600" },
@@ -20488,7 +20266,6 @@ export const CATEGORIES: Category[] = [
                     "Réglages quasi infinis"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Vert Pomme Standard", hex: "#8DB600" },
@@ -20536,7 +20313,6 @@ export const CATEGORIES: Category[] = [
                     "Franchissement de 100 mm"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Rouge", hex: "#C8102E" },
@@ -20581,8 +20357,7 @@ export const CATEGORIES: Category[] = [
                     "Conduite assistée par Gyro"
                   ],
                   cons: [
-                    "Largeur et rayon de braquage non précisés par la source",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Largeur et rayon de braquage non précisés par la source"
                   ],
                   colors: [
                     { name: "Vert Pomme Standard", hex: "#8DB600" },
@@ -20630,8 +20405,7 @@ export const CATEGORIES: Category[] = [
                     "Réglages quasi infinis de l'assise"
                   ],
                   cons: [
-                    "Largeur totale non précisée par la source",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Largeur totale non précisée par la source"
                   ],
                   colors: [
                     { name: "Vert Pomme Standard", hex: "#8DB600" },
@@ -20680,7 +20454,6 @@ export const CATEGORIES: Category[] = [
                     "Roule en position haute"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Vert Pomme Standard", hex: "#8DB600" },
@@ -20727,7 +20500,6 @@ export const CATEGORIES: Category[] = [
                     "Positionnement pour besoins cliniques exigeants"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Vert Pomme Standard", hex: "#8DB600" },
@@ -20774,8 +20546,7 @@ export const CATEGORIES: Category[] = [
                     "Maniable en intérieur malgré le gabarit"
                   ],
                   cons: [
-                    "Poids minimal de 168 kg",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Poids minimal de 168 kg"
                   ],
                   colors: [
                     { name: "Standard Black", hex: "#1A1A1A" },
@@ -20819,8 +20590,7 @@ export const CATEGORIES: Category[] = [
                     "Crash-testé"
                   ],
                   cons: [
-                    "Poids minimal de 168 kg",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Poids minimal de 168 kg"
                   ],
                   colors: [
                     { name: "Midnight Black", hex: "#0D0D0D" },
@@ -20864,7 +20634,6 @@ export const CATEGORIES: Category[] = [
                     "Roues interchangeables"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Sunset Orange", hex: "#F26A21" },
@@ -20910,8 +20679,6 @@ export const CATEGORIES: Category[] = [
                     "Conception résistante aux éclaboussures"
                   ],
                   cons: [
-                    "Lien du site vers sunrisemedical.be (pas la page française)",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Noir (Standard)", hex: "#1A1A1A" },
@@ -20961,8 +20728,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Franchissement limité sans monte-trottoir",
-                    "L'autonomie maximale demande les batteries 50 Ah, plus lourdes",
-                    "Données issues du site assistant-ergo.fr, page Vermeiren non relue (ancien site), pas d'image récupérée"
+                    "L'autonomie maximale demande les batteries 50 Ah, plus lourdes"
                   ],
                   colors: [
                     { name: "Orange Brillant", hex: "#F26A21" },
@@ -21007,9 +20773,7 @@ export const CATEGORIES: Category[] = [
                     "Franchissement jusqu'à 10 cm"
                   ],
                   cons: [
-                    "Encombrement important pour les très petits appartements",
-                    "Le lien du site pointe vers la page Forest 3 générique",
-                    "Données issues du site assistant-ergo.fr, page Vermeiren non relue (ancien site), pas d'image récupérée"
+                    "Encombrement important pour les très petits appartements"
                   ],
                   colors: [
                     { name: "Rouge Passion", hex: "#B3121F" },
@@ -21053,8 +20817,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Encombrement lié aux grandes assises",
-                    "Poids à vide important : véhicule adapté",
-                    "Données issues du site assistant-ergo.fr, page Vermeiren non relue (ancien site), pas d'image récupérée"
+                    "Poids à vide important : véhicule adapté"
                   ],
                   colors: [
                     { name: "Bleu", hex: "#1F5FA8" },
@@ -21099,8 +20862,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Plus lourd qu'un 4 roues",
-                    "Franchissement de trottoirs limité (50 mm) par rapport au Forest 3",
-                    "Données issues du site assistant-ergo.fr, page Vermeiren non relue (ancien site), pas d'image récupérée"
+                    "Franchissement de trottoirs limité (50 mm) par rapport au Forest 3"
                   ],
                   colors: [
                     { name: "Bleu", hex: "#1F5FA8" },
@@ -21205,8 +20967,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Dimensions importantes : intérieur étroit difficile",
                     "Poids élevé : véhicule adapté",
-                    "Entretien rigoureux après sable salé ou boue",
-                    "Données issues du site assistant-ergo.fr, page 4PoWer4 non relue, pas d'image récupérée"
+                    "Entretien rigoureux après sable salé ou boue"
                   ],
                   colors: [
                     { name: "Metal Blue", hex: "#2F4F7F" },
@@ -21261,8 +21022,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Poids de 180 kg : aménagement du véhicule",
                     "Obstacles de plus de 6 cm possiblement à prendre avec de l'élan",
-                    "Paramétrage par un technicien spécialisé",
-                    "Données issues du site assistant-ergo.fr, page Logo Silver non relue, pas d'image récupérée"
+                    "Paramétrage par un technicien spécialisé"
                   ],
                   colors: [
                     { name: "Noir mat onyx", hex: "#111111" },
@@ -21319,8 +21079,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Rayon de braquage très large : intérieur peu adapté",
                     "Longueur jusqu'à 1460 mm",
-                    "Poids de 203 kg : véhicule adapté",
-                    "Données issues du site assistant-ergo.fr, page Permobil non relue, pas d'image récupérée"
+                    "Poids de 203 kg : véhicule adapté"
                   ],
                   colors: [
                     { name: "Midnight Black", hex: "#0D0D0D" },
@@ -21369,8 +21128,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Vitesse de pointe sous 10 km/h",
                     "Poids de 225 kg et plus",
-                    "Largeur de 73 cm : intérieur étroit difficile",
-                    "Données issues du site assistant-ergo.fr, page Pride non relue, pas d'image récupérée"
+                    "Largeur de 73 cm : intérieur étroit difficile"
                   ],
                   colors: [
                     { name: "Camouflage", hex: "#5B6B3A" },
@@ -21421,8 +21179,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Largeur de 710 mm",
                     "Rayon de braquage plus grand qu'en traction centrale",
-                    "Poids important : véhicule adapté",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Poids important : véhicule adapté"
                   ],
                   colors: [
                     { name: "Sunset Orange", hex: "#F26A21" },
@@ -21467,8 +21224,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Rayon de braquage de 1410 mm : intérieur étroit difficile",
-                    "Poids minimal de 185 kg",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Poids minimal de 185 kg"
                   ],
                   colors: [
                     { name: "Midnight Black", hex: "#0D0D0D" },
@@ -21512,8 +21268,7 @@ export const CATEGORIES: Category[] = [
                     "Crash-testé"
                   ],
                   cons: [
-                    "Poids minimal de 168 kg",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Poids minimal de 168 kg"
                   ],
                   colors: [
                     { name: "Midnight Black", hex: "#0D0D0D" },
@@ -21557,7 +21312,6 @@ export const CATEGORIES: Category[] = [
                     "Roues interchangeables"
                   ],
                   cons: [
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
                   ],
                   colors: [
                     { name: "Sunset Orange", hex: "#F26A21" },
@@ -21674,8 +21428,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Franchissement extérieur limité",
                     "Charge longue des batteries standard",
-                    "Réglages de la genouillère parfois avec une tierce personne",
-                    "Données issues du site assistant-ergo.fr, page 4PoWer4 non relue, pas d'image récupérée"
+                    "Réglages de la genouillère parfois avec une tierce personne"
                   ],
                   colors: [
                     { name: "White", hex: "#F5F5F5" },
@@ -21875,8 +21628,7 @@ export const CATEGORIES: Category[] = [
                     "Positionnement très complet"
                   ],
                   cons: [
-                    "Poids de 190 à 210 kg",
-                    "Données issues du site assistant-ergo.fr (texte tronqué à la fin), page DHCare inaccessible (403), pas d'image récupérée"
+                    "Poids de 190 à 210 kg"
                   ],
                   colors: [
                     { name: "Noir Obsidien", hex: "#14141A" },
@@ -21931,8 +21683,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Poids élevé (environ 185 kg)",
-                    "Réglage initial complexe pour verticaliser ergonomiquement",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Réglage initial complexe pour verticaliser ergonomiquement"
                   ],
                   colors: [
                     { name: "Gris Métallisé", hex: "#9A9EA3" },
@@ -21976,8 +21727,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Autonomie inférieure aux modèles extérieurs",
-                    "Maintenance spécifique du système de verticalisation",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Maintenance spécifique du système de verticalisation"
                   ],
                   colors: [
                     { name: "Bleu", hex: "#1F5FA8" },
@@ -22021,8 +21771,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Charge de 120 kg, inférieure à certains concurrents",
-                    "Rayon de braquage plus grand que le Levo C3",
-                    "Données issues du site assistant-ergo.fr : page Life & Mobility redirigée, pas d'image récupérée"
+                    "Rayon de braquage plus grand que le Levo C3"
                   ],
                   colors: [
                     { name: "Gris", hex: "#8C8C8C" },
@@ -22068,8 +21817,7 @@ export const CATEGORIES: Category[] = [
                     "Verticalisation interdite sur sol meuble ou en pente",
                     "Ceinture thoracique et support de genou obligatoires",
                     "Composants électriques sensibles à l'eau",
-                    "Coloris : seul le noir est indiqué",
-                    "Données issues du site assistant-ergo.fr, page Levo non relue, pas d'image récupérée"
+                    "Coloris : seul le noir est indiqué"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" }
@@ -22126,9 +21874,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Position debout interdite en pente et en franchissement",
-                    "Poids d'environ 180 kg",
-                    "Texte du site tronqué à la fin",
-                    "Données issues du site assistant-ergo.fr, page Logo Silver non relue, pas d'image récupérée"
+                    "Poids d'environ 180 kg"
                   ],
                   colors: [
                     { name: "Noir mat onyx", hex: "#111111" },
@@ -22183,8 +21929,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Rayon de braquage de 870 mm (propulsion)",
-                    "Suivi régulier par un technicien",
-                    "Données issues du site assistant-ergo.fr, page Meyra non relue, pas d'image récupérée"
+                    "Suivi régulier par un technicien"
                   ],
                   colors: [
                     { name: "Noir mat", hex: "#1C1C1C" },
@@ -22227,8 +21972,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Base de 63 cm, plus large que les modèles Mini",
-                    "Formation à la conduite en traction avant",
-                    "Données issues du site assistant-ergo.fr, page Meyra non relue, pas d'image récupérée"
+                    "Formation à la conduite en traction avant"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -22276,8 +22020,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Largeur de 68 cm : intérieur difficile",
                     "Charge limitée à 120 kg (160 kg sur le modèle fixe)",
-                    "Encombrant pour un véhicule standard",
-                    "Données issues du site assistant-ergo.fr, page Osmoso non relue, pas d'image récupérée"
+                    "Encombrant pour un véhicule standard"
                   ],
                   colors: [
                     { name: "Noir", hex: "#1A1A1A" },
@@ -22323,8 +22066,7 @@ export const CATEGORIES: Category[] = [
                     "Réglages de suspension"
                   ],
                   cons: [
-                    "Base de 65,5 cm : intérieur très exigu difficile",
-                    "Données issues du site assistant-ergo.fr, page Permobil non relue, pas d'image récupérée"
+                    "Base de 65,5 cm : intérieur très exigu difficile"
                   ],
                   colors: [
                     { name: "Bleu Océan", hex: "#1F5FA8" },
@@ -22368,8 +22110,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Charge de 113 kg en verticalisation",
-                    "Franchissement d'obstacles hauts moins bon qu'en traction avant",
-                    "Données issues du site assistant-ergo.fr, page Permobil non relue, pas d'image récupérée"
+                    "Franchissement d'obstacles hauts moins bon qu'en traction avant"
                   ],
                   colors: [
                     { name: "Noir Onyx", hex: "#0D0D0D" },
@@ -22419,8 +22160,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Charge de 120 kg en verticalisation",
-                    "Réglages initiaux très précis",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Réglages initiaux très précis"
                   ],
                   colors: [
                     { name: "Rouge", hex: "#C8102E" },
@@ -22466,8 +22206,7 @@ export const CATEGORIES: Category[] = [
                   cons: [
                     "Rayon de braquage plus grand que la version M",
                     "Apprentissage de la traction avant",
-                    "Charge de 120 kg",
-                    "Données issues du site assistant-ergo.fr, page Sunrise non relue, pas d'image récupérée"
+                    "Charge de 120 kg"
                   ],
                   colors: [
                     { name: "Rouge", hex: "#C8102E" },
@@ -22519,8 +22258,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Le mécanisme de verticalisation alourdit le fauteuil",
-                    "Vigilance sur la stabilité du sol à la mise debout",
-                    "Données issues du site assistant-ergo.fr, page Vermeiren non relue (ancien site), pas d'image récupérée"
+                    "Vigilance sur la stabilité du sol à la mise debout"
                   ],
                   colors: [
                     { name: "Bleu", hex: "#1F5FA8" },
@@ -22563,8 +22301,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Franchissement plus limité qu'en traction avant",
-                    "Moins de mémorisation de positions que les modèles haut de gamme",
-                    "Données issues du site assistant-ergo.fr, page Vermeiren non relue (ancien site), pas d'image récupérée"
+                    "Moins de mémorisation de positions que les modèles haut de gamme"
                   ],
                   colors: [
                     { name: "Gris", hex: "#8C8C8C" },
@@ -22717,7 +22454,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Capote pare-soleil", "Housse pluie", "Cales d'abduction", "Cales latérales de tronc", "Panier sous l'assise", "Appui-tête amovible"],
                   pros: ["Pliage canne très compact", "Léger", "4 tailles jusqu'à la taille adulte"],
-                  cons: ["Réglages posturaux limités par rapport à une poussette de rééducation", "Dossier inclinable sur 2 positions seulement", "Assise non réversible", "Lien du site : page d'accueil Cree, pas la page produit"],
+                  cons: ["Réglages posturaux limités par rapport à une poussette de rééducation", "Dossier inclinable sur 2 positions seulement", "Assise non réversible"],
                   colors: [{ name: "Bleu", hex: "#1F4E9E" }]
                 }
               }
@@ -22784,7 +22521,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Capote pare-soleil", "Sac de transport", "Harnais 5 points", "Sangle pelvienne", "Panier sous l'assise"],
                   pros: ["Très légère, facile à porter pliée", "Encombrement minimal", "Robuste pour son poids"],
-                  cons: ["Positionnement limité (pas de pelotes latérales complexes)", "Confort plus sommaire qu'une Lisa ou une Kimba", "Largeur d'assise de 350 mm : classée pédiatrique selon le seuil ≤ 350 mm, alors que ton site n'affiche pas le badge"],
+                  cons: ["Positionnement limité (pas de pelotes latérales complexes)", "Confort plus sommaire qu'une Lisa ou une Kimba"],
                   colors: [{ name: "Bleu / Noir", hex: "#1F4E9E" }]
                 }
               }
@@ -22905,7 +22642,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Coussin nourrisson", "Capote premium avec fenêtre de surveillance et protection UV", "Tablette médicale ou de jeu", "Pelotes, cales-genoux, harnais, plots d'abduction"],
                   pros: ["Suspension active", "Pliage avec accessoires montés", "Mousse d'assise de 30 mm"],
-                  cons: ["Modèle récent, budget supérieur aux gammes standard", "Largeur hors-tout jusqu'à 680 mm en T2 : à vérifier pour les petits ascenseurs"],
+                  cons: ["Modèle récent, budget supérieur aux gammes standard"],
                   colors: [
                     { name: "Gris", hex: "#7A7F85" },
                     { name: "Rouge", hex: "#C8102E" },
@@ -22939,7 +22676,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Capote avec protection vent et pluie", "Cales de tronc, pelviennes et d'abduction", "Appui-tête anatomique multipositions", "Barre avant amovible et tablette", "Harnais papillon ou ceinture 4 points", "Paniers renforcés"],
                   pros: ["Rotation du siège à 180°", "Châssis carbone léger", "Vraie position allongée possible"],
-                  cons: ["Encombrement relatif avec l'assise installée", "Poids supérieur aux poussettes cannes", "Coût élevé des options", "Lien du site vers etac.com (page d'accueil) et image issue d'un revendeur"],
+                  cons: ["Encombrement relatif avec l'assise installée", "Poids supérieur aux poussettes cannes", "Coût élevé des options"],
                   colors: [
                     { name: "Gris Carbon", hex: "#3A3D42" },
                     { name: "Rouge", hex: "#C8102E" },
@@ -22978,9 +22715,7 @@ export const CATEGORIES: Category[] = [
                     "Pliable et robuste"
                   ],
                   cons: [
-                    "Poids max différent entre le PDF Cree (50 / 60 kg) et le CERAHTEC (35 / 50 kg) : à vérifier",
-                    "Poids de la poussette non indiqué sur la fiche Cree",
-                    "Pas d'image récupérée : la fiche fabricant est un PDF"
+                    "Poids de la poussette non indiqué sur la fiche Cree"
                   ],
                   colors: [
                     { name: "Noir (châssis)", hex: "#1A1A1A" }
@@ -23017,7 +22752,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Kit d'attache remorque vélo", "Roue de jogging avant fixe 12,5\"", "Coussinets latéraux et cales d'abduction", "Harnais 5 points", "Habillage pluie et moustiquaire", "Freins à tambour"],
                   pros: ["Vélo, course et randonnée avec le même matériel", "Cales de positionnement très modulables", "Confort sur tous les terrains"],
-                  cons: ["Encombrant déplié, difficile en intérieur étroit", "Roues à démonter pour un pliage optimal dans les petits coffres", "Prix élevé avec les kits sportifs", "Largeur d'assise non indiquée sur ton site"],
+                  cons: ["Encombrant déplié, difficile en intérieur étroit", "Roues à démonter pour un pliage optimal dans les petits coffres", "Prix élevé avec les kits sportifs"],
                   colors: [
                     { name: "Gris Anthracite", hex: "#3A3D42" },
                     { name: "Bleu Océan", hex: "#1F5FA8" },
@@ -23049,7 +22784,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Roue de jogging avant fixe", "Bras de remorquage amovible pour attache de vélo", "Cales d'abduction, supports de tronc, coussinets sur mesure", "Capote et protections latérales transparentes", "Habillage pluie / vent", "Sacs et paniers amovibles"],
                   pros: ["Meilleure prise en charge posturale que les poussettes tout-terrain classiques", "Concept multi-activités complet", "Suspensions protectrices pour le dos"],
-                  cons: ["Encombrant dans les commerces ou appartements exigus", "Pliage / dépliage à manipuler avec rigueur", "Budget élevé", "Dimensions d'assise non indiquées sur ton site"],
+                  cons: ["Encombrant dans les commerces ou appartements exigus", "Pliage / dépliage à manipuler avec rigueur", "Budget élevé"],
                   colors: [
                     { name: "Gris Anthracite / Noir", hex: "#2E3033" },
                     { name: "Bleu Sport", hex: "#1F5FA8" },
@@ -23188,7 +22923,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Plateau de positionnement transparent", "Barre de saisie Leggero amovible", "Panier sous le siège", "Roues anti-bascule", "Coussins et pelotes"],
                   pros: ["Très légère", "Maniable sur surfaces irrégulières", "Bascule réglable rapidement"],
-                  cons: ["Bascule limitée à 30°", "Charge inférieure aux modèles pour adolescents", "Options posturales parfois payantes", "Largeur d'assise non indiquée sur ton site"],
+                  cons: ["Bascule limitée à 30°", "Charge inférieure aux modèles pour adolescents", "Options posturales parfois payantes"],
                   colors: [
                     { name: "Rose (Pink)", hex: "#E47FA6" },
                     { name: "Bleu (Blue)", hex: "#1F5FA8" },
@@ -23220,7 +22955,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Capote soleil et pluie", "Habillage pluie transparent", "Barre de saisie amovible", "Châssis HiLo pour usage intérieur", "Panier de grande capacité"],
                   pros: ["Réglages avec l'enfant installé", "Robuste et durable", "Passage poussette / chaise haute (HiLo)"],
-                  cons: ["Look très technique", "Poids et encombrement", "Réglages de l'appui-tête complexes, demandent de l'expertise", "Dimensions de la T2 non indiquées sur ton site"],
+                  cons: ["Look très technique", "Poids et encombrement", "Réglages de l'appui-tête complexes, demandent de l'expertise"],
                   colors: [
                     { name: "Gris", hex: "#7A7F85" },
                     { name: "Bleu", hex: "#1F5FA8" },
@@ -23300,7 +23035,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Châssis d'intérieur", "Capote soleil / pluie", "Tablette thérapeutique amovible", "Plots d'abduction et pelotes latérales", "Panier porte-objets"],
                   pros: ["Réversibilité incluse", "2 tailles pour suivre la croissance", "Pliage facile", "Bon rapport maintien / poids"],
-                  cons: ["Bascule manuelle", "Largeur de 690 mm en taille 40", "Accessoires de maintien souvent en option", "Lien du site vers l'ancien site vermeiren.fr (probablement mort) : à remplacer"],
+                  cons: ["Bascule manuelle", "Largeur de 690 mm en taille 40", "Accessoires de maintien souvent en option"],
                   colors: [
                     { name: "Bleu / Noir", hex: "#1F4E9E" },
                     { name: "Gris / Noir", hex: "#4A4D52" },
@@ -23498,7 +23233,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Guidons ergonomique ou plat", "Soutien pelvien et appui-dos", "Pédales avec cale-pieds et sangles", "Barre de poussée", "Stabilisateurs ou accessoires de sécurité"],
                   pros: ["Cadre ultra-bas, accès facile", "Design qui motive l'enfant", "Frein de parking sécurisant", "Bonne stabilité latérale"],
-                  cons: ["14 kg à charger sans aide", "Pignon fixe qui peut surprendre si les pieds ne sont pas fixés", "Look très enfant, peu adapté à l'adolescence", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["14 kg à charger sans aide", "Pignon fixe qui peut surprendre si les pieds ne sont pas fixés", "Look très enfant, peu adapté à l'adolescence"],
                   colors: [
                     { name: "Bleu Aqua", hex: "#2BA6D6" },
                     { name: "Blanc-Bleu", hex: "#DCEBF7" }
@@ -23531,7 +23266,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Guidons ergonomique ou plat", "Soutien dorsal et pelvien", "Pédales avec cale-pieds et sangles", "Panier arrière de grande capacité", "Assistance électrique (E-bike) en option"],
                   pros: ["Look attractif", "Grande stabilité directionnelle", "Réglages multiples pour suivre la croissance", "Qualité de fabrication Vermeiren"],
-                  cons: ["Plus encombrant que le 2202", "Effort de pédalage constant sans assistance", "Demande plus d'espace pour braquer en intérieur", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["Plus encombrant que le 2202", "Effort de pédalage constant sans assistance", "Demande plus d'espace pour braquer en intérieur"],
                   colors: [
                     { name: "Noir et Rouge (Sporty)", hex: "#B3121F" },
                     { name: "Blanc et Noir", hex: "#E6E6E6" }
@@ -23563,7 +23298,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Kit d'assistance électrique (E-bike)", "Soutien dorsal et pelvien avec sangle", "Pédales avec cale-pieds et fixations de jambes", "Guidons de formes variées", "Roue libre commutable ou rétropédalage"],
                   pros: ["Très stable pour les troubles de l'équilibre", "Grande plage de réglage pour la croissance", "Cadre résistant à l'usage intensif"],
-                  cons: ["25,5 kg : transport difficile sans rampe", "1600 mm de long : grand espace de stockage", "Rayon de braquage large, à anticiper", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["25,5 kg : transport difficile sans rampe", "1600 mm de long : grand espace de stockage", "Rayon de braquage large, à anticiper"],
                   colors: [
                     { name: "Bleu Métallisé", hex: "#2F5FA8" },
                     { name: "Gris", hex: "#7A7F85" }
@@ -23595,7 +23330,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Kit d'assistance électrique (E-bike)", "Changement de vitesses 3 ou 7 vitesses", "Pignon libre avec rétropédalage", "Soutien pelvien ou dossier", "Rétroviseurs et éclairage LED"],
                   pros: ["Design vintage non stigmatisant", "Grande capacité de charge avec le panier", "Stable même dans les virages serrés"],
-                  cons: ["27,8 kg : manœuvres à l'arrêt parfois lourdes", "1830 mm de long : stockage encombrant", "Franchissement plus haut (194 mm) que les modèles enfants / ados", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["27,8 kg : manœuvres à l'arrêt parfois lourdes", "1830 mm de long : stockage encombrant", "Franchissement plus haut (194 mm) que les modèles enfants / ados"],
                   colors: [
                     { name: "Vert Anglais / Vintage Green", hex: "#2F5D3A" },
                     { name: "Marron (selle et poignées)", hex: "#6B4226" }
@@ -23950,7 +23685,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Batteries 50 Ah", "Support pour accessoires (canne, déambulateur)", "Paniers additionnels", "Housse de protection"],
                   pros: ["Ultra-compact et maniable", "Sécurité complète de série", "Coupe-circuit pour le transport"],
-                  cons: ["Franchissement limité à 50 mm", "Rayon de braquage de 2900 mm", "Bariatrique selon le seuil ≥ 140 kg, mais pas de badge sur ton site (140 kg exactement)", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["Franchissement limité à 50 mm", "Rayon de braquage de 2900 mm"],
                   colors: [
                     { name: "Argent", hex: "#C0C0C0" },
                     { name: "Rouge", hex: "#C8102E" }
@@ -23981,7 +23716,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Télécommande de pliage supplémentaire", "Sac de transport", "Batterie de rechange haute performance", "Rétroviseurs latéraux", "Panier amovible"],
                   pros: ["Pliage automatique, adapté aux personnes avec peu de force", "Mode trolley", "Batterie lithium légère et amovible"],
-                  cons: ["Garde au sol de 40 mm", "Rayon de braquage plus grand que certains fauteuils compacts", "6 km/h : zones piétonnes et trottoirs", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["Garde au sol de 40 mm", "Rayon de braquage plus grand que certains fauteuils compacts", "6 km/h : zones piétonnes et trottoirs"],
                   colors: [
                     { name: "Vert Arctique", hex: "#5E8C7A" },
                     { name: "Rouge Bourgogne", hex: "#7A1B2E" },
@@ -24015,7 +23750,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Accoudoirs réglables en largeur et escamotables", "Rétroviseur", "Porte-canne ou porte-béquille arrière", "Housse de protection", "Batteries supplémentaires interchangeables"],
                   pros: ["Ultra-compact, rentre dans les petits coffres", "Pneus gonflables confortables sur pavés et chemins de parc", "Maniable en intérieur"],
-                  cons: ["Garde au sol réduite", "Autonomie limitée aux trajets de proximité", "Pas de suspensions indépendantes", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["Garde au sol réduite", "Autonomie limitée aux trajets de proximité", "Pas de suspensions indépendantes"],
                   colors: [
                     { name: "Bleu Électrique", hex: "#1F5FD6" },
                     { name: "Rouge", hex: "#C8102E" }
@@ -24220,7 +23955,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Chargeur USB", "Pare-brise", "Porte-bâton / porte-canne", "Rétroviseurs et pare-chocs avant", "Support anti-basculement"],
                   pros: ["Confort de franchissement supérieur (INDEGO)", "Visibilité en courbe", "Maniable pour un scooter routier"],
-                  cons: ["Garde au sol du repose-pieds de 190 mm : attention aux bordures hautes", "Lourd même sans batteries, rampe nécessaire pour le transport", "160 kg de charge : classé bariatrique selon le seuil ≥ 140 kg, mais pas de badge sur ton site"],
+                  cons: ["Garde au sol du repose-pieds de 190 mm : attention aux bordures hautes", "Lourd même sans batteries, rampe nécessaire pour le transport"],
                   colors: [
                     { name: "Gris Anthracite", hex: "#3A3D42" },
                     { name: "Rouge", hex: "#C8102E" },
@@ -24288,7 +24023,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Porte-canne / porte-béquille", "Rétroviseurs latéraux", "Panier avant renforcé", "Housse imperméable", "Support pour déambulateur"],
                   pros: ["Suspensions avant et arrière", "Démontage sans outils", "Éclairage LED performant"],
-                  cons: ["Rayon de braquage et encombrement : de l'espace nécessaire en intérieur", "Section la plus lourde conséquente à soulever", "Moins performant en pente à pleine charge", "Lien du site vers une plaquette PDF, image issue d'une capture d'écran"],
+                  cons: ["Rayon de braquage et encombrement : de l'espace nécessaire en intérieur", "Section la plus lourde conséquente à soulever", "Moins performant en pente à pleine charge"],
                   colors: [
                     { name: "Rouge", hex: "#C8102E" },
                     { name: "Bleu", hex: "#1F5FA8" },
@@ -24330,7 +24065,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Top case arrière verrouillable", "Porte-canne ou porte-béquille", "Rétroviseurs gauche et droite", "Support rollator ou obus d'oxygène", "Housse de protection"],
                   pros: ["Excellente garde au sol", "USB, écran LCD et éclairage complet de série", "Confort d'assise supérieur"],
-                  cons: ["144 kg : transport manuel difficile", "Rayon de braquage de 2000 mm", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["144 kg : transport manuel difficile", "Rayon de braquage de 2000 mm"],
                   colors: [
                     { name: "Noir & Argent (Special Edition)", hex: "#2B2D31" },
                     { name: "Brun (Champagne)", hex: "#8A6A4F" }
@@ -24363,7 +24098,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Protection pluie / soleil MOVO", "Caméra de recul et rétroviseurs", "Top case arrière et panier avant", "Pneus lisses ou à crampons", "Support de déambulateur, housse de protection"],
                   pros: ["Esthétique haut de gamme", "45 km d'autonomie", "Anti-basculement et frein de stationnement"],
-                  cons: ["Rayon de giration de 3400 mm", "158 kg : déplacement manuel impossible hors utilisation", "Lien du site vers vermeiren-scooter.com (page d'accueil, pas la page produit)"],
+                  cons: ["Rayon de giration de 3400 mm", "158 kg : déplacement manuel impossible hors utilisation"],
                   colors: [
                     { name: "Arctic Green", hex: "#5E8C7A" },
                     { name: "Burgundy Red", hex: "#7A1B2E" },
@@ -24696,7 +24431,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Pack vitesse 10 km/h", "Support de fixation pour cadre pliant ou rigide", "Extension de commande", "Chargeur de voyage USB-C", "Poignée de transport"],
                   pros: ["Léger, installable par l'utilisateur", "Ne gêne pas les virages", "Discret"],
-                  cons: ["Demande de la force et de la dextérité pour l'arrimage", "Moins efficace sur sable ou herbe haute", "Interfaces de fixation spécifiques parfois coûteuses", "Bariatrique selon le seuil ≥ 140 kg (140 kg exactement), pas de badge sur ton site"],
+                  cons: ["Demande de la force et de la dextérité pour l'arrimage", "Moins efficace sur sable ou herbe haute", "Interfaces de fixation spécifiques parfois coûteuses"],
                   colors: [
                     { name: "Noir Onyx", hex: "#111111" },
                     { name: "Argent", hex: "#C0C0C0" }
@@ -24725,7 +24460,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: [],
                   pros: ["Fabriqué en France", "SAV réactif", "Robuste"],
-                  cons: ["Fiche du site très succincte : poids, vitesse, autonomie et charge maximale à compléter"],
+                  cons: [],
                   colors: []
                 }
               },
@@ -24859,7 +24594,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Vitesse maximale à 10 km/h", "Pneus et mains courantes au choix", "Batteries supplémentaires", "Support de joystick selon le châssis"],
                   pros: ["Système le plus léger de sa catégorie", "Installation propre, sans câble", "Régulateur de vitesse"],
-                  cons: ["Autonomie de base de 15 km", "6 km/h de série", "Remplacement des roues d'origine, la largeur hors-tout peut changer", "Poids maximal utilisateur non indiqué sur ton site"],
+                  cons: ["Autonomie de base de 15 km", "6 km/h de série", "Remplacement des roues d'origine, la largeur hors-tout peut changer"],
                   colors: [{ name: "Noir Anthracite", hex: "#2B2D31" }]
                 }
               }
@@ -24886,7 +24621,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: [],
                   pros: ["Bien intégré aux fauteuils Vermeiren", "Batterie lithium"],
-                  cons: ["Compatibilité souvent limitée aux modèles de la marque", "Poids et charge maximale non indiqués sur ton site", "Lien du site vers l'ancien site vermeiren.fr : à vérifier"],
+                  cons: ["Compatibilité souvent limitée aux modèles de la marque"],
                   colors: []
                 }
               }
@@ -24978,7 +24713,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   options: ["Freins tambour", "Roues de transit ou à pousser"],
                   pros: ["Stabilité (DSS)", "Robustesse éprouvée", "Idéale pour le sur-mesure"],
-                  cons: ["Poids du châssis", "Image issue d'un revendeur (Sofamed), le lien renvoie vers le fauteuil complet Rea Azalea"],
+                  cons: ["Poids du châssis"],
                   colors: [
                     { name: "Gris Perle", hex: "#B8BCC2" },
                     { name: "Bleu Nuit", hex: "#1B2A4E" }
@@ -25012,8 +24747,7 @@ export const CATEGORIES: Category[] = [
                   ],
                   cons: [
                     "Fiche très incomplète : la page trouvée est celle d'Invacare Irlande, pas d'une page DHCare France",
-                    "Spécifications chiffrées (poids max, largeurs, dimensions) non récupérées",
-                    "Pas d'image ni de coloris"
+                    "Spécifications chiffrées (poids max, largeurs, dimensions) non récupérées"
                   ],
                   colors: []
                 }
