@@ -15774,50 +15774,66 @@ export const CATEGORIES: Category[] = [
             name: "Logo Silver Europe",
             models: [              
               {
-                id: "logo-silver-lightchair-plus",
-                name: "Logo Silver LightChair +",
-                description: "Version renforcée et élargie du fauteuil roulant électrique pliant LightChair, pour les utilisateurs qui ont besoin d'une assise plus large (51 cm) et d'une charge de 150 kg. Il garde le pliage rapide (moins de 3 secondes) et la légèreté de la gamme, avec des batteries lithium amovibles autorisées en avion.",
-                imageUrl: "https://www.logo-silver.fr/wp-content/uploads/2024/02/LIGHTCHAIR_packshot-800x802.jpg",
-                manufacturerUrl: "https://www.logo-silver.fr/produits/lightchair-4/",
+                id: 'logo-silver-lightchair-plus',
+                name: 'Logo Silver LightChair +',
+                description: "Fauteuil roulant électrique réglable, pliable et confortable grâce à ses options de série, à emporter partout, même en avion. Dossier inclinable par vérin, coussin d'assise rembourré thermoformé, accoudoirs incurvés et escamotables, repose-pied relevable, antidérapant et réglable en longueur ; roues anti-bascule, contrôleur intelligent, freinage assisté ; 2 moteurs de 250 W, grandes roues arrière de 14'' (franchissement 4 cm) ; pliage électrique par télécommande ; 2 batteries lithium type avion. 25 km d'autonomie, jusqu'à 120 kg.",
+                imageUrl: 'https://www.logo-silver.fr/wp-content/uploads/2024/02/LIGHTCHAIR_packshot-800x802.jpg',
+                manufacturerUrl: 'https://www.logo-silver.fr/produits/lightchair-4/',
                 isPediatric: false,
-                isBariatric: true,
+                isBariatric: false,
                 details: {
                   presentation: [
-                    "Châssis robuste en aluminium aéronautique avec assise élargie.",
-                    "Pliage en moins de 3 secondes.",
-                    "Deux moteurs silencieux intégrés, usage mixte intérieur / extérieur.",
-                    "Batteries lithium amovibles, autorisées pour le transport aérien.",
-                    "Joystick avec indicateur de charge et réglage de la vitesse."
+                    "Plus de confort : dossier inclinable par vérin pour un positionnement plus précis ; coussin d'assise rembourré thermoformé ; appui-bras incurvés et escamotables ; repose-pied relevable, antidérapant et réglable en longueur.",
+                    "Plus de sécurité : roues anti-bascule, contrôleur intelligent, freinage assisté, stickers réfléchissants avant et arrière.",
+                    "Plus de performances : 2 moteurs de 250 W, grandes roues arrière de 14'' (meilleur franchissement et plus grande autonomie), franchissement de 4 cm.",
+                    "Plus de résistance : structure en alliage d'aluminium anti-corrosion, entretien facilité.",
+                    "Plus de liberté : 2 batteries lithium type avion de série, pliage électrique par télécommande.",
+                    "Joystick à pilotage simple et intuitif, réglable en longueur.",
+                    "Accessibilité : intérieur et extérieur sur sols lisses ; 2 roues motrices arrière."
                   ],
                   specs: [
-                    { label: "Poids total (avec batteries)", value: "26 kg" },
-                    { label: "Largeur d'assise", value: "51 cm" },
-                    { label: "Poids maximal utilisateur", value: "150 kg" },
-                    { label: "Autonomie", value: "jusqu'à 20 km" },
+                    { label: "Largeur d'assise", value: "440 mm" },
+                    { label: "Profondeur d'assise", value: "450 mm" },
+                    { label: "Hauteur d'assise", value: "Avant 550 mm ; arrière 520 mm" },
+                    { label: "Hauteur du dossier", value: "480 mm" },
+                    { label: "Hauteur des accoudoirs", value: "Avant 230 mm ; arrière 200 mm" },
+                    { label: "Dimensions déplié", value: "Longueur 1100 mm (avec repose-pieds) ; largeur 620 mm ; hauteur 980 mm" },
+                    { label: "Dimensions plié", value: "335 x 620 x 870 mm" },
+                    { label: "Poids du fauteuil", value: "32 kg avec batteries (batteries : 2 x 1,115 kg)" },
+                    { label: "Poids max. utilisateur", value: "120 kg" },
                     { label: "Vitesse maximale", value: "6 km/h" },
-                    { label: "Rayon de braquage", value: "85 cm" },
-                    { label: "Pente maximale", value: "12 %" }
+                    { label: "Autonomie", value: "25 km" },
+                    { label: "Moteurs", value: "2 x 250 W" },
+                    { label: "Batteries", value: "Lithium (avion) 24 V 6 Ah x 2 ; charge externe ou par joystick, 6 h" },
+                    { label: "Franchissement d'obstacle", value: "4 cm" },
+                    { label: "Pente", value: "Habilité 6° ; maximale 8°" },
+                    { label: "Rayon de braquage / distance de freinage", value: "80 cm / 70 cm" },
+                    { label: "Roues", value: "Avant 200 x 50 mm ; arrière 325 x 55 mm" }
                   ],
                   options: [
+                    "Dossier inclinable par vérin (de série)",
+                    "Pliage électrique par télécommande (de série)",
+                    "2 batteries lithium type avion (de série)",
+                    "Roues anti-bascule (de série)",
                     "Appui-tête réglable et amovible",
                     "Porte-bagages ou filet de rangement sous l'assise",
-                    "Joystick adaptable droitier / gaucher",
-                    "Sac de transport renforcé avec roulettes",
-                    "Batteries de secours"
+                    "Joystick adaptable droitier ou gaucher",
+                    "Sac de transport renforcé à roulettes"
                   ],
                   pros: [
-                    "Charge de 150 kg sur un fauteuil pliant léger",
-                    "Assise large (51 cm) pour les grands gabarits",
-                    "Bonne maniabilité en espace réduit"
+                    "Dossier inclinable par vérin, assise thermoformée : confort supérieur.",
+                    "Pliage électrique par télécommande ; batteries de type avion de série.",
+                    "Franchissement de 4 cm et grandes roues arrière de 14''.",
+                    "Maniable (rayon de braquage de 80 cm)."
                   ],
                   cons: [
-                    "Poids un peu supérieur au modèle standard",
-                    "Dimensions pliées plus importantes que le modèle classique",
-                    "Suspensions fermes sur sols très irréguliers"
+                    "Poids de 32 kg avec batteries.",
+                    "Sols lisses conseillés ; pente maximale de 8°.",
+                    "Poids max. utilisateur de 120 kg."
                   ],
                   colors: [
-                    { name: "Gris Argent", hex: "#A8A9AD" },
-                    { name: "Noir Mat", hex: "#1A1A1A" }
+                    { name: "Gris argent", hex: "#C0C0C0" },
+                    { name: "Noir mat", hex: "#1E1E1E" }
                   ]
                 }
               },
