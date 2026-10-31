@@ -4219,7 +4219,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "lifeand mobility",
-            name: "Life and Mobility",
+            name: "Life & Mobility",
             models: [
               {
                 id: 'life-mobility-neox',
@@ -5666,7 +5666,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "otto_bock",
-            name: "Otto Bock",
+            name: "Ottobock",
             models: [
               {
                 id: 'ottobock-avantgarde-4-ds',
@@ -8098,7 +8098,7 @@ export const CATEGORIES: Category[] = [
         brands: [
           {
             id: "AMI ",
-            name: "AMI ",
+            name: "AMI",
             models: [
               {
                 id: 'ki-mobility-rogue-xp',
@@ -8799,7 +8799,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "otto_bock",
-            name: "Otto Bock",
+            name: "Ottobock",
             models: [
               {
                 id: 'ottobock-ventus',
@@ -13029,7 +13029,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "sunrise_medical",
-            name: "Sunrise Médical",
+            name: "Sunrise Medical",
             models: [
               {
                 id: 'sunrise-medical-rgk-allstar-a2',
@@ -15317,7 +15317,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "ergo concept",
-            name: "Ergo Concept",
+            name: "ErgoConcept",
             models: [
               {
                 id: "ergoconcept-br7l",
@@ -15798,7 +15798,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "life and mobility",
-            name: "Life and Mobility",
+            name: "Life & Mobility",
             models: [
               {
                 id: "life-and-mobility-karma-blazer-sling",
@@ -16221,7 +16221,7 @@ export const CATEGORIES: Category[] = [
           },  
           {
             id: "otto_bock",
-            name: "Otto Bock",
+            name: "Ottobock",
             models: [
               {
                 id: "ottobock-juvo-b4",
@@ -17176,7 +17176,7 @@ export const CATEGORIES: Category[] = [
         brands: [
           {
             id: "ergo concept",
-            name: "Ergo Concept",
+            name: "ErgoConcept",
             models: [
               {
                 id: "ergoconcept-br8l-explorer",
@@ -19491,7 +19491,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "otto_bock",
-            name: "Otto Bock",
+            name: "Ottobock",
             models: [
               {
                 id: "ottobock-juvo-b4-frep-b",
@@ -21169,11 +21169,11 @@ export const CATEGORIES: Category[] = [
         brands: [
           {
             id: "4power4",
-            name: "4PoWer4",
+            name: "4Power4",
             models: [
               {
                 id: "4power4-p4-adventure",
-                name: "4PoWer4 P4 Adventure",
+                name: "4Power4 P4 Adventure",
                 description: "Fauteuil électrique 4x4 tout-terrain extrême, à transmission intégrale permanente, pour la forêt, la plage ou la montagne. Châssis articulé breveté qui garde les quatre roues au sol, pneus basse pression larges, franchissement jusqu'à 15 cm et pente de 20 %.",
                 imageUrl: "https://4power4-powerstand.com/wp-content/uploads/2026/02/p4-crossover-hoop-2048x1583.jpg",
                 manufacturerUrl: "https://4power4-powerstand.com/4power4/product-4power4/p4-adventure-electric-wheelchair-4x4/",
@@ -21385,7 +21385,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "sunrise_medical",
-            name: "Sunrise Médical",
+            name: "Sunrise Medical",
             models: [
               {
                 id: "magic-mobility-xt2",
@@ -21638,11 +21638,11 @@ export const CATEGORIES: Category[] = [
         brands: [
           {
             id: "4power4",
-            name: "4PoWer4",
+            name: "4Power4",
             models: [
               {
                 id: "4power4-p-access",
-                name: "4PoWer4 P-Access",
+                name: "4Power4 P-Access",
                 description: "Fauteuil électrique verticalisateur compact et polyvalent, conçu pour l'accès aux espaces étroits et l'inclusion sociale. Verticalisation motorisée commandée au joystick, genouillère de maintien amovible, dossier inclinable et accoudoirs relevables. Rayon de braquage de 65 cm.",
                 imageUrl: "https://4power4-powerstand.com/wp-content/uploads/2020/05/p-access-anime-droite.gif",
                 manufacturerUrl: "https://4power4-powerstand.com/powerstand/product-powerstand/p-access-electric-standing-wheelchair/",
@@ -21894,7 +21894,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "life and mobility",
-            name: "Life and Mobility",
+            name: "Life & Mobility",
             models: [
               {
                 id: "life-mobility-evo-altus",
@@ -23232,7 +23232,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "Sunrise_medical",
-            name: "Sunrise Médical",
+            name: "Sunrise Medical",
             models: [
               {
                 id: "sunrise-medical-zippie-voyage",
@@ -23788,7 +23788,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "life_and_mobility",
-            name: "Life and Mobility",
+            name: "Life & Mobility",
             models: [
               {
                 id: "life-mobility-vivo",
@@ -24192,7 +24192,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "life_and_mobility",
-            name: "Life and Mobility",
+            name: "Life & Mobility",
             models: [
               {
                 id: "life-mobility-presto",
@@ -24837,7 +24837,7 @@ export const CATEGORIES: Category[] = [
           },
           {
             id: "sunrise",
-            name: "Sunrise medical",
+            name: "Sunrise Medical",
             models: [
              {
                 id: "sunrise-medical-empulse-m90",
@@ -25089,7 +25089,7 @@ export const CATEGORIES: Category[] = [
   },
   {
   id: "cinquieme_roue",
-  name: "3ème ou 5ème Roue / Trotinnette",
+  name: "3ème ou 5ème Roue / Trottinette",
   icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" class="w-full h-full" role="img" aria-label="Icône 5ème roue">
     <title>5ème Roue</title>
     <desc>Représentation d'une roue de propulsion additionnelle avant</desc>
@@ -26410,8 +26410,8 @@ export const CATEGORIES: Category[] = [
     },
     {
       id: "TROTINNETTE",
-      name: "Trotinnette",
-      description: "Trotinnette électrique adaptable au fauteuil roulant manuel",
+      name: "Trottinette",
+      description: "Trottinette électrique adaptable au fauteuil roulant manuel",
       detailedInfo: {
         title: "Dispositifs de franchissement manuels",
         content: `

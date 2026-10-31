@@ -1,1 +1,20 @@
-/* Styles globaux optionnels */
+/* Styles globaux */
+
+/* Impression / export PDF d'une fiche : on garde les couleurs (bandeau, tableaux)
+   et on évite de couper un bloc en deux entre deux pages. */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  body {
+    background: white !important;
+  }
+  section,
+  tr {
+    break-inside: avoid;
+  }
+  @page {
+    margin: 12mm;
+  }
+}

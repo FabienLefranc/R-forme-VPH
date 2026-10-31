@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { cleanInline } from '../displayClean';
 import { Model, Category } from '../types';
 
 interface ComparisonViewProps {
@@ -334,13 +335,13 @@ export function ComparisonView({ models, onRemove, onClear, allCategories, onAdd
     const specs = model.details.specs;
     for (const pattern of row.patterns) {
       const match = specs.find(s => s.label.toLowerCase().trim() === pattern.toLowerCase().trim());
-      if (match) return match.value;
+      if (match) return cleanInline(match.value);
     }
 
     // 2. Recherche par inclusion
     for (const pattern of row.patterns) {
       const match = specs.find(s => s.label.toLowerCase().includes(pattern.toLowerCase()));
-      if (match) return match.value;
+      if (match) return cleanInline(match.value);
     }
 
     return '-';

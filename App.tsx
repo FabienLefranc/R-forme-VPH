@@ -1,7 +1,9 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { AppStep, Category, SubCategory, Brand, Model, MainTab } from './types';
 import { CATEGORIES } from './data';
+import { parseUrl, buildSearch, applyPageMeta, NavState } from './routing';
+import { CookieBanner } from './components/CookieBanner';
 import { ChatInterface } from './components/ChatInterface';
 import { ProductSheet } from './components/ProductSheet';
 import { ComparisonView } from './components/ComparisonView';
@@ -42,26 +44,76 @@ const Logo = () => (
         Assistant <span className="text-indigo-600">Ergo</span>
       </span>
       <span className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.15em] mt-1.5 leading-none">
-        Réforme Décembre 2025
+        Guide VPH &amp; LPPR
       </span>
     </div>
   </div>
 );
 
 export default function App() {
-  const [currentTab, setCurrentTab] = useState<MainTab>(MainTab.COMPARATOR);
-  const [step, setStep] = useState<AppStep>(AppStep.CATEGORY_SELECTION);
+  // Page de départ lue dans l'adresse (permet d'ouvrir directement un lien partagé)
+  const initialNav = useMemo(() => parseUrl(window.location.search), []);
+
+  const [currentTab, setCurrentTab] = useState<MainTab>(initialNav.tab);
+  const [step, setStep] = useState<AppStep>(initialNav.step);
   const [filterType, setFilterType] = useState<
     'ALL' | 'PEDIATRIC' | 'BARIATRIC'
   >('ALL');
-  const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
-  const [selectedSubCategory, setSelectedSubCategory] = useState<SubCategory | null>(null);
-  const [selectedBrand, setSelectedBrand] = useState<Brand | null>(null);
-  const [selectedModel, setSelectedModel] = useState<Model | null>(null);
-  const [comparisonList, setComparisonList] = useState<Model[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<Category | null>(initialNav.category);
+  const [selectedSubCategory, setSelectedSubCategory] = useState<SubCategory | null>(initialNav.subCategory);
+  const [selectedBrand, setSelectedBrand] = useState<Brand | null>(initialNav.brand);
+  const [selectedModel, setSelectedModel] = useState<Model | null>(initialNav.model);
+  const [comparisonList, setComparisonList] = useState<Model[]>(initialNav.compareModels);
   const [infoModalData, setInfoModalData] = useState<{title: string, content: string} | null>(null);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isAuditOpen, setIsAuditOpen] = useState(false);
+
+  // --- Synchronisation page affichée <-> adresse du navigateur ---
+  const isFirstUrlSync = useRef(true);
+
+  useEffect(() => {
+    const nav: NavState = {
+      tab: currentTab,
+      step,
+      category: selectedCategory,
+      subCategory: selectedSubCategory,
+      brand: selectedBrand,
+      model: selectedModel,
+      compareModels: comparisonList,
+    };
+    const search = buildSearch(nav);
+    if (search !== window.location.search) {
+      const url = window.location.pathname + search + window.location.hash;
+      // On remplace l'entrée (au lieu d'en ajouter une) au premier affichage
+      // et quand on modifie simplement la liste du comparatif affiché.
+      const replace =
+        isFirstUrlSync.current ||
+        (step === AppStep.COMPARISON_VIEW && window.location.search.includes('comparer='));
+      if (replace) window.history.replaceState(null, '', url);
+      else window.history.pushState(null, '', url);
+    }
+    isFirstUrlSync.current = false;
+    applyPageMeta(nav, search);
+  }, [currentTab, step, selectedCategory, selectedSubCategory, selectedBrand, selectedModel, comparisonList]);
+
+  // Bouton « Retour » / « Suivant » du navigateur
+  useEffect(() => {
+    const onPopState = () => {
+      const nav = parseUrl(window.location.search);
+      setCurrentTab(nav.tab);
+      setStep(nav.step);
+      setSelectedCategory(nav.category);
+      setSelectedSubCategory(nav.subCategory);
+      setSelectedBrand(nav.brand);
+      setSelectedModel(nav.model);
+      if (nav.step === AppStep.COMPARISON_VIEW) setComparisonList(nav.compareModels);
+      setInfoModalData(null);
+      setIsSearchOpen(false);
+      setIsAuditOpen(false);
+    };
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
 
   const handleAuditSelectModel = (category: Category, subCategory: SubCategory, brand: Brand, model: Model) => {
     setSelectedCategory(category);
@@ -314,10 +366,13 @@ export default function App() {
   const TabButton = ({ tab, label, icon }: { tab: MainTab, label: string, icon: React.ReactNode }) => (
     <button
       onClick={() => setCurrentTab(tab)}
+      aria-label={label}
+      aria-current={currentTab === tab ? 'page' : undefined}
+      title={label}
       className={`flex items-center gap-2 px-3 sm:px-4 py-6 text-sm font-medium transition-all relative whitespace-nowrap ${currentTab === tab ? 'text-indigo-600' : 'text-slate-500 hover:text-slate-900'}`}
     >
       <span className={currentTab === tab ? 'text-indigo-600' : 'text-slate-400'}>{icon}</span>
-      <span className="hidden sm:inline">{label}</span>
+      <span className="hidden md:inline">{label}</span>
       {currentTab === tab && <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-indigo-600"></span>}
     </button>
   );
@@ -325,26 +380,27 @@ export default function App() {
   const containerClass = step === AppStep.COMPARISON_VIEW ? "max-w-[98%] mx-auto p-2 md:p-4 transition-all duration-500" : "max-w-5xl mx-auto p-4 md:p-6 transition-all duration-500";
 
   return (
-    <div className="min-h-screen bg-white flex flex-col font-sans text-slate-900">
+    <div className="min-h-screen bg-white flex flex-col font-sans text-slate-900 pb-16 sm:pb-0 print:pb-0">
+      <CookieBanner />
       <InfoModal isOpen={!!infoModalData} onClose={() => setInfoModalData(null)} title={infoModalData?.title || ''} content={infoModalData?.content || ''} />
       <SearchBar isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} onSelect={handleSearchResult} categories={CATEGORIES} />
       <AuditModal isOpen={isAuditOpen} onClose={() => setIsAuditOpen(false)} onSelectModel={handleAuditSelectModel} />
 
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-30">
+      <header className="bg-white border-b border-gray-200 sticky top-0 z-30 print:hidden">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center cursor-pointer py-4 group" onClick={() => { setCurrentTab(MainTab.COMPARATOR); goToHome(); }}>
              <Logo />
           </div>
 
           <div className="flex items-center">
-            <nav className="flex items-center">
+            <nav className="hidden sm:flex items-center" aria-label="Navigation principale">
                <TabButton tab={MainTab.COMPARATOR} label="Matériel" icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" /></svg>} />
                <TabButton tab={MainTab.NEWS} label="Actualités" icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" /></svg>} />
                <TabButton tab={MainTab.ABOUT} label="Présentation" icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>} />
                <TabButton tab={MainTab.CONTACT} label="Contact" icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>} />
             </nav>
             <div className="h-6 w-px bg-slate-200 mx-2 hidden md:block"></div>
-            <button onClick={() => setIsSearchOpen(true)} className="p-2 ml-1 bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-600 rounded-full transition-all duration-300 group shadow-inner" title="Recherche globale">
+            <button onClick={() => setIsSearchOpen(true)} className="p-2 ml-1 bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-600 rounded-full transition-all duration-300 group shadow-inner" title="Recherche globale" aria-label="Rechercher un modèle, une marque ou une catégorie">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5 group-hover:scale-110 transition-transform">
                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                </svg>
@@ -356,7 +412,7 @@ export default function App() {
       <main className="flex-1 w-full bg-slate-50">
         {currentTab === MainTab.COMPARATOR && (
             <div className={containerClass}>
-                <div className="flex items-center justify-between mb-6 px-1">
+                <div className="flex items-center justify-between mb-6 px-1 print:hidden">
                     {step !== AppStep.CATEGORY_SELECTION && (
                         <button onClick={handleBack} className="text-sm font-semibold text-indigo-600 bg-indigo-50 px-4 py-2 rounded-lg hover:bg-indigo-100 flex items-center gap-2 transition-all shadow-sm">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-4 h-4"><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" /></svg> Retour
@@ -373,7 +429,7 @@ export default function App() {
                 {step === AppStep.CATEGORY_SELECTION && (
                 <div className="space-y-6 animate-fade-in text-center">
                     <div className="space-y-2 mb-8">
-                      <h2 className="text-2xl font-bold text-slate-800">Quel type de dispositif recherchez-vous ?</h2>
+                      <h1 className="text-2xl font-bold text-slate-800">Quel type de dispositif recherchez-vous ?</h1>
                       <p className="text-slate-500">Sélectionnez une catégorie pour commencer l'accompagnement.</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -396,7 +452,7 @@ export default function App() {
                 <div className="space-y-6 animate-fade-in text-center">
                     <div className="space-y-2 mb-8">
                       <div className="flex items-center justify-center gap-2 mb-2"><BreadcrumbItem label="Accueil" onClick={goToHome} /><span className="text-slate-300">/</span><BreadcrumbItem label={selectedCategory.name} active /></div>
-                      <h2 className="text-2xl font-bold text-slate-800">Précisez le type de matériel</h2>
+                      <h1 className="text-2xl font-bold text-slate-800">Précisez le type de matériel</h1>
                       <p className="text-slate-500">Choisissez la sous-catégorie correspondant au besoin du patient.</p>
                     </div>
                     {/* Filtres pédiatrique / bariatrique */}
@@ -509,16 +565,18 @@ export default function App() {
                         <BreadcrumbItem label={selectedSubCategory.name} active />
                       </div>
 
-                      <h2 className="text-2xl font-bold text-slate-800">
+                      <h1 className="text-2xl font-bold text-slate-800">
                         Sélectionnez une marque
-                      </h2>
+                      </h1>
                       <p className="text-slate-500">
                         Pour affiner les conseils sur les modèles spécifiques disponibles.
                       </p>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                      {selectedSubCategory.brands?.map((brand) => {
+                      {[...(selectedSubCategory.brands || [])]
+                        .sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }))
+                        .map((brand) => {
                         const isCompatible = brandMatchesFilter(brand);
 
                         return (
@@ -569,7 +627,7 @@ export default function App() {
                 <div className="space-y-6 animate-fade-in text-center">
                     <div className="space-y-2 mb-8">
                       <div className="flex flex-wrap items-center justify-center gap-2 mb-2"><BreadcrumbItem label="Accueil" onClick={goToHome} /><span className="text-slate-300">/</span><BreadcrumbItem label={selectedCategory.name} onClick={goToSubCategories} /><span className="text-slate-300">/</span><BreadcrumbItem label={selectedSubCategory.name} onClick={goToBrands} /><span className="text-slate-300">/</span><BreadcrumbItem label={selectedBrand.name} active /></div>
-                      <h2 className="text-2xl font-bold text-slate-800">Choisissez un modèle</h2>
+                      <h1 className="text-2xl font-bold text-slate-800">Choisissez un modèle</h1>
                       <p className="text-slate-500">Accédez à la fiche détaillée.</p>
                     </div>
                     <div className="flex flex-col items-center gap-4 max-w-2xl mx-auto">
@@ -624,13 +682,13 @@ export default function App() {
 
                 {step === AppStep.DETAILS_CHAT && selectedCategory && selectedSubCategory && (
                 <div className="animate-fade-in pb-10">
-                    <div className="flex flex-wrap items-center gap-2 mb-6 px-1">
+                    <div className="flex flex-wrap items-center gap-2 mb-6 px-1 print:hidden">
                         <BreadcrumbItem label="Accueil" onClick={goToHome} /><span className="text-slate-300">/</span><BreadcrumbItem label={selectedCategory.name} onClick={goToSubCategories} /><span className="text-slate-300">/</span>
                         {selectedSubCategory.brands && selectedSubCategory.brands.length > 0 ? <><BreadcrumbItem label={selectedSubCategory.name} onClick={goToBrands} /><span className="text-slate-300">/</span></> : <BreadcrumbItem label={selectedSubCategory.name} active />}
                         {selectedBrand && <><BreadcrumbItem label={selectedBrand.name} onClick={goToModels} /><span className="text-slate-300">/</span></>}
                         {selectedModel ? <BreadcrumbItem label={selectedModel.name} active /> : !selectedBrand && selectedSubCategory && <BreadcrumbItem label="Assistant" active />}
                     </div>
-                    {selectedModel && selectedModel.details ? <ProductSheet model={selectedModel} brand={selectedBrand} subCategory={selectedSubCategory} category={selectedCategory} onAddToComparison={addToComparison} isInComparison={!!comparisonList.find(m => m.id === selectedModel.id)} /> : <div className="h-[calc(100vh-200px)]"><ChatInterface category={selectedCategory} subCategory={selectedSubCategory} brand={selectedBrand} model={selectedModel} /></div>}
+                    {selectedModel && selectedModel.details ? <ProductSheet model={selectedModel} brand={selectedBrand} subCategory={selectedSubCategory} category={selectedCategory} onAddToComparison={addToComparison} isInComparison={!!comparisonList.find(m => m.id === selectedModel.id)} onShowCategoryInfo={selectedSubCategory.detailedInfo ? () => setInfoModalData({ title: selectedSubCategory.detailedInfo!.title, content: selectedSubCategory.detailedInfo!.content }) : undefined} /> : <div className="h-[calc(100vh-200px)]"><ChatInterface category={selectedCategory} subCategory={selectedSubCategory} brand={selectedBrand} model={selectedModel} /></div>}
                 </div>
                 )}
 
@@ -656,7 +714,7 @@ export default function App() {
         {currentTab === MainTab.PRIVACY && <PrivacyView />}
       </main>
 
-      <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 mt-auto">
+      <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 mt-auto print:hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
             <div>
@@ -669,7 +727,7 @@ export default function App() {
                 <span className="text-white font-black tracking-tight text-lg uppercase">Assistant <span className="text-indigo-400">Ergo</span></span>
               </div>
               <p className="text-sm max-w-xs mx-auto md:mx-0">
-                La plateforme de référence pour les ergothérapeutes face à la réforme des fauteuils roulants 2025.
+                Le guide des ergothérapeutes pour les fauteuils roulants et VPH pris en charge (LPPR).
               </p>
               <div className="mt-4 flex items-center justify-center md:justify-start">
                 <div className="inline-flex items-center bg-slate-800/90 hover:bg-slate-800 rounded-full px-3 py-1.5 text-xs border border-slate-700/80 transition-colors shadow-sm">
@@ -707,16 +765,17 @@ export default function App() {
                 <button onClick={() => setCurrentTab(MainTab.CONTACT)} className="hover:text-white transition-colors text-sm font-medium">Contact</button>
               </div>
               <div className="text-[10px] uppercase tracking-widest text-slate-500 font-bold bg-slate-800/50 px-3 py-1 rounded-full border border-slate-700">
-                Réforme Entrée en vigueur : 1er Décembre 2025
+                Réforme en vigueur depuis le 1er décembre 2025
               </div>
             </div>
 
             <div className="flex flex-col items-center md:items-end gap-2 text-sm">
-              <p className="text-slate-300 font-medium">© 2025 Assistant Ergo (assistant-ergo.fr)</p>
+              <p className="text-slate-300 font-medium">© 2025–{new Date().getFullYear()} Assistant Ergo (assistant-ergo.fr)</p>
               <p className="text-xs">Conçu par et pour les ergothérapeutes.</p>
               <div className="flex gap-4 mt-2">
                  <button onClick={() => setCurrentTab(MainTab.LEGAL)} className="hover:text-indigo-400 transition-colors">Mentions Légales</button>
                  <button onClick={() => setCurrentTab(MainTab.PRIVACY)} className="hover:text-indigo-400 transition-colors">Confidentialité</button>
+                 <button onClick={() => window.dispatchEvent(new Event('open-cookie-settings'))} className="hover:text-indigo-400 transition-colors">Cookies</button>
               </div>
             </div>
           </div>
@@ -728,6 +787,25 @@ export default function App() {
           </div>
         </div>
       </footer>
+      {/* Barre de navigation mobile (en bas de l'écran, avec libellés) */}
+      <nav className="sm:hidden fixed bottom-0 inset-x-0 z-30 bg-white border-t border-slate-200 grid grid-cols-4 print:hidden" aria-label="Navigation principale">
+        {([
+          [MainTab.COMPARATOR, 'Matériel', 'M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605'],
+          [MainTab.NEWS, 'Actualités', 'M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z'],
+          [MainTab.ABOUT, 'Présentation', 'M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z'],
+          [MainTab.CONTACT, 'Contact', 'M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75'],
+        ] as [MainTab, string, string][]).map(([tab, label, d]) => (
+          <button
+            key={tab}
+            onClick={() => { if (tab === MainTab.COMPARATOR && currentTab === MainTab.COMPARATOR) goToHome(); setCurrentTab(tab); }}
+            aria-current={currentTab === tab ? 'page' : undefined}
+            className={`flex flex-col items-center justify-center gap-0.5 py-2 text-[11px] font-medium ${currentTab === tab ? 'text-indigo-600' : 'text-slate-500'}`}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" d={d} /></svg>
+            {label}
+          </button>
+        ))}
+      </nav>
     </div>
   );
 }
