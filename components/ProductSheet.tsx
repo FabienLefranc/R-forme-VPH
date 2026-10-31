@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react';
 import { Model, Brand, SubCategory, Category } from '../types';
+import { modelUrl } from '../routing';
+import { publicItems, cleanInline } from '../displayClean';
 
 interface ProductSheetProps {
   model: Model;
@@ -9,11 +11,30 @@ interface ProductSheetProps {
   category: Category;
   onAddToComparison?: (model: Model) => void;
   isInComparison?: boolean;
+  onShowCategoryInfo?: () => void;
 }
 
-export function ProductSheet({ model, brand, subCategory, category, onAddToComparison, isInComparison }: ProductSheetProps) {
+export function ProductSheet({ model, brand, subCategory, category, onAddToComparison, isInComparison, onShowCategoryInfo }: ProductSheetProps) {
   const [imgError, setImgError] = useState(false);
   const [isImageExpanded, setIsImageExpanded] = useState(false);
+  const [linkCopied, setLinkCopied] = useState(false);
+
+  const copyLink = async () => {
+    const url = modelUrl(category, subCategory, brand, model);
+    try {
+      await navigator.clipboard.writeText(url);
+    } catch {
+      // Ancien navigateur : copie via un champ temporaire
+      const ta = document.createElement('textarea');
+      ta.value = url;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      ta.remove();
+    }
+    setLinkCopied(true);
+    setTimeout(() => setLinkCopied(false), 2000);
+  };
 
   if (!model.details) {
     return (
@@ -25,7 +46,13 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
   }
 
   // Fix: Use default values for optional properties to prevent map() errors when data is missing
-  const { presentation, specs, options = [], pros = [], cons = [], colors = [] } = model.details;
+  const { colors = [] } = model.details;
+  // Les notes de travail internes sont masquées au public (voir displayClean.ts)
+  const presentation = publicItems(model.details.presentation);
+  const options = publicItems(model.details.options);
+  const pros = publicItems(model.details.pros);
+  const cons = publicItems(model.details.cons);
+  const specs = model.details.specs.map(sp => ({ label: cleanInline(sp.label), value: cleanInline(sp.value) }));
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden animate-fade-in relative">
@@ -65,7 +92,7 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
                 <span className="inline-block px-2 py-1 rounded bg-indigo-800 text-indigo-100 text-xs font-semibold mb-2">
                 {subCategory.name} - {brand?.name}
                 </span>
-                <h2 className="text-3xl font-bold flex flex-wrap items-center gap-3">
+                <h1 className="text-3xl font-bold flex flex-wrap items-center gap-3">
                   {model.name}
 
                   {model.isPediatric && (
@@ -79,8 +106,32 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
                       ⚖️ Bariatrique
                     </span>
                   )}
-                </h2>
+                </h1>
                 <p className="text-indigo-200 mt-1">{model.description}</p>
+
+                {/* Actions rapides : partager, imprimer, infos LPPR */}
+                <div className="flex flex-wrap gap-2 mt-4 print:hidden">
+                  <button
+                    onClick={copyLink}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white/10 hover:bg-white/20 text-white transition-colors"
+                  >
+                    {linkCopied ? '✅ Lien copié !' : '🔗 Copier le lien'}
+                  </button>
+                  <button
+                    onClick={() => window.print()}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white/10 hover:bg-white/20 text-white transition-colors"
+                  >
+                    🖨️ Imprimer / PDF
+                  </button>
+                  {onShowCategoryInfo && (
+                    <button
+                      onClick={onShowCategoryInfo}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white/10 hover:bg-white/20 text-white transition-colors"
+                    >
+                      📋 Code LPP &amp; tarifs {subCategory.name}
+                    </button>
+                  )}
+                </div>
             </div>
             {model.imageUrl && !imgError ? (
                 <div 
@@ -109,7 +160,7 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
         </div>
       </div>
 
-      <div className="p-6 md:p-8 space-y-8 pb-32">
+      <div className="p-6 md:p-8 space-y-8 pb-32 print:pb-6">
         {/* Présentation */}
         <section>
           <h3 className="flex items-center gap-2 text-xl font-bold text-indigo-900 mb-4 pb-2 border-b border-slate-100">
@@ -171,7 +222,8 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
           </div>
         </section>
 
-        {/* Options */}
+        {/* Options (masqué si vide) */}
+        {options.length > 0 && (
         <section>
           <h3 className="flex items-center gap-2 text-xl font-bold text-indigo-900 mb-4 pb-2 border-b border-slate-100">
             🔧 Confort & Options
@@ -184,6 +236,7 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
              ))}
           </ul>
         </section>
+        )}
 
         {/* Points forts / Limites */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -222,7 +275,7 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
       </div>
 
       {/* Action Footer */}
-      <div className="absolute bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-200 shadow-lg flex flex-col sm:flex-row gap-3 items-center justify-between z-10">
+      <div className="print:hidden absolute bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-200 shadow-lg flex flex-col sm:flex-row gap-3 items-center justify-between z-10">
         <a 
             href={model.manufacturerUrl || '#'} 
             target="_blank" 

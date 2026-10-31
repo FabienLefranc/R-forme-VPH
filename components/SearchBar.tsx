@@ -39,13 +39,15 @@ export function SearchBar({ isOpen, onClose, onSelect, categories = [] }: Search
       return;
     }
 
-    const searchTerms = query.toLowerCase();
+    // Recherche insensible aux accents et à la casse ("electrique" trouve "Électrique")
+    const norm = (t?: string) => (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const searchTerms = norm(query.trim());
     const matches: SearchResult[] = [];
 
     categories.forEach(cat => {
       cat.subCategories.forEach(sub => {
         // Search in subcategories
-        if (sub.name.toLowerCase().includes(searchTerms)) {
+        if (norm(sub.name).includes(searchTerms) || norm(sub.description).includes(searchTerms)) {
           matches.push({
             type: 'SUBCATEGORY',
             item: sub,
@@ -58,7 +60,7 @@ export function SearchBar({ isOpen, onClose, onSelect, categories = [] }: Search
 
         sub.brands?.forEach(brand => {
           // Search in brands
-          if (brand.name.toLowerCase().includes(searchTerms)) {
+          if (norm(brand.name).includes(searchTerms)) {
             matches.push({
               type: 'BRAND',
               item: brand,
@@ -72,7 +74,7 @@ export function SearchBar({ isOpen, onClose, onSelect, categories = [] }: Search
 
           brand.models?.forEach(model => {
             // Search in models
-            if (model.name.toLowerCase().includes(searchTerms) || model.description?.toLowerCase().includes(searchTerms)) {
+            if (norm(model.name).includes(searchTerms) || norm(model.description).includes(searchTerms)) {
               matches.push({
                 type: 'MODEL',
                 item: model,
@@ -89,7 +91,7 @@ export function SearchBar({ isOpen, onClose, onSelect, categories = [] }: Search
       });
     });
 
-    setResults(matches.slice(0, 8)); // Limit to 8 results
+    setResults(matches.slice(0, 50)); // Jusqu'à 50 résultats (liste défilante)
   }, [query]);
 
   if (!isOpen) return null;

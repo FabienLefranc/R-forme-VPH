@@ -34,7 +34,11 @@ export function PrivacyView() {
         <section>
           <h3 className="text-lg font-bold text-slate-900 mb-2">3. Cookies</h3>
           <p className="text-slate-600 text-sm">
-            Seuls des cookies techniques nécessaires au fonctionnement du site peuvent être utilisés. Aucun pistage publicitaire n'est mis en place.
+            Avec votre accord uniquement, le site utilise Google Analytics pour mesurer son audience (pages consultées, durée de visite, type d'appareil), avec anonymisation de l'adresse IP. Ces cookies (_ga) sont conservés 13 mois au maximum. Aucun pistage publicitaire n'est mis en place et aucune donnée n'est revendue.
+          </p>
+          <p className="text-slate-600 text-sm mt-2">
+            Votre choix (accepter ou refuser) est mémorisé 6 mois dans votre navigateur. Vous pouvez le modifier à tout moment :{' '}
+            <button onClick={() => window.dispatchEvent(new Event('open-cookie-settings'))} className="text-indigo-600 hover:underline font-medium">gérer mes cookies</button>.
           </p>
         </section>
 
