@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Model, Brand, SubCategory, Category } from '../types';
 import { modelUrl } from '../routing';
 import { publicItems, cleanInline } from '../displayClean';
+import { openSoutien } from './SoutienModal';
 
 interface ProductSheetProps {
   model: Model;
@@ -270,6 +271,12 @@ export function ProductSheet({ model, brand, subCategory, category, onAddToCompa
         <div className="text-center pt-8 border-t border-slate-100">
             <p className="text-xs text-slate-400 italic">
                 Fiche établie selon les données constructeurs et nomenclature LPPR. Usage professionnel.
+            </p>
+            <p className="mt-3 text-sm text-slate-500 print:hidden">
+                Cette fiche vous a été utile ?{' '}
+                <button onClick={openSoutien} className="text-indigo-600 font-semibold hover:underline">
+                    Offrez-moi un café ☕
+                </button>
             </p>
         </div>
       </div>

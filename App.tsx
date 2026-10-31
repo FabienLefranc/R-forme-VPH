@@ -15,6 +15,7 @@ import { LegalView } from './components/LegalView';
 import { PrivacyView } from './components/PrivacyView';
 import { NewsView } from './components/NewsView';
 import { AuditModal } from './components/AuditModal';
+import { SoutienModal, openSoutien } from './components/SoutienModal';
 
 // Composant Logo avec une icône de fauteuil roulant réaliste
 const Logo = () => (
@@ -67,6 +68,24 @@ export default function App() {
   const [infoModalData, setInfoModalData] = useState<{title: string, content: string} | null>(null);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isAuditOpen, setIsAuditOpen] = useState(false);
+  // Pop-up « Soutenir le site » : s'ouvre via openSoutien() ou l'adresse https://assistant-ergo.fr/#soutenir
+  const [isSoutienOpen, setIsSoutienOpen] = useState(() => window.location.hash === '#soutenir');
+  useEffect(() => {
+    const open = () => setIsSoutienOpen(true);
+    const onHash = () => { if (window.location.hash === '#soutenir') open(); };
+    window.addEventListener('open-soutien', open);
+    window.addEventListener('hashchange', onHash);
+    return () => {
+      window.removeEventListener('open-soutien', open);
+      window.removeEventListener('hashchange', onHash);
+    };
+  }, []);
+  const closeSoutien = React.useCallback(() => {
+    setIsSoutienOpen(false);
+    if (window.location.hash === '#soutenir') {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+  }, []);
 
   // --- Synchronisation page affichée <-> adresse du navigateur ---
   const isFirstUrlSync = useRef(true);
@@ -385,6 +404,7 @@ export default function App() {
       <InfoModal isOpen={!!infoModalData} onClose={() => setInfoModalData(null)} title={infoModalData?.title || ''} content={infoModalData?.content || ''} />
       <SearchBar isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} onSelect={handleSearchResult} categories={CATEGORIES} />
       <AuditModal isOpen={isAuditOpen} onClose={() => setIsAuditOpen(false)} onSelectModel={handleAuditSelectModel} />
+      <SoutienModal isOpen={isSoutienOpen} onClose={closeSoutien} onContact={() => { closeSoutien(); setCurrentTab(MainTab.CONTACT); window.scrollTo(0, 0); }} />
 
       <header className="bg-white border-b border-gray-200 sticky top-0 z-30 print:hidden">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
@@ -400,6 +420,10 @@ export default function App() {
                <TabButton tab={MainTab.CONTACT} label="Contact" icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>} />
             </nav>
             <div className="h-6 w-px bg-slate-200 mx-2 hidden md:block"></div>
+            <button onClick={openSoutien} className="flex items-center gap-1.5 ml-1 px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold rounded-full transition-colors shadow-sm" title="Soutenir le site" aria-label="Soutenir le site">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4" aria-hidden="true"><path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" /></svg>
+               <span>Soutenir</span>
+            </button>
             <button onClick={() => setIsSearchOpen(true)} className="p-2 ml-1 bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-600 rounded-full transition-all duration-300 group shadow-inner" title="Recherche globale" aria-label="Rechercher un modèle, une marque ou une catégorie">
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5 group-hover:scale-110 transition-transform">
                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -763,6 +787,7 @@ export default function App() {
                 <button onClick={() => setCurrentTab(MainTab.NEWS)} className="hover:text-white transition-colors text-sm font-medium">Actualités</button>
                 <button onClick={() => setCurrentTab(MainTab.ABOUT)} className="hover:text-white transition-colors text-sm font-medium">Présentation</button>
                 <button onClick={() => setCurrentTab(MainTab.CONTACT)} className="hover:text-white transition-colors text-sm font-medium">Contact</button>
+                <button onClick={openSoutien} className="text-indigo-300 hover:text-white transition-colors text-sm font-semibold">☕ Soutenir le site</button>
               </div>
               <div className="text-[10px] uppercase tracking-widest text-slate-500 font-bold bg-slate-800/50 px-3 py-1 rounded-full border border-slate-700">
                 Réforme en vigueur depuis le 1er décembre 2025
