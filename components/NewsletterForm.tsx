@@ -7,7 +7,8 @@ import React, { useState } from 'react';
 // Elle ressemble à : https://xxxxxxxx.sibforms.com/serve/MUIFAxxxxxxxxxxxxxxxx
 // Tant qu'elle est vide, le formulaire affiche « Inscriptions bientôt ouvertes ».
 // ─────────────────────────────────────────────────────────────────────────────
-export const BREVO_FORM_ACTION = '';
+export const BREVO_FORM_ACTION =
+  'https://ee5e6bcb.sibforms.com/serve/MUIFAMHXGkzNBwEnRn_YF-OkWNLxbFY1_GC5PjM9WM-Z_4eNxzEzanGyCgtVCDttsYhFfuyNui06xcptMj2ACTyaK-3b0k4VewluyMhSLkYPL1GH5-o5Mfq8SVz9q9btwRNJrwjgoD_DCaEKWcW9Y3G67CoRjgPJ4YpFootC-256NlOpT9iZlahxaaVwoTHQPIqUucI0DxzL90D4pw==';
 
 type Status = 'idle' | 'sending' | 'ok' | 'error';
 
@@ -52,7 +53,6 @@ export const NewsletterForm: React.FC<NewsletterFormProps> = ({ onAccent = false
 
     const body = new FormData();
     body.append('EMAIL', email.trim());
-    body.append('OPT_IN', '1');
     body.append('email_address_check', '');
     body.append('locale', 'fr');
 
