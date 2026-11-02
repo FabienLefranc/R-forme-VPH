@@ -14,6 +14,8 @@ import { SearchBar } from './components/SearchBar';
 import { LegalView } from './components/LegalView';
 import { PrivacyView } from './components/PrivacyView';
 import { NewsView } from './components/NewsView';
+import { NewsletterView } from './components/NewsletterView';
+import { NewsletterForm } from './components/NewsletterForm';
 import { AuditModal } from './components/AuditModal';
 import { SoutienModal, openSoutien } from './components/SoutienModal';
 
@@ -731,7 +733,8 @@ export default function App() {
             </div>
         )}
 
-        {currentTab === MainTab.NEWS && <NewsView onNavigate={handleNewsNavigate} onContact={() => setCurrentTab(MainTab.CONTACT)} />}
+        {currentTab === MainTab.NEWS && <NewsView onNavigate={handleNewsNavigate} onContact={() => setCurrentTab(MainTab.CONTACT)} onNewsletter={() => { setCurrentTab(MainTab.NEWSLETTER); window.scrollTo(0, 0); }} />}
+        {currentTab === MainTab.NEWSLETTER && <NewsletterView onPrivacy={() => { setCurrentTab(MainTab.PRIVACY); window.scrollTo(0, 0); }} />}
         {currentTab === MainTab.ABOUT && <AboutView />}
         {currentTab === MainTab.CONTACT && <ContactView />}
         {currentTab === MainTab.LEGAL && <LegalView />}
@@ -740,6 +743,20 @@ export default function App() {
 
       <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 mt-auto print:hidden">
         <div className="max-w-7xl mx-auto px-6">
+          <div className="mb-10 pb-10 border-b border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+            <div className="text-center md:text-left">
+              <p className="text-white font-bold text-lg">Le Journal du VPH</p>
+              <p className="text-sm mt-1 max-w-md mx-auto md:mx-0">
+                Chaque semaine, les nouveautés fauteuils roulants, scooters et aides à la mobilité, le point LPPR et les idées venues d'ailleurs. Gratuit.
+              </p>
+            </div>
+            <NewsletterForm
+              dark
+              compact
+              onMore={() => { setCurrentTab(MainTab.NEWSLETTER); window.scrollTo(0, 0); }}
+              onPrivacy={() => { setCurrentTab(MainTab.PRIVACY); window.scrollTo(0, 0); }}
+            />
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
             <div>
               <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
@@ -785,6 +802,7 @@ export default function App() {
               <div className="flex flex-wrap justify-center gap-6 mb-4">
                 <button onClick={() => setCurrentTab(MainTab.COMPARATOR)} className="hover:text-white transition-colors text-sm font-medium">Matériel</button>
                 <button onClick={() => setCurrentTab(MainTab.NEWS)} className="hover:text-white transition-colors text-sm font-medium">Actualités</button>
+                <button onClick={() => { setCurrentTab(MainTab.NEWSLETTER); window.scrollTo(0, 0); }} className="hover:text-white transition-colors text-sm font-medium">Newsletter</button>
                 <button onClick={() => setCurrentTab(MainTab.ABOUT)} className="hover:text-white transition-colors text-sm font-medium">Présentation</button>
                 <button onClick={() => setCurrentTab(MainTab.CONTACT)} className="hover:text-white transition-colors text-sm font-medium">Contact</button>
                 <button onClick={openSoutien} className="text-indigo-300 hover:text-white transition-colors text-sm font-semibold">☕ Soutenir le site</button>

@@ -5,9 +5,10 @@ import { NEWS_ARTICLES } from '../newsData';
 interface NewsViewProps {
   onNavigate: (link: NonNullable<NewsArticle['internalLink']>) => void;
   onContact: () => void;
+  onNewsletter?: () => void;
 }
 
-export const NewsView: React.FC<NewsViewProps> = ({ onNavigate, onContact }) => {
+export const NewsView: React.FC<NewsViewProps> = ({ onNavigate, onContact, onNewsletter }) => {
   const [selectedArticle, setSelectedArticle] = useState<NewsArticle | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const ARTICLES_PER_PAGE = 6;
@@ -143,6 +144,15 @@ export const NewsView: React.FC<NewsViewProps> = ({ onNavigate, onContact }) => 
         <p className="text-slate-500 max-w-2xl mx-auto">
           Restez informé des dernières innovations en matière de mobilité, des actualités du secteur et des conseils en ergothérapie.
         </p>
+        {onNewsletter && (
+          <button
+            onClick={onNewsletter}
+            className="mt-5 inline-flex items-center gap-2 min-h-[44px] px-5 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+            Recevoir le Journal du VPH chaque semaine
+          </button>
+        )}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
