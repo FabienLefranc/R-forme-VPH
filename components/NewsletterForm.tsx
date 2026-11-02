@@ -7,13 +7,14 @@ import React, { useState } from 'react';
 // Elle ressemble à : https://xxxxxxxx.sibforms.com/serve/MUIFAxxxxxxxxxxxxxxxx
 // Tant qu'elle est vide, le formulaire affiche « Inscriptions bientôt ouvertes ».
 // ─────────────────────────────────────────────────────────────────────────────
-export const BREVO_FORM_ACTION = '';
+export const BREVO_FORM_ACTION =
+  'https://ee5e6bcb.sibforms.com/serve/MUIFAMHXGkzNBwEnRn_YF-OkWNLxbFY1_GC5PjM9WM-Z_4eNxzEzanGyCgtVCDttsYhFfuyNui06xcptMj2ACTyaK-3b0k4VewluyMhSLkYPL1GH5-o5Mfq8SVz9q9btwRNJrwjgoD_DCaEKWcW9Y3G67CoRjgPJ4YpFootC-256NlOpT9iZlahxaaVwoTHQPIqUucI0DxzL90D4pw==';
 
 type Status = 'idle' | 'sending' | 'ok' | 'error';
 
 interface NewsletterFormProps {
-  /** Version sombre (pied de page) ou claire (pages). */
-  dark?: boolean;
+  /** Version sur fond coloré (bandeau indigo) ou claire (pages). */
+  onAccent?: boolean;
   /** Version compacte : un champ et un bouton sur une ligne. */
   compact?: boolean;
   /** Affiche le lien « En savoir plus » vers la page newsletter. */
@@ -24,7 +25,7 @@ interface NewsletterFormProps {
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
-export const NewsletterForm: React.FC<NewsletterFormProps> = ({ dark = false, compact = false, onMore, onPrivacy }) => {
+export const NewsletterForm: React.FC<NewsletterFormProps> = ({ onAccent = false, compact = false, onMore, onPrivacy }) => {
   const [email, setEmail] = useState('');
   const [consent, setConsent] = useState(false);
   const [trap, setTrap] = useState(''); // anti-robots : champ invisible
@@ -52,7 +53,6 @@ export const NewsletterForm: React.FC<NewsletterFormProps> = ({ dark = false, co
 
     const body = new FormData();
     body.append('EMAIL', email.trim());
-    body.append('OPT_IN', '1');
     body.append('email_address_check', '');
     body.append('locale', 'fr');
 
@@ -78,18 +78,21 @@ export const NewsletterForm: React.FC<NewsletterFormProps> = ({ dark = false, co
     }
   };
 
-  const text = dark ? 'text-slate-300' : 'text-slate-600';
-  const title = dark ? 'text-white' : 'text-slate-900';
-  const link = dark ? 'text-indigo-300 hover:text-white' : 'text-indigo-600 hover:text-indigo-700';
-  const input = dark
-    ? 'bg-slate-800 border-slate-600 text-white placeholder-slate-400 focus:border-indigo-400'
+  const text = onAccent ? 'text-indigo-50' : 'text-slate-600';
+  const title = onAccent ? 'text-white' : 'text-slate-900';
+  const link = onAccent ? 'text-white hover:text-indigo-100 underline' : 'text-indigo-600 hover:text-indigo-700';
+  const input = onAccent
+    ? 'bg-white border-white text-slate-900 placeholder-slate-500 focus:border-amber-300'
     : 'bg-white border-slate-300 text-slate-900 placeholder-slate-400 focus:border-indigo-500';
+  const button = onAccent
+    ? 'bg-slate-900 hover:bg-slate-800 text-white'
+    : 'bg-indigo-600 hover:bg-indigo-700 text-white';
 
   if (status === 'ok') {
     return (
-      <div className={`rounded-2xl p-5 ${dark ? 'bg-slate-800' : 'bg-emerald-50 border border-emerald-200'}`} role="status">
-        <p className={`font-bold ${dark ? 'text-white' : 'text-emerald-900'}`}>Presque fini !</p>
-        <p className={`text-sm mt-1 ${dark ? 'text-slate-300' : 'text-emerald-800'}`}>
+      <div className={`rounded-2xl p-5 ${onAccent ? 'bg-white/15' : 'bg-emerald-50 border border-emerald-200'}`} role="status">
+        <p className={`font-bold ${onAccent ? 'text-white' : 'text-emerald-900'}`}>Presque fini !</p>
+        <p className={`text-sm mt-1 ${onAccent ? 'text-indigo-50' : 'text-emerald-800'}`}>
           Un e-mail de confirmation vient de vous être envoyé. Cliquez sur le lien qu'il contient pour valider votre inscription
           (pensez à regarder dans les spams).
         </p>
@@ -124,7 +127,7 @@ export const NewsletterForm: React.FC<NewsletterFormProps> = ({ dark = false, co
             <button
               type="submit"
               disabled={status === 'sending'}
-              className="min-h-[44px] px-5 rounded-xl bg-indigo-600 hover:bg-indigo-700 disabled:opacity-60 text-white font-semibold transition-colors"
+              className={`min-h-[44px] px-5 rounded-xl disabled:opacity-60 font-semibold transition-colors ${button}`}
             >
               {status === 'sending' ? 'Envoi…' : "Je m'inscris"}
             </button>
@@ -140,7 +143,7 @@ export const NewsletterForm: React.FC<NewsletterFormProps> = ({ dark = false, co
               type="checkbox"
               checked={consent}
               onChange={e => setConsent(e.target.checked)}
-              className="mt-0.5 w-4 h-4 shrink-0 accent-indigo-600"
+              className={`mt-0.5 w-4 h-4 shrink-0 ${onAccent ? 'accent-slate-900' : 'accent-indigo-600'}`}
             />
             <span>
               J'accepte de recevoir le Journal du VPH par e-mail. Désinscription en un clic à tout moment.
@@ -154,7 +157,7 @@ export const NewsletterForm: React.FC<NewsletterFormProps> = ({ dark = false, co
           </label>
 
           {status === 'error' && (
-            <p className={`text-sm font-medium ${dark ? 'text-orange-300' : 'text-red-700'}`} role="alert">{message}</p>
+            <p className={`text-sm font-semibold ${onAccent ? 'text-white bg-red-700 rounded-lg px-3 py-2' : 'text-red-700'}`} role="alert">{message}</p>
           )}
         </>
       )}

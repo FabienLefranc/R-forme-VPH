@@ -741,22 +741,33 @@ export default function App() {
         {currentTab === MainTab.PRIVACY && <PrivacyView />}
       </main>
 
-      <footer className="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 mt-auto print:hidden">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="mb-10 pb-10 border-b border-slate-800 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-            <div className="text-center md:text-left">
-              <p className="text-white font-bold text-lg">Le Journal du VPH</p>
-              <p className="text-sm mt-1 max-w-md mx-auto md:mx-0">
-                Chaque semaine, les nouveautés fauteuils roulants, scooters et aides à la mobilité, le point LPPR et les idées venues d'ailleurs. Gratuit.
+      {currentTab !== MainTab.NEWSLETTER && (
+      <section className="bg-indigo-600 mt-auto print:hidden" aria-label="Newsletter">
+        <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-center">
+          <div className="flex items-start gap-4 text-left">
+            <div className="hidden sm:flex shrink-0 w-12 h-12 rounded-2xl bg-white/15 items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="white" className="w-6 h-6" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+            </div>
+            <div>
+              <p className="text-xs font-bold uppercase tracking-widest text-indigo-100">Newsletter gratuite</p>
+              <p className="text-white font-black text-2xl mt-1">Le Journal du VPH</p>
+              <p className="text-indigo-50 mt-2 max-w-md">
+                Chaque semaine, les nouveautés fauteuils roulants, scooters et aides à la mobilité, le point LPPR et les idées venues d'ailleurs.
               </p>
             </div>
-            <NewsletterForm
-              dark
-              compact
-              onMore={() => { setCurrentTab(MainTab.NEWSLETTER); window.scrollTo(0, 0); }}
-              onPrivacy={() => { setCurrentTab(MainTab.PRIVACY); window.scrollTo(0, 0); }}
-            />
           </div>
+          <NewsletterForm
+            onAccent
+            compact
+            onMore={() => { setCurrentTab(MainTab.NEWSLETTER); window.scrollTo(0, 0); }}
+            onPrivacy={() => { setCurrentTab(MainTab.PRIVACY); window.scrollTo(0, 0); }}
+          />
+        </div>
+      </section>
+      )}
+
+      <footer className={`bg-slate-900 text-slate-400 py-12 border-t border-slate-800 print:hidden ${currentTab === MainTab.NEWSLETTER ? 'mt-auto' : ''}`}>
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
             <div>
               <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
