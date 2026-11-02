@@ -14,7 +14,8 @@ export enum MainTab {
   ABOUT = 'ABOUT',
   CONTACT = 'CONTACT',
   LEGAL = 'LEGAL',
-  PRIVACY = 'PRIVACY'
+  PRIVACY = 'PRIVACY',
+  NEWSLETTER = 'NEWSLETTER'
 }
 
 export interface NewsArticle {

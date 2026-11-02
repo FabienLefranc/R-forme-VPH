@@ -18,7 +18,7 @@ export function PrivacyView() {
         <section>
           <h3 className="text-lg font-bold text-slate-900 mb-2">1. Collecte des données</h3>
           <p className="text-slate-600 text-sm">
-            Le site ne stocke aucune donnée personnelle de manière persistante. Les textes saisis sont traités de manière transitoire par l'intelligence artificielle pour générer des réponses.
+            En dehors de l'inscription volontaire à la newsletter (voir point 4), le site ne stocke aucune donnée personnelle de manière persistante. Les textes saisis sont traités de manière transitoire par l'intelligence artificielle pour générer des réponses.
           </p>
         </section>
 
@@ -44,7 +44,21 @@ export function PrivacyView() {
 
         {/* Section 4 */}
         <section>
-          <h3 className="text-lg font-bold text-slate-900 mb-2">4. Contact</h3>
+          <h3 className="text-lg font-bold text-slate-900 mb-2">4. Newsletter « Le Journal du VPH »</h3>
+          <p className="text-slate-600 text-sm leading-relaxed">
+            Si vous vous inscrivez à la newsletter, votre adresse e-mail est enregistrée uniquement pour vous envoyer le journal. L'inscription repose sur votre consentement et doit être confirmée par un e-mail (double validation).
+          </p>
+          <p className="text-slate-600 text-sm leading-relaxed mt-2">
+            La liste des abonnés et l'envoi sont gérés par Brevo (Sendinblue SAS, société française), qui agit comme sous-traitant et héberge les données dans l'Union européenne. Votre adresse n'est ni vendue ni transmise à d'autres. Elle est conservée tant que vous êtes abonné.
+          </p>
+          <p className="text-slate-600 text-sm leading-relaxed mt-2">
+            Vous pouvez vous désinscrire à tout moment grâce au lien présent en bas de chaque e-mail, ou en écrivant à l'adresse ci-dessous. Vous disposez aussi d'un droit d'accès, de rectification et de suppression de vos données, et pouvez saisir la CNIL.
+          </p>
+        </section>
+
+        {/* Section 5 */}
+        <section>
+          <h3 className="text-lg font-bold text-slate-900 mb-2">5. Contact</h3>
           <p className="text-slate-600 text-sm">
             Pour toute question relative à vos données, vous pouvez contacter : <a href="mailto:contact.assistant.ergo@gmail.com" className="text-indigo-600 hover:underline">contact.assistant.ergo@gmail.com</a>.
           </p>

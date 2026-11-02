@@ -12,7 +12,7 @@ const add = (search: string, priority: string, freq = 'weekly') =>
   urls.push({ loc: `${SITE_URL}/${search}`, priority, freq });
 
 add('', '1.0', 'daily');
-for (const tab of [MainTab.NEWS, MainTab.ABOUT, MainTab.CONTACT, MainTab.LEGAL, MainTab.PRIVACY]) {
+for (const tab of [MainTab.NEWS, MainTab.NEWSLETTER, MainTab.ABOUT, MainTab.CONTACT, MainTab.LEGAL, MainTab.PRIVACY]) {
   add(buildSearch({ ...HOME_STATE, tab }), tab === MainTab.NEWS ? '0.8' : '0.3', tab === MainTab.NEWS ? 'weekly' : 'monthly');
 }
 

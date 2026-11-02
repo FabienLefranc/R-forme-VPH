@@ -23,6 +23,7 @@ const TAB_SLUGS: Record<MainTab, string> = {
   [MainTab.CONTACT]: 'contact',
   [MainTab.LEGAL]: 'mentions-legales',
   [MainTab.PRIVACY]: 'confidentialite',
+  [MainTab.NEWSLETTER]: 'newsletter',
 };
 
 const TAB_TITLES: Record<MainTab, string> = {
@@ -32,6 +33,7 @@ const TAB_TITLES: Record<MainTab, string> = {
   [MainTab.CONTACT]: 'Contact',
   [MainTab.LEGAL]: 'Mentions légales',
   [MainTab.PRIVACY]: 'Confidentialité',
+  [MainTab.NEWSLETTER]: 'Le Journal du VPH – newsletter',
 };
 
 export interface NavState {
