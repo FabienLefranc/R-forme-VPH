@@ -18,10 +18,43 @@ export enum MainTab {
   NEWSLETTER = 'NEWSLETTER'
 }
 
+/** Rubriques de la page Actualités (onglets). */
+export type NewsCategory = 'lppr' | 'solutions' | 'fabricants' | 'agenda';
+
+/** Un numéro du Journal du VPH (newsletter), affiché sur la page Actualités. */
+export interface JournalIssue {
+  /** Numéro du journal (1, 2, 3…). */
+  numero: number;
+  /** Date d'envoi aux abonnés, au format AAAA-MM-JJ (ex. '2026-11-06'). */
+  dateEnvoi: string;
+  titre: string;
+  /** 2 lignes : ce qu'il faut retenir. Visible pendant l'exclusivité. */
+  chapeau: string;
+  /** Titres des rubriques du numéro. Visibles pendant l'exclusivité. */
+  sommaire: string[];
+  /** Contenu complet en HTML, affiché seulement après les 15 jours d'exclusivité. */
+  contenu?: string;
+  /** Lien vers la version en ligne de la campagne Brevo (optionnel). */
+  lienWeb?: string;
+}
+
+/** Un salon ou événement à venir (onglet Agenda). */
+export interface UpcomingEvent {
+  /** Date de début, au format AAAA-MM-JJ. */
+  date: string;
+  nom: string;
+  lieu: string;
+  url?: string;
+}
+
 export interface NewsArticle {
   id: string;
   title: string;
   date: string;
+  /** Rubrique (onglet) de l'article. */
+  categorie?: NewsCategory;
+  /** Pour les « Solutions terrain » : le problème résolu, affiché en titre. */
+  accroche?: string;
   content: string;
   fullContent?: string; // HTML/Markdown for detailed view
   imageUrl?: string;
