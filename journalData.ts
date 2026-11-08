@@ -37,9 +37,17 @@ export const JOURNAL_ISSUES: JournalIssue[] = [
 // ─────────────────────────────────────────────────────────────────────────────
 // AGENDA : salons et événements à venir (les dates passées disparaissent seules)
 //
-//   { date: '2027-03-17', nom: 'Autonomic Sud', lieu: 'Toulouse · MEETT', url: 'https://…' },
+//   { date: '2027-03-17', dateFin: '2027-03-18', nom: 'Autonomic Sud', lieu: 'Toulouse · MEETT', url: 'https://…' },
 // ─────────────────────────────────────────────────────────────────────────────
-export const UPCOMING_EVENTS: UpcomingEvent[] = [];
+export const UPCOMING_EVENTS: UpcomingEvent[] = [
+  {
+    date: '2026-12-02',
+    dateFin: '2026-12-03',
+    nom: 'Autonomic Lille Europe',
+    lieu: 'Lille Grand Palais · entrée gratuite',
+    url: 'https://www.autonomic-expo.com/salon/autonomic-lille-europe',
+  },
+];
 
 // ─────────────────────────────────────────────────────────────────────────────
 // HISTORIQUE DES REMBOURSEMENTS (onglet « Remboursement LPPR »)
