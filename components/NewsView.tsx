@@ -148,7 +148,7 @@ export const NewsView: React.FC<NewsViewProps> = ({ onNavigate, onContact, onNew
 
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   const evenementsAVenir = UPCOMING_EVENTS
-    .filter(e => parseISODate(e.date) >= today)
+    .filter(e => parseISODate(e.dateFin || e.date) >= today)
     .sort((a, b) => a.date.localeCompare(b.date));
 
   const byCat = (c: NewsCategory) => NEWS_ARTICLES.filter(a => a.categorie === c);
@@ -473,8 +473,8 @@ export const NewsView: React.FC<NewsViewProps> = ({ onNavigate, onContact, onNew
             const d = parseISODate(e.date);
             const inner = (
               <>
-                <div className="bg-slate-900 text-white rounded-xl w-16 h-16 flex flex-col items-center justify-center shrink-0">
-                  <span className="text-2xl font-black leading-none">{d.getDate()}</span>
+                <div className="bg-slate-900 text-white rounded-xl min-w-16 h-16 px-2 flex flex-col items-center justify-center shrink-0">
+                  <span className="text-2xl font-black leading-none whitespace-nowrap">{d.getDate()}{e.dateFin && e.dateFin !== e.date ? `-${parseISODate(e.dateFin).getDate()}` : ''}</span>
                   <span className="text-[11px] font-bold uppercase">{d.toLocaleDateString('fr-FR', { month: 'short' })}</span>
                 </div>
                 <div>

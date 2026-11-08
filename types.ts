@@ -42,6 +42,8 @@ export interface JournalIssue {
 export interface UpcomingEvent {
   /** Date de début, au format AAAA-MM-JJ. */
   date: string;
+  /** Date de fin si l'événement dure plusieurs jours (AAAA-MM-JJ). */
+  dateFin?: string;
   nom: string;
   lieu: string;
   url?: string;
