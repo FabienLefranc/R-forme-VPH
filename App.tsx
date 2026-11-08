@@ -733,7 +733,7 @@ export default function App() {
             </div>
         )}
 
-        {currentTab === MainTab.NEWS && <NewsView onNavigate={handleNewsNavigate} onContact={() => setCurrentTab(MainTab.CONTACT)} onNewsletter={() => { setCurrentTab(MainTab.NEWSLETTER); window.scrollTo(0, 0); }} />}
+        {currentTab === MainTab.NEWS && <NewsView onNavigate={handleNewsNavigate} onContact={() => setCurrentTab(MainTab.CONTACT)} onNewsletter={() => { setCurrentTab(MainTab.NEWSLETTER); window.scrollTo(0, 0); }} onPrivacy={() => { setCurrentTab(MainTab.PRIVACY); window.scrollTo(0, 0); }} />}
         {currentTab === MainTab.NEWSLETTER && <NewsletterView onPrivacy={() => { setCurrentTab(MainTab.PRIVACY); window.scrollTo(0, 0); }} />}
         {currentTab === MainTab.ABOUT && <AboutView />}
         {currentTab === MainTab.CONTACT && <ContactView />}
@@ -741,7 +741,8 @@ export default function App() {
         {currentTab === MainTab.PRIVACY && <PrivacyView />}
       </main>
 
-      {currentTab !== MainTab.NEWSLETTER && (
+      {/* Bandeau masqué sur la newsletter et les actualités (qui ont déjà leur propre formulaire) */}
+      {currentTab !== MainTab.NEWSLETTER && currentTab !== MainTab.NEWS && (
       <section className="bg-indigo-600 mt-auto print:hidden" aria-label="Newsletter">
         <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-center">
           <div className="flex items-start gap-4 text-left">
@@ -766,7 +767,7 @@ export default function App() {
       </section>
       )}
 
-      <footer className={`bg-slate-900 text-slate-400 py-12 border-t border-slate-800 print:hidden ${currentTab === MainTab.NEWSLETTER ? 'mt-auto' : ''}`}>
+      <footer className={`bg-slate-900 text-slate-400 py-12 border-t border-slate-800 print:hidden ${(currentTab === MainTab.NEWSLETTER || currentTab === MainTab.NEWS) ? 'mt-auto' : ''}`}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
             <div>

@@ -5,6 +5,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '19',
     title: 'Nouveautés LPPR & Grand Changement (Septembre 2026) : INVACARE devient DHCARE !',
     date: '08 Septembre 2026',
+    categorie: 'lppr',
     content: 'Découvrez les actualités majeures de la rentrée : l\'ajout de nouveaux fauteuils et scooters au remboursement CPAM (Otto Bock, Sunrise Medical, Pride, Sungo) et l\'évolution historique du distributeur Invacare Poirier France qui devient DHCARE.',
     fullContent: `
       <div class="space-y-4">
@@ -50,6 +51,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '18',
     title: 'Mises à jour LPPR (Août) : Prise en charge CPAM pour le scooter Eon et la poussette Corzino !',
     date: '18 Août 2026',
+    categorie: 'lppr',
     content: 'Découvrez les nouveautés de l’été inscrites à la prise en charge Assurance Maladie : la poussette-canne Corzino de PATRON BOHEMIA (distribuée par CREE) et le scooter modulaire Eon de VERMEIREN.',
     fullContent: `
       <div class="space-y-4">
@@ -78,6 +80,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '17',
     title: 'Nouveautés de Juillet : Ajouts dans les catégories FRMA et POU_MRE !',
     date: '05 Juillet 2026',
+    categorie: 'lppr',
     content: 'Découvrez les deux nouveaux dispositifs intégrés au guide ce mois-ci : le fauteuil manuel actif SPEEDY A1 de Pro Activ (distribué par E. PGH) en catégorie FRMA et la poussette évolutive Stingray de chez CREE France en catégorie POU_MRE.',
     fullContent: `
       <div class="space-y-4">
@@ -127,6 +130,8 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '16',
     title: 'Sécurité : Évitez les chutes en arrière avec le système Wabsy d\'Osmoso Handicap !',
     date: '18 Juin 2026',
+    categorie: 'solutions',
+    accroche: "Éviter que le fauteuil recule en montée",
     content: 'Découvrez le Wabsy, un système de frein auto-bloquant anti-recul innovant pour fauteuils roulants manuels. Conçu pour sécuriser les transferts et les montées, il empêche le fauteuil de reculer involontairement.',
     fullContent: `
       <div class="space-y-4">
@@ -163,6 +168,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '15',
     title: 'Mise à jour LPPR : 4 nouveaux fauteuils et 2 bases désormais remboursés !',
     date: '14 Mai 2026',
+    categorie: 'lppr',
     content: 'La liste des dispositifs pris en charge par la CPAM s\'allonge. Découvrez les nouveaux entrants : du Hector de HMS-Vilgo à l\'Icon 60 de Rehasense, ainsi que de nouvelles solutions pédiatriques et de positionnement.',
     fullContent: `
       <div class="space-y-4">
@@ -197,6 +203,8 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '14',
     title: 'Focus Transfert : Sécurisez vos mouvements avec le S-Kit de Trustis',
     date: '06 Mai 2026',
+    categorie: 'solutions',
+    accroche: "Libérer l'espace pour un transfert latéral",
     content: 'Simplifiez vos transferts latéraux avec le S-Kit. Ce système ingénieux permet d’abaisser la roue de votre fauteuil manuel pour libérer l’espace de transfert, offrant ainsi plus d’autonomie et de sécurité.',
     fullContent: `
       <div class="space-y-4">
@@ -227,6 +235,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '13',
     title: 'Événement : Le salon Handica / Autonomic Lyon arrive bientôt !',
     date: '04 Mai 2026',
+    categorie: 'agenda',
     content: 'Le salon Handica Lyon, véritable référence pour l’autonomie et le handicap, s’installe à Eurexpo les 3 et 4 juin prochains. Un rendez-vous immanquable pour découvrir les dernières solutions de mobilité et d’accessibilité.',
     fullContent: `
       <div class="space-y-4">
@@ -255,6 +264,8 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '12',
     title: 'Innovation : Dreeft, le système de freinage révolutionnaire enfin remboursé !',
     date: '29 Avril 2026',
+    categorie: 'solutions',
+    accroche: "Mieux contrôler la descente",
     content: 'Dites adieu aux brûlures et aux douleurs articulaires. Le système de freinage par rétro-pédalage Dreeft d\'Eppur est désormais pris en charge par la CPAM. Une révolution pour les utilisateurs de fauteuils manuels.',
     fullContent: `
       <div class="space-y-4">
@@ -282,6 +293,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '11',
     title: 'Nouveauté Fournisseur : 4Power4 rejoint Assistant-Ergo !',
     date: '01 Avril 2026',
+    categorie: 'fabricants',
     content: 'Découvrez 4Power4, le spécialiste du fauteuil électrique haute performance. Du verticalisateur P-Access (remboursé LPP) aux modèles 4x4 de Classe C, explorez des solutions de mobilité sans limites.',
     fullContent: `
       <div class="space-y-4">
@@ -316,6 +328,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '10',
     title: 'Interview : Stevenson Thimon nous livre sa vision de la mobilité avec Rehasense',
     date: '31 Mars 2026',
+    categorie: 'fabricants',
     content: 'Rencontre avec Stevenson Thimon, conseiller en matériel médical, qui nous explique pourquoi il a choisi de rejoindre l’aventure Rehasense et comment les gammes Icon, Aria et Wolturnus redéfinissent l’autonomie.',
     fullContent: `
       <div class="space-y-6">
@@ -383,6 +396,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '9',
     title: 'Baldertech : La liberté de mouvement venue de Norvège !',
     date: '23 Mars 2026',
+    categorie: 'fabricants',
     content: 'Découvrez Baldertech sur assistant-ergo.com. Spécialiste des fauteuils roulants électriques multi-fonctions, la marque norvégienne propose des solutions de verticalisation et d\'assise parmi les plus évoluées du marché.',
     fullContent: `
       <div class="space-y-4">
@@ -415,12 +429,13 @@ export const NEWS_ARTICLES: NewsArticle[] = [
 },
   {
     id: '7',
-    title: 'SKS Roltek : La haute précision suisse arrive sur Assistant-Ergo !',
+    title: 'SKS Roltec : La haute précision suisse arrive sur Assistant-Ergo !',
     date: '22 Mars 2026',
-    content: 'Découvrez SKS Roltek, le spécialiste suisse du fauteuil roulant électrique haut de gamme. Connus pour leur robustesse et leur compacité, les modèles SKS redéfinissent la mobilité tout-terrain et urbaine.',
+    categorie: 'fabricants',
+    content: 'Découvrez SKS Roltec, le spécialiste suisse du fauteuil roulant électrique haut de gamme. Connus pour leur robustesse et leur compacité, les modèles SKS redéfinissent la mobilité tout-terrain et urbaine.',
     fullContent: `
       <div class="space-y-4">
-        <p>Depuis plus de 30 ans, <strong>SKS Roltek</strong> (SKS Rehab AG) conçoit et fabrique des solutions de mobilité d'une fiabilité exceptionnelle. La marque suisse se distingue par une approche artisanale alliée à une technologie de pointe, offrant des fauteuils électriques capables de s'adapter aux morphologies les plus complexes.</p>
+        <p>Depuis plus de 30 ans, <strong>SKS Roltec</strong> (SKS Rehab AG) conçoit et fabrique des solutions de mobilité d'une fiabilité exceptionnelle. La marque suisse se distingue par une approche artisanale alliée à une technologie de pointe, offrant des fauteuils électriques capables de s'adapter aux morphologies les plus complexes.</p>
         
         <h4 class="font-bold text-slate-900">Ce qui rend SKS unique :</h4>
         <ul class="list-disc pl-5 space-y-2">
@@ -436,7 +451,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
       </div>
     `,
     imageUrl: 'https://www.sks-rehab.com/data/images/mod_news/thumb_250903_sksroltec_news_bild_2_1025.png',
-    hashtags: ['SKSRoltek', 'QualitéSuisse', 'FRE', 'MobilitéÉlectrique', 'Ergothérapie', 'Handicap'],
+    hashtags: ['SKSRoltec', 'QualitéSuisse', 'FRE', 'MobilitéÉlectrique', 'Ergothérapie', 'Handicap'],
     linkedinUrl: '',
     internalLink: {
       type: 'BRAND',
@@ -451,6 +466,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '6',
     title: 'Événement : Le salon Autonomic Sud à Toulouse !',
     date: '18 Mars 2026',
+    categorie: 'agenda',
     content: 'Le rendez-vous incontournable du handicap et de l’autonomie revient au MEETT de Toulouse les 25 et 26 mars prochains. Venez découvrir les dernières innovations et solutions techniques pour le Grand Âge et le Handicap.',
     fullContent: `
       <div class="space-y-4">
@@ -485,6 +501,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '5',
     title: 'Pédiatrie : Les poussettes Trak et Reach désormais remboursées !',
     date: '17 Mars 2026',
+    categorie: 'lppr',
     content: 'Une étape clé pour l’accompagnement des plus jeunes : les poussettes multiréglables et évolutives Trak et Reach, distribuées par Pride Mobility, sont maintenant prises en charge par la CPAM.',
     fullContent: `
       <div class="space-y-4">
@@ -516,6 +533,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '4',
     title: 'Nouveauté : La gamme LightChair débarque sur Assistant-Ergo !',
     date: '17 Mars 2026',
+    categorie: 'fabricants',
     content: 'Découvrez les nouveaux fauteuils roulants électriques (FRE) de Logo Silver Europe : le LightChair et le LightChair +. Des solutions modulaires, légères et désormais disponibles en Classe A et Classe B.',
     fullContent: `
       <div class="space-y-4">
@@ -547,6 +565,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '3',
     title: 'Le Panthera S3 de Permobil désormais remboursé par la CPAM !',
     date: '17 Mars 2026',
+    categorie: 'lppr',
     content: 'Une excellente nouvelle pour les amateurs de légèreté : le célèbre fauteuil manuel actif Panthera S3 est dorénavant pris en charge par la CPAM en catégorie FRMC.',
     fullContent: `
       <div class="space-y-4">
@@ -579,6 +598,8 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '2',
     title: 'Excellente nouvelle : L\'Empulse M90 est désormais remboursé !',
     date: '17 Mars 2026',
+    categorie: 'solutions',
+    accroche: "Soulager les épaules sur les longues distances",
     content: 'Bonne nouvelle pour votre mobilité ! L\'assistance électrique sans fil Empulse M90 de Sunrise Medical bénéficie désormais d\'une prise en charge par la CPAM. Une opportunité parfaite pour booster votre fauteuil manuel sans contrainte de câbles.',
     fullContent: `
       <div class="space-y-4">
@@ -611,6 +632,7 @@ export const NEWS_ARTICLES: NewsArticle[] = [
     id: '1',
     title: 'Sport : Les fauteuils RGK Elite et Grand Slam désormais remboursés !',
     date: '16 Mars 2026',
+    categorie: 'lppr',
     content: 'Une victoire pour le sport adapté ! Depuis début mars, les fauteuils roulants de sport (FRMS) RGK Elite et Grand Slam de Sunrise Medical sont officiellement remboursés par la CPAM, rejoignant ainsi les célèbres A2 et G2.',
     fullContent: `
       <div class="space-y-4">
