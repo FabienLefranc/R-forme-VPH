@@ -12597,6 +12597,59 @@ export const CATEGORIES: Category[] = [
                     { name: "Gris anthracite", hex: "#3A3D40" }
                   ]
                 }
+              },
+              {
+                id: "vermeiren-inovys-ii-l70",
+                name: "Vermeiren Inovys II + L70",
+                description: "Fauteuil roulant de positionnement à pousser, qui associe le fauteuil Inovys II et le système de siège en granules L70 créé par Vermeiren. Les coussins remplis de polystyrène au niveau du dossier, de l'assise et des jambes répartissent la pression et épousent les contours du corps. Il s'adresse aux personnes qui restent en position assise passive et ont besoin d'un grand confort d'assise. Il existe en largeur d'assise 45 ou 50 cm, avec roues arrière 16 pouces et freins à tambour.",
+                imageUrl: "https://www.vermeiren.be/product/picture.nsf/O/6D5BE84E73294D84C125865B004B323B/$FILE/web_Inovys%20II%20L70%20-%203Q%20view.jpg",
+                manufacturerUrl: "https://www.vermeiren.be/web/web.nsf/detailproduct.xsp?CountryVBFRProductGroupFauteuils%20de%20maintien%20et%20de%20soinsSubGroupChaises%20roulantesSelectedInovys%20II%20%2B%20L70",
+                isPediatric: false,
+                isBariatric: false,
+                details: {
+                  presentation: [
+                    "Système de siège en granules L70 monté sur le fauteuil Inovys II existant.",
+                    "Coussins remplis de polystyrène (dossier, assise, jambes) qui suivent les contours du corps et répartissent la pression.",
+                    "Version standard : housse en peluche, accoudoirs réglables en hauteur, tablette rabattable.",
+                    "Roues arrière 16 pouces avec freins à tambour, roulettes avant 200 x 50 mm.",
+                    "Largeur d'assise 45 cm ou 50 cm, profondeur d'assise adaptable."
+                  ],
+                  specs: [
+                    {label: "Poids maximum utilisateur", value: "135 kg"},
+                    {label: "Largeur hors tout", value: "680 à 730 mm"},
+                    {label: "Longueur hors tout", value: "1280 mm"},
+                    {label: "Hauteur hors tout", value: "990 à 1060 mm"},
+                    {label: "Largeur d'assise", value: "450 à 500 mm"},
+                    {label: "Profondeur d'assise", value: "460 à 520 mm"},
+                    {label: "Hauteur d'assise avant", value: "510 à 580 mm"},
+                    {label: "Hauteur de dossier", value: "550 à 600 mm et 700 à 750 mm (selon configuration)"},
+                    {label: "Inclinaison d'assise", value: "0° à 30°"},
+                    {label: "Poids total", value: "38 kg"}
+                  ],
+                  options: [
+                    "Coussins latéraux de soutien",
+                    "Coussin de soutien des jambes",
+                    "Ceinture de sécurité",
+                    "Porte-sérum",
+                    "Support pour bouteille d'oxygène",
+                    "Repose-tête (nouveau modèle ou modèle confort)",
+                    "Tablette PVC rabattable (standard), tablette bois rabattable ou tablette ABS noire à double fixation",
+                    "Profondeur d'assise adaptable (certaines options uniquement en largeur 45 cm)",
+                    "Cadre en coloris champagne"
+                  ],
+                  pros: [
+                    "Répartition de la pression et positionnement sur mesure grâce aux coussins en granules",
+                    "Largeur et profondeur d'assise adaptables",
+                    "Nombreuses options de positionnement et d'accessoires médicaux (oxygène, perfusion)"
+                  ],
+                  cons: [
+                    "Poids de 38 kg",
+                    "Largeur minimale d'assise de 450 mm : pas adapté aux petits gabarits",
+                    "Inclinaison d'assise 0 à 30° sur la fiche contre 0 à 21° (vérin à gaz) dans la notice : à confirmer",
+                    "Coloris de revêtement non indiqués sur la page ; image du produit à ajouter"
+                  ],
+                  colors: [{name: "Gris", hex: "#8E8E93"}]
+                }
               }
             ],
           },
@@ -17424,65 +17477,72 @@ export const CATEGORIES: Category[] = [
             name: "Permobil",
             models: [
               {
-                id: "permobil-m3-corpus",
-                name: "Permobil M3 Corpus",
-                description: "Fauteuil roulant électrique à roues motrices centrales et 6 roues, compact et maniable dans les espaces étroits, avec assise Corpus ergonomique et soulagement de pression. Suspension FlexLink indépendante, phares LED puissants, lift et bascule d'assise, Active Reach (inclinaison avant) et application MyPermobil.",
+                id: "permobil-m3-lite-corpus",
+                name: "Permobil M3 Corpus Édition Lite",
+                description: "Le M3 Corpus Édition Lite est un fauteuil roulant électrique à propulsion centrale de Permobil, décliné de la gamme M3 Corpus. Il offre un dossier inclinable électriquement de 85° à 150°, une bascule d'assise électrique de 50° vers l'arrière et une électronique R-net 120 A avec joystick à LED. Il supporte jusqu'à 150 kg d'utilisateur, avance jusqu'à 10 km/h et annonce 30 km d'autonomie avec ses batteries de 65 Ah. L'assise Corpus Ergo est livrée avec un appui-tête ajustable, une ceinture à fermeture rapide et des poignées de poussée.",
                 imageUrl: "https://permobilwebcdn.azureedge.net/media/hggbjdhq/m3-corpus_iso-left_1251x1251.png?upscale=false",
                 manufacturerUrl: "https://www.permobil.com/fr-fr/produits/fauteuils-electriques/permobil-m3-corpus",
                 isPediatric: false,
                 isBariatric: true,
                 details: {
                   presentation: [
-                    "Roues motrices centrales : pivotement sur place.",
-                    "Suspension FlexLink indépendante sur les 6 roues.",
-                    "Assise Corpus réglable, conçue pour réduire les risques d'escarres.",
-                    "Éclairage LED puissant de série.",
-                    "Stabilité en différentes positions d'assise."
+                    "Fauteuil électrique à propulsion centrale, suspension Smooth Suspension",
+                    "Électronique R-net 120 A, joystick R-net à LED",
+                    "Dossier inclinable électriquement de 85° à 150° et bascule d'assise électrique de 50°",
+                    "Coussin d'assise ergonomique Corpus Ergo, appui-tête ajustable, ceinture à fermeture rapide, poignées de poussée",
+                    "Module de connectivité Connect-Me 4G, batteries Permobil 65 Ah, chargeur VoltPro 24 V / 10 A"
                   ],
                   specs: [
-                    { label: "Poids, batteries incluses", value: "173,0 / 185,6 kg" },
                     { label: "Poids maximal utilisateur", value: "150 kg" },
-                    { label: "Vitesses", value: "6 / 8 / 10 km/h" },
-                    { label: "Autonomie (site assistant-ergo.fr)", value: "jusqu'à 30 km" },
+                    { label: "Vitesse maximale", value: "10 km/h" },
+                    { label: "Autonomie maximale", value: "30 km (batteries 65 Ah ; valeur maximale, moindre en usage fréquent en pente, terrain accidenté ou virages en montée)" },
+                    { label: "Batteries", value: "2 × Permobil 65 Ah (17,5 kg chacune)" },
+                    { label: "Chargeur", value: "Permobil VoltPro 24 V / 10 A" },
                     { label: "Largeur d'assise", value: "420 à 570 mm" },
-                    { label: "Profondeur d'assise", value: "370 à 570 mm" },
-                    { label: "Hauteur du siège au sol", value: "450 à 750 mm" },
-                    { label: "Largeur de la base", value: "615 mm" },
-                    { label: "Longueur de la base", value: "1080 mm" },
-                    { label: "Rayon de braquage minimal", value: "1120 mm" },
-                    { label: "Élévation d'assise (site assistant-ergo.fr)", value: "300 mm" },
-                    { label: "Bascule d'assise (site assistant-ergo.fr)", value: "0° à 50°" },
-                    { label: "Franchissement d'obstacle (site assistant-ergo.fr)", value: "75 mm" },
-                    { label: "Batteries", value: "Group 34 : 65 Ah / Group 24 : 85 Ah" }
+                    { label: "Profondeur d'assise", value: "370 à 570 mm (par pas de 25 mm)" },
+                    { label: "Hauteur d'assise (sans coussin)", value: "450 mm" },
+                    { label: "Largeur du dossier", value: "360 / 410 / 460 / 510 mm" },
+                    { label: "Hauteur du dossier", value: "470 mm ou 545 à 670 mm (par pas de 25 mm)" },
+                    { label: "Distance entre accoudoirs", value: "380 à 480 mm ou 480 à 580 mm" },
+                    { label: "Hauteur des accoudoirs", value: "185 à 320 mm" },
+                    { label: "Largeur du châssis", value: "615 mm" },
+                    { label: "Largeur totale (assise comprise)", value: "615 à 790 mm" },
+                    { label: "Longueur maximale (assise comprise)", value: "1 080 mm" },
+                    { label: "Hauteur totale", value: "960 à 1 170 mm" },
+                    { label: "Rayon de giration minimum", value: "560 mm" },
+                    { label: "Braquage dans les couloirs", value: "1 110 mm" },
+                    { label: "Franchissement d'obstacle", value: "50 mm à l'arrêt / 75 mm avec élan" },
+                    { label: "Dimensions de transport minimales", value: "longueur 795 mm sans roulettes anti-bascule (855 mm avec) ; hauteur 823 mm dossier replié" },
+                    { label: "Poids (batteries incluses)", value: "172 kg" },
+                    { label: "Bascule d'assise électrique", value: "50° (arrière)" },
+                    { label: "Inclinaison du dossier électrique", value: "85° à 150°" },
+                    { label: "Normes", value: "Testé selon EN 12182 / EN 12184, marquage CE" }
                   ],
                   options: [
-                    "Active Reach (inclinaison avant jusqu'à 20°)",
-                    "Lift et bascule d'assise électrique",
-                    "Application MyPermobil",
-                    "Coussins et dossiers Corpus",
-                    "Commandes spéciales",
-                    "Kits de couleurs hydrographiques, coloris premium et gold"
+                    "Kit éclairage LED",
+                    "Relève-jambes électrique (90° à 180°)",
+                    "Commande tierce personne"
                   ],
                   pros: [
-                    "Maniabilité en intérieur grâce à l'axe de rotation central",
-                    "Confort d'assise Corpus pour une assise prolongée",
-                    "Charge de 150 kg"
+                    "Charge maximale de 150 kg",
+                    "Châssis compact (615 mm) et rayon de giration réduit (560 mm)",
+                    "Dossier et bascule d'assise motorisés de série",
+                    "Large choix de dimensions d'assise (largeur 420 à 570 mm, profondeur 370 à 570 mm)",
+                    "Connectivité Connect-Me 4G"
                   ],
                   cons: [
-                    "Poids de 173 à 186 kg avec batteries : transport adapté",
-                    "Réglage professionnel précis nécessaire",
-                    "Rayon de braquage de 1120 mm selon Permobil (560 mm sur le site assistant-ergo.fr) : écart à vérifier",
-                    "Autonomie, lift et bascule issus du site assistant-ergo.fr (non repris sur la page Permobil)"
+                    "Poids élevé (172 kg batteries incluses)",
+                    "Autonomie maximale de 30 km seulement avec les batteries 65 Ah",
+                    "Les options du M3 Corpus standard (lift d'assise, bascule avant) ne sont pas mentionnées dans la brochure Édition Lite",
+                    "La brochure ne compare pas l'Édition Lite au M3 Corpus standard, et ne donne ni coloris ni garantie (texte descriptif factice dans le document)",
+                    "Aucune image Open Graph sur la page produit Permobil"
                   ],
                   colors: [
-                    { name: "Ocean Blue", hex: "#1F5FA8" },
-                    { name: "Power Pink", hex: "#E75480" },
-                    { name: "Galvanized Gold", hex: "#B8962E" },
-                    { name: "Midnight Black", hex: "#0D0D0D" },
-                    { name: "Arctic Silver", hex: "#C0C0C0" }
+                    { name: "Canary", hex: "#F2D21B" }, { name: "Spring", hex: "#8CC63F" }, { name: "Aqua", hex: "#2BB5C8" }, { name: "Sky", hex: "#6FB7E9" },
+                    { name: "Sunset", hex: "#F28C28" }, { name: "Chili", hex: "#C8202F" }, { name: "Flamingo", hex: "#F06FA0" }, { name: "Violet", hex: "#6B3FA0" },
                   ]
                 }
-              },
+              }
             ],
           },
           {
@@ -19750,6 +19810,44 @@ export const CATEGORIES: Category[] = [
                 }
               },
               {
+                id: "permobil-m4",
+                name: "Permobil M4 Nexa",
+                description: "Le M4 Nexa de Permobil est un fauteuil roulant électrique compact doté d'un système d'assise entièrement motorisé, d'une hauteur d'assise basse et de performances silencieuses. Il propose une assise élévatrice (Active Height) jusqu'à 300 mm et une bascule d'assise avant (Active Reach) jusqu'à 10°. Le système d'assise Nexa permet un réglage de la largeur, de la profondeur et des accoudoirs sans palier, y compris en position assise. Trois versions existent : standard, Junior (largeur d'assise à partir de 30 cm) et Low Height (hauteur d'assise à partir de 39 cm).",
+                imageUrl: "https://hub.permobil.com/hs-fs/hubfs/EMEA_Tilt_Side_Left.png?width=2660&height=2128&name=EMEA_Tilt_Side_Left.png",
+                manufacturerUrl: "https://hub.permobil.com/fr-fr/m4-nexa",
+                isPediatric: true,
+                isBariatric: false,
+                details: {
+                  presentation: [
+                    "Fauteuil électrique compact avec système d'assise entièrement motorisé",
+                    "Versions Standard, Junior (Jr) et Low Height (LH)",
+                    "Basculement électrique 50°, inclinaison de dossier électrique 150°, repose-jambes 85° à 175°",
+                    "Connectivité +Connect : application MyPermobil, Fleet Management, QuickConfig",
+                    "Éclairage LED personnalisable"
+                  ],
+                  specs: [
+                    { label: "Poids maximal utilisateur", value: "non indiqué sur la page fabricant (136 kg selon CERAHTEC)" },
+                    { label: "Largeur d'assise", value: "à partir de 30 cm (version Jr)" },
+                    { label: "Hauteur d'assise au sol", value: "à partir de 39 cm (version LH)" },
+                    { label: "Élévation d'assise (Active Height)", value: "jusqu'à 300 mm" },
+                    { label: "Bascule avant (Active Reach)", value: "jusqu'à 10°" },
+                    { label: "Bascule électrique", value: "50°" },
+                    { label: "Inclinaison dossier électrique", value: "150°" },
+                    { label: "Batteries", value: "non indiqué sur la page fabricant (52/68 Ah selon CERAHTEC)" },
+                    { label: "Vitesse maximale", value: "non indiqué" },
+                    { label: "Autonomie", value: "non indiqué" },
+                    { label: "Poids du fauteuil", value: "non indiqué" },
+                    { label: "Dimensions du châssis", value: "non indiqué" }
+                  ],
+                  options: ["Accoudoirs cascade rabattables, à dégagement rapide ou pivotants", "Repose-jambes motorisés avec extension", "Repose-pieds escamotables", "Assise élévatrice Active Height", "Bascule avant Active Reach", "Éclairage LED personnalisable", "Gamme d'accessoires"],
+                  pros: ["Assise entièrement motorisée avec élévation jusqu'à 300 mm", "Version Junior dès 30 cm de largeur d'assise", "Version basse (39 cm) facilitant les transferts et l'accès aux tables", "Réglages d'assise sans palier, y compris en position assise"],
+                  cons: [
+                    "La page fabricant ne donne ni poids maximal, ni batteries, ni vitesse, ni autonomie, ni dimensions réelles : valeurs CERAHTEC (136 kg, 52/68 Ah) non vérifiables côté fabricant"
+                  ],
+                  colors: [{ name: "Noir de Jais", hex: "#0D0D0D" },]
+                }
+              },
+              {
                 id: "permobil-m5-corpus",
                 name: "Permobil M5 Corpus",
                 description: "Fauteuil électrique haut de gamme à roues motrices centrales pour utilisateurs actifs : jusqu'à 12 km/h, suspension indépendante sur six roues, Active Height de 0 à 350 mm et Active Reach de 5 à 20°. Assise Corpus, électronique Power Platform 120A avec QuickConfig. Charge de 150 kg.",
@@ -20209,6 +20307,78 @@ export const CATEGORIES: Category[] = [
                 }
               }
             ],
+          },
+          {
+            id: "roltec",
+            name: "Roltec",
+            models: [
+            { id: "sks-roltec-sr-31r-compact", name: "SKS Roltec SR 31R Compact", description: "Fauteuil roulant électrique SR 31R Compact de la gamme SKS Roltec (fabricants SKS REHAB AG / ROLTEC EL-KORESTOLE), listé au CERAHTEC. Batteries de 48 Ah selon le CERAHTEC. Les autres caractéristiques (poids max, largeurs d'assise, dimensions, autonomie) n'ont pas pu être vérifiées sur une page fabricant.", imageUrl: "", manufacturerUrl: "", isPediatric: false, isBariatric: false, details: { presentation: ["Fiche partielle : page produit fabricant introuvable"], specs: [{label: "Batteries", value: "48 Ah (CERAHTEC)"}, {label: "Poids maximal utilisateur", value: "non indiqué"}, {label: "Largeur d'assise", value: "non indiqué"}, {label: "Vitesse", value: "non indiqué"}, {label: "Autonomie", value: "non indiqué"}], options: [], pros: [], cons: ["Caractéristiques non vérifiées sur le site fabricant"], colors: [] } },
+            { id: "sks-roltec-sr-33r", name: "SKS Roltec SR 33R", description: "Fauteuil roulant électrique SR 33R de la gamme SKS Roltec (SKS REHAB AG / ROLTEC EL-KORESTOLE), listé au CERAHTEC. Batteries de 63 Ah selon le CERAHTEC. Les autres caractéristiques n'ont pas pu être vérifiées sur une page fabricant.", imageUrl: "", manufacturerUrl: "", isPediatric: false, isBariatric: false, details: { presentation: ["Fiche partielle : page produit fabricant introuvable"], specs: [{label: "Batteries", value: "63 Ah (CERAHTEC)"}, {label: "Poids maximal utilisateur", value: "non indiqué"}, {label: "Largeur d'assise", value: "non indiqué"}, {label: "Vitesse", value: "non indiqué"}, {label: "Autonomie", value: "non indiqué"}], options: [], pros: [], cons: ["Caractéristiques non vérifiées sur le site fabricant"], colors: [] } },
+            { id: "sks-roltec-sr-33rs", name: "SKS Roltec SR 33RS", description: "Fauteuil roulant électrique verticalisateur SR 33RS de la gamme SKS Roltec (SKS REHAB AG / ROLTEC EL-KORESTOLE), listé au CERAHTEC. La largeur d'assise va de 380 à 500 mm selon le CERAHTEC. Les autres caractéristiques n'ont pas pu être vérifiées sur une page fabricant.", imageUrl: "", manufacturerUrl: "", isPediatric: false, isBariatric: false, details: { presentation: ["Fiche partielle : page produit fabricant introuvable", "Fonction verticalisation (CERAHTEC)"], specs: [{label: "Largeur d'assise", value: "380 à 500 mm (CERAHTEC)"}, {label: "Poids maximal utilisateur", value: "non indiqué"}, {label: "Batteries", value: "non indiqué"}, {label: "Vitesse", value: "non indiqué"}, {label: "Autonomie", value: "non indiqué"}], options: [], pros: ["Verticalisation"], cons: ["Caractéristiques non vérifiées sur le site fabricant"], colors: [] } },
+            { id: "sks-roltec-sr-50m", name: "SKS Roltec SR 50M", description: "Fauteuil roulant électrique SR 50M de la gamme SKS Roltec (SKS REHAB AG / ROLTEC EL-KORESTOLE), distribué en France par A.C.A. et listé au CERAHTEC. Poids maximal utilisateur de 140 kg selon le CERAHTEC. Batteries et autres caractéristiques non indiquées.", imageUrl: "", manufacturerUrl: "", isPediatric: false, isBariatric: true, details: { presentation: ["Fiche partielle : page produit fabricant introuvable"], specs: [{label: "Poids maximal utilisateur", value: "140 kg (CERAHTEC)"}, {label: "Batteries", value: "non indiqué"}, {label: "Largeur d'assise", value: "non indiqué"}, {label: "Vitesse", value: "non indiqué"}, {label: "Autonomie", value: "non indiqué"}], options: [], pros: [], cons: ["Poids max à confirmer sur la page fabricant (non trouvée)"], colors: [] } },
+            {
+              id: "sks-roltec-sr-70f",
+              name: "SKS Roltec SR 70F",
+              description: "Fauteuil roulant électrique multi-position à traction avant, de classe B (FREP), distribué en France par A.C.A. Il combine une assise très réglable (largeur de 40 à 64 cm, hauteur de 36 à 72 cm sans coussin) et une inclinaison d'assise de -7° à 40°. Vitesse de 10 km/h, autonomie annoncée de 40 km et charge max de 130 kg. L'élévation d'assise (lift) et l'inclinaison électrique du dossier sont en option, avec un large choix de commandes, de repose-jambes et de positionnement. Cette fiche s'appuie sur le bon de commande A.C.A. de décembre 2025.",
+              imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtYaD47q7oCn-UPOXLFUuupkd52TfMRl07BjGEJGf7ag&s",
+              manufacturerUrl: "https://aca-france.com/wp-content/uploads/2024/01/BON-DE-COMMANDE-ROLTEC-SR70F-2026-6.pdf",
+              isPediatric: false,
+              isBariatric: false,
+              details: {
+                presentation: [
+                  "Fauteuil électrique multi-position, traction avant, classe B (FREP)",
+                  "Assise très réglable : largeur 40 à 64 cm, hauteur 36 à 72 cm",
+                  "Élévation électrique (LIFT) et inclinaison d'assise en option"
+                ],
+                specs: [
+                  { label: "Poids max utilisateur", value: "130 kg" },
+                  { label: "Poids du fauteuil", value: "150 kg" },
+                  { label: "Largeur d'assise", value: "40 à 64 cm" },
+                  { label: "Profondeur d'assise", value: "48 à 55 cm (38 à 55 cm en option)" },
+                  { label: "Hauteur d'assise sans coussin", value: "36 à 72 cm" },
+                  { label: "Hauteur du dossier", value: "50 à 57 cm (48 à 60 cm en option)" },
+                  { label: "Largeur hors tout", value: "63 cm" },
+                  { label: "Longueur", value: "95 cm sans repose-pieds / 103 cm avec repose-pieds escamotés" },
+                  { label: "Vitesse maximale", value: "10 km/h" },
+                  { label: "Autonomie", value: "40 km" },
+                  { label: "Batteries", value: "56 Ah (56 ou 80 Ah selon le CERAHTEC)" },
+                  { label: "Roues motrices (avant)", value: "3.00 × 8 pouces, gonflables ou pleines (bandage)" },
+                  { label: "Roues arrière (directrices)", value: "200 × 50 mm, bandage noir ou gris" },
+                  { label: "Rayon de braquage (pivot)", value: "1200 mm" },
+                  { label: "Garde au sol", value: "8 cm" },
+                  { label: "Obstacle franchissable", value: "70 mm" },
+                  { label: "Inclinaison d'assise", value: "-7° à 40°" },
+                  { label: "Angle du dossier", value: "0° à 90°" },
+                  { label: "Angle du repose-pieds", value: "0° à 90°" }
+                ],
+                options: [
+                  "Élévation électrique (LIFT) et inclinaison d'assise",
+                  "Inclinaison électrique du dossier (45° ou 85°)",
+                  "Repose-jambes central ou séparé, manuel ou électrique",
+                  "Appui-tête réglable, dossiers et coussins d'assise (dont coussin comfort 9 cm visco)",
+                  "Accoudoirs fixes ou relevables, manchettes, gouttières, demi-tablettes",
+                  "Appuis latéraux, appui thoracique, cale-cuisses, harnais",
+                  "Commandes : joysticks R-Net, Omni, Mo-Vis, menton, pied, joystick tierce personne",
+                  "Fixation véhicule DAHL ou Q'Straint avec sabot d'arrimage automatique",
+                  "Translation d'assise de 15 cm vers l'avant, chauffe-mains, support sac, bouton d'arrêt d'urgence, poignée de dossier"
+                ],
+                pros: [
+                  "Assise très ajustable, jusqu'à 64 cm de large",
+                  "Autonomie annoncée de 40 km et vitesse de 10 km/h",
+                  "Large choix de commandes et d'options de posture"
+                ],
+                cons: [
+                  "Fauteuil lourd (150 kg), à prévoir pour le transport et l'accès au logement",
+                  "Pente maximale non indiquée",
+                  "Capacité de batterie : 56 Ah sur le bon de commande, 56 ou 80 Ah selon le CERAHTEC",
+                  "Pas de page produit fabricant : fiche tirée d'un bon de commande, sans photo"
+                ],
+                colors: [
+                  { name: "Noir mat (châssis standard)", hex: "#1A1A1A" }
+                ]
+              }
+            }   
+           ]
           },
           {
             id: "sunrise",
@@ -21891,6 +22061,52 @@ export const CATEGORIES: Category[] = [
                 }
               }
             ],
+          },
+          {
+            id: "karma /life and mobility",
+            name: "Karma / Life & Mobility",
+            models: [
+              {
+              id: "karma-ergo-stand",
+              name: "Karma Mobility Ergo Stand (KP-80)",
+              description: "L'Ergo Stand est un fauteuil roulant électrique verticalisateur à traction avant, commercialisé en France par Life & Mobility (fabricant : Karma Mobility). Il permet de passer de la position assise à la position debout par simple pression sur un bouton, et la conduite est possible en position verticale. Il est équipé d'une assise S-Ergo (non biomécanique), d'un dossier à inclinaison électrique (80° à 120°) et d'un repose-jambes à inclinaison électrique. Trois largeurs d'assise sont proposées (400, 440 et 480 mm) pour une charge maximale utilisateur de 135 kg (136 kg selon la brochure Life & Mobility).",
+              imageUrl: "https://www.karmamedical.com/wp-content/uploads/2018/09/1050-960_KP80-black-2.png",
+              manufacturerUrl: "https://www.karmamedical.com/kp-80",
+              isPediatric: false,
+              isBariatric: false,
+              details: {
+                presentation: [
+                  "Fauteuil roulant électrique verticalisateur compact, à traction avant, pour usage intérieur et extérieur.",
+                  "Passage assis-debout en quelques secondes par simple pression sur un bouton ; conduite possible en position verticale.",
+                  "Assise S-Ergo (non biomécanique), dossier à inclinaison électrique de 80° à 120°, repose-jambes à inclinaison électrique.",
+                  "Commercialisé en France par Life & Mobility ; fabricant KARMA MOBILITY S.L."
+                ],
+                specs: [
+                  { label: "Largeur d'assise", value: "400 / 440 / 480 mm (nominale) ; 420 / 455 / 490 mm (effective, fiche Karma)" },
+                  { label: "Profondeur d'assise", value: "460 / 490 / 520 mm (nominale) ; 500 / 530 / 560 mm (effective)" },
+                  { label: "Hauteur d'assise (à la plaque)", value: "450 mm" },
+                  { label: "Charge maximale utilisateur", value: "135 kg (fiche Karma) ; 136 kg (brochure Life & Mobility)" },
+                  { label: "Motricité", value: "Traction avant, moteur 300 W" },
+                  { label: "Vitesse maximale", value: "9 km/h (9,3 selon la fiche Karma, unité non précisée)" },
+                  { label: "Autonomie", value: "25 km (25,9 km en conditions idéales selon Karma)" },
+                  { label: "Batteries", value: "2 × 50 Ah ; chargeur 24 V / 6 A ou 8 A" },
+                  { label: "Électronique", value: "VR2" },
+                  { label: "Dossier", value: "Inclinaison électrique 80° à 120°" },
+                  { label: "Dimensions hors tout (L × l × h)", value: "1000 à 1120 mm × 640 mm × 920 à 995 mm" },
+                  { label: "Dimensions pliée", value: "965 × 640 × 760 mm" },
+                  { label: "Poids total", value: "92 kg (83 kg selon la brochure Life & Mobility) ; 60,6 kg sans batteries" },
+                  { label: "Rayon de braquage minimal", value: "745 mm" },
+                  { label: "Franchissement d'obstacle / pente", value: "60 mm / 12°" },
+                  { label: "Crash-test", value: "Non testé" },
+                  { label: "Bascule d'assise, amplitude de lift", value: "non indiqué" }
+                ],
+                options: ["Appuie-tête", "Joystick rabattable sur le côté", "Ceinture de sécurité en forme de H", "Commande accompagnant Ergo Attendant Control (à levier)", "Housse de coussin de genou", "Découpe de plateau de table transparente"],
+                pros: ["Verticalisation électrique rapide, conduite possible debout", "Traction avant maniable", "Cale-genoux réglable en hauteur, profondeur et largeur ; repose-pieds à 7 niveaux de hauteur ; accoudoirs réglables en hauteur et inclinables (de série)", "Dossier et repose-jambes à inclinaison électrique", "Compact (largeur 640 mm) et démontable (dimensions pliées indiquées)"],
+                cons: ["Assise S-Ergo non biomécanique", "Non testé au crash-test (pas de transport en véhicule sur le fauteuil)", "Pas de bascule d'assise indiquée", "Écarts entre sources : charge max 135 kg (Karma) vs 136 kg (Life & Mobility), poids total 92 kg vs 83 kg, autonomie 25,9 km vs 25 km, vitesse 9,3 vs 9 km/h", "Page produit française de Life & Mobility non retrouvée : manufacturerUrl pointe vers la page Karma internationale"],
+                colors: [{ name: "Bleu diamant (standard)", hex: "#1E5AA8" }]
+              }
+            }
+           ]
           },
           {
             id: "life and mobility",
@@ -24295,7 +24511,50 @@ export const CATEGORIES: Category[] = [
                     { name: "Gris Silver", hex: "#B5B8BC" }
                   ]
                 }
-              }
+              },
+              {
+                  id: "pride-victory-xl-140",
+                  name: "Pride Victory XL 140",
+                  description: "Le Victory XL 140 est un scooter à quatre roues de Pride Mobility destiné aux utilisateurs de forte corpulence, avec une charge maximale de 181 kg. Il est équipé d'une suspension intégrale avant et arrière, de pneumatiques de 13 pouces, d'un éclairage entièrement à LED et d'un guidon enveloppant de type Delta réglable. Le siège type capitaine possède un dossier haut inclinable avec appui-tête. La brochure et la fiche technique européennes indiquent 15 km/h et jusqu'à 46,57 km d'autonomie avec batteries de 100 Ah.",
+                  imageUrl: "https://www.pridemobility.fr/wp-content/uploads/sites/16/2019/07/Victory-XL-140-RED.jpg",
+                  manufacturerUrl: "https://www.pridemobility.fr/produits/victory-xl-140/",
+                  isPediatric: false,
+                  isBariatric: true,
+                  details: {
+                    presentation: [
+                      "Scooter 4 roues, entraînement par roues arrière (transaxle scellé, moteur 24 V)",
+                      "Suspension intégrale avant et arrière, pneus pneumatiques 13 pouces",
+                      "Freinage hydraulique avec frein à disque régénératif (double système régénératif et électromécanique)",
+                      "Guidon enveloppant Delta, très réglable",
+                      "Siège capitaine avec dossier haut inclinable et appui-tête",
+                      "Éclairage tout LED, clignotants et phare inférieur"
+                    ],
+                    specs: [
+                      { label: "Poids maximal utilisateur", value: "181 kg" },
+                      { label: "Vitesse maximale", value: "15 km/h (10 km/h en option) selon fiche technique européenne ; 10 km/h selon la page Pride France" },
+                      { label: "Autonomie", value: "jusqu'à 46,57 km (batteries 100 Ah) selon brochure/fiche technique ; jusqu'à 48 km (batteries 75 Ah) selon page Pride France" },
+                      { label: "Dimensions (L x l)", value: "142,8 x 69,2 cm" },
+                      { label: "Poids sans batteries", value: "117,7 kg (123 kg selon la page Pride France)" },
+                      { label: "Batteries", value: "2 x 12 V gel/AGM, Group 31 100 Ah (75 Ah selon la page Pride France), chargeur externe 8 A" },
+                      { label: "Largeur d'assise", value: "49,5 cm hors tout (45,7 cm selon la page Pride France)" },
+                      { label: "Profondeur d'assise", value: "44,5 cm (48,3 cm selon la page Pride France)" },
+                      { label: "Hauteur d'assise", value: "47 cm" },
+                      { label: "Garde au sol", value: "13,3 cm" },
+                      { label: "Pente maximale", value: "17,6 % (10°)" },
+                      { label: "Obstacle franchissable", value: "13 cm" },
+                      { label: "Rayon de braquage", value: "environ 209 à 211 cm" }
+                    ],
+                    options: ["Sac", "Rétroviseur", "Support de bouteille d'oxygène", "Panier arrière", "Panier avant", "Support de téléphone", "Rangement sous le siège", "Porte-gobelet", "Porte-canne", "Top case", "Vitesse limitée à 10 km/h (option)"],
+                    pros: ["Charge maximale élevée (181 kg)", "Suspension intégrale et grandes roues de 13 pouces pour le confort sur terrains variés", "Éclairage tout LED", "Dossier haut inclinable avec appui-tête"],
+                    cons: [
+                      "Poids important (117,7 kg sans batteries, pièce la plus lourde 93,2 kg), le démontage est lourd",
+                      "Encombrement élevé (142,8 cm de long), rayon de braquage supérieur à 2 m",
+                      "Écarts entre sources : vitesse 15 km/h (brochure, fiche technique) contre 10 km/h (page Pride France) ; autonomie 46,57 km/100 Ah contre 48 km/75 Ah ; poids 117,7 kg contre 123 kg ; largeur d'assise 49,5 cm contre 45,7 cm",
+                      "Les accessoires listés sur la page ne sont pas précisés comme compatibles avec ce modèle"
+                    ],
+                    colors: [{ name: "Rouge", hex: "#B3121F" }, { name: "Bleu", hex: "#1F3F8F" }, { name: "Noir", hex: "#1A1A1A" }, { name: "Argent", hex: "#B8BCC2" }]
+                  }
+                }
             ],
           },
           {
@@ -24842,24 +25101,31 @@ export const CATEGORIES: Category[] = [
              {
                 id: "sunrise-medical-empulse-m90",
                 name: "Sunrise Medical Empulse M90",
-                description: "Motorisation ultra-légère sans câbles apparents qui remplace les roues arrière 24\" du fauteuil manuel. Moteurs de moyeu, batteries amovibles intégrées aux roues (homologuées IATA), joystick proportionnel sans fil, application pour régler les profils de conduite.",
+                description: "Motorisation ultra-légère sans câbles apparents qui remplace les roues arrière 24\" du fauteuil manuel. La largeur du fauteuil n'est pas modifiée et l'utilisateur garde ses pneus et ses mains courantes. Un interrupteur permet de passer de l'assistance à la roue libre sans résistance. Réglage des vitesses et des profils intérieur/extérieur via une application mobile.",
                 imageUrl: "https://www.sunrisemedical.fr/getmedia/57ffa270-d8e7-4350-a409-340f9e26572d/bg-m90-hill-control.jpg?width=2500",
                 manufacturerUrl: "https://www.sunrisemedical.fr/e-mobility/empulse/assistance-electrique-aide-a-la-propulsion/m90",
                 isPediatric: false,
                 isBariatric: false,
                 details: {
-                  presentation: ["Plug & Play, passage en roue libre.", "Régulateur de vitesse intégré.", "Adapté aux utilisateurs avec peu de force."],
+                  presentation: ["Kit de propulsion électrique à commande uniquement par l'utilisateur, monté sur les roues arrière.",
+                      "Batteries amovibles, rechargeables hors du fauteuil.",
+                      "Deux modes de commande : manette (toggle) avec régulateur de vitesse, ou contrôleur à niveaux de vitesse avec direction aux mains courantes.",
+                      "Application Android/iOS : vitesse, couple, pente, état de la batterie, mises à jour à distance.",
+                      "Régulation automatique selon le terrain et contrôle de descente.","Adapté aux utilisateurs avec peu de force."
+                      ],
                   specs: [
                     { label: "Poids total du système", value: "12,2 kg (roues et batteries incluses)" },
                     { label: "Poids par roue", value: "6,1 kg" },
                     { label: "Vitesse maximale", value: "6 km/h (10 km/h en option)" },
                     { label: "Autonomie", value: "jusqu'à 15 km" },
                     { label: "Pente franchissable", value: "jusqu'à 6° (10,5 %)" },
-                    { label: "Diamètre de roue", value: "24\"" }
+                    { label: "Diamètre de roue", value: "24\"" },
+                    {label: "Poids maximum utilisateur", value: "120 kg"},
+                    {label: "Batterie", value: "Lithium-ion 4,0 Ah, amovible"},
                   ],
-                  options: ["Vitesse maximale à 10 km/h", "Pneus et mains courantes au choix", "Batteries supplémentaires", "Support de joystick selon le châssis"],
-                  pros: ["Système le plus léger de sa catégorie", "Installation propre, sans câble", "Régulateur de vitesse"],
-                  cons: ["Autonomie de base de 15 km", "6 km/h de série", "Remplacement des roues d'origine, la largeur hors-tout peut changer", "Poids maximal utilisateur non indiqué sur ton site"],
+                  options: ["Vitesse maximale à 10 km/h", "Pneus et mains courantes au choix", "Batteries supplémentaires", "Support de joystick selon le châssis","Mode de commande toggle ou contrôleur", "Profils intérieur/extérieur", "Vitesse Base/Standard/Max", "Batterie supplémentaire", "Fixation rapide du contrôleur"],
+                  pros: ["Système le plus léger de sa catégorie", "Installation propre, sans câble", "Régulateur de vitesse","Largeur du fauteuil inchangée", "Roue libre sans résistance moteur"],
+                  cons: ["Autonomie de base de 15 km", "6 km/h de série"],
                   colors: [{ name: "Noir Anthracite", hex: "#2B2D31" }]
                 }
               }
