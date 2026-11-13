@@ -25538,6 +25538,158 @@ export const CATEGORIES: Category[] = [
             }
           ]
         },
+        {
+          "id": "marconnet",
+          "name": "Marconnet",
+          "models": [
+            {
+              "id": "MARCONNET-STRICKER-LOMO-360-12",
+              "name": "Lomo 360 12\"",
+              "description": "La Lomo 360 12\" est une 3ème roue manuelle Stricker, sans moteur, qui se fixe sur le cadre avant du fauteuil roulant et relève les deux roues avant pour le transformer en tricycle. Sa roue de 12 pouces pivotante à 360° est le format le plus compact de la gamme, adapté à la ville, aux trottoirs, à l'herbe et aux petits chemins.",
+              "imageUrl": "https://storage.googleapis.com/website-mt/produits/handbikes/lomo%20360/lomo%20360%2012/lomo-360-12-1.jpg",
+              "manufacturerUrl": "https://marconnet-technologies.com/handbikes/lomo-360/lomo-360-micro-12-pouces/44",
+              "isPediatric": false,
+              "isBariatric": false,
+              "details": {
+                "presentation": [
+                  "3ème roue manuelle qui relève les roues avant du fauteuil : franchissement facilité des pavés, gravillons, herbe et petites racines.",
+                  "Roue de 12 pouces pivotante à 360° : le fauteuil reste très maniable.",
+                  "Montage et retrait rapides, sans adaptateur dans la plupart des cas ; partageable entre plusieurs utilisateurs.",
+                  "Utilisable avec des fauteuils à roues arrière électriques."
+                ],
+                "specs": [
+                  {
+                    "label": "Roue",
+                    "value": "12 pouces, pivotante à 360°"
+                  },
+                  {
+                    "label": "Angle de fourche",
+                    "value": "Réglable"
+                  },
+                  {
+                    "label": "Motorisation",
+                    "value": "Aucune (3ème roue manuelle)"
+                  },
+                  {
+                    "label": "Fixation",
+                    "value": "Système de serrage rapide Stricker sur le cadre avant du fauteuil"
+                  },
+                  {
+                    "label": "Poids",
+                    "value": "À partir de 5 kg (gamme Lomo 360)"
+                  },
+                  {
+                    "label": "Poids utilisateur maximum",
+                    "value": "120 kg en standard (plus sur demande)"
+                  },
+                  {
+                    "label": "Cadre",
+                    "value": "Acier chrome-molybdène"
+                  }
+                ],
+                "options": [
+                  "Freins montés sur la poignée du fauteuil",
+                  "Commande de frein déportée à gauche ou à droite pour l'accompagnant",
+                  "Autres teintes sur demande (RAL en supplément)"
+                ],
+                "pros": [
+                  "Format le plus compact et agile de la gamme Lomo 360.",
+                  "Fixation rapide, sans modification du fauteuil dans la plupart des cas.",
+                  "Légère, sans batterie ni entretien électrique.",
+                  "Compatible fauteuils à propulsion électrique et utilisation par un accompagnant (frein déporté en option)."
+                ],
+                "cons": [
+                  "Dispositif non inscrit à la LPPR : non remboursable par l'Assurance Maladie (financement via PCH / aides complémentaires).",
+                  "Sans motorisation : l'effort de propulsion reste à la charge de l'utilisateur ou de l'accompagnant.",
+                  "Compatibilité à valider avec le fauteuil lors d'un essai."
+                ],
+                "colors": [
+                  {
+                    "name": "Noir mat",
+                    "hex": "#1C1C1C"
+                  },
+                  {
+                    "name": "Gris platine mat",
+                    "hex": "#8E9094"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "MARCONNET-STRICKER-LOMO-360-16",
+              "name": "Lomo 360 16\"",
+              "description": "La Lomo 360 16\" est une 3ème roue manuelle Stricker, sans moteur, avec une roue avant de 16 pouces offrant un meilleur confort de roulage sur les sols irréguliers (chemins, pavés, herbe). Elle se connecte au fauteuil par un système de fixation rapide et se pilote par un guidon assurant une direction précise.",
+              "imageUrl": "https://storage.googleapis.com/website-mt/produits/handbikes/lomo%20360/lomo%20360%2016/lomo-360-16-1.jpg",
+              "manufacturerUrl": "https://marconnet-technologies.com/handbikes/lomo-360/lomo-360-16-pouces-3eme-roue-manuelle-stricker/28",
+              "isPediatric": false,
+              "isBariatric": false,
+              "details": {
+                "presentation": [
+                  "3ème roue manuelle compacte pour fauteuil roulant manuel, sans assistance électrique.",
+                  "Roue de 16 pouces : plus de confort sur les sols irréguliers et les longues distances.",
+                  "Fixation rapide Stricker et direction par guidon, précise et stable.",
+                  "Compatible avec les accessoires Stricker."
+                ],
+                "specs": [
+                  {
+                    "label": "Roue",
+                    "value": "16 pouces"
+                  },
+                  {
+                    "label": "Direction",
+                    "value": "Par guidon"
+                  },
+                  {
+                    "label": "Motorisation",
+                    "value": "Aucune (3ème roue manuelle)"
+                  },
+                  {
+                    "label": "Fixation",
+                    "value": "Système de serrage rapide Stricker sur le cadre avant du fauteuil"
+                  },
+                  {
+                    "label": "Poids",
+                    "value": "À partir de 5 kg (gamme Lomo 360)"
+                  },
+                  {
+                    "label": "Poids utilisateur maximum",
+                    "value": "120 kg en standard (plus sur demande)"
+                  },
+                  {
+                    "label": "Cadre",
+                    "value": "Acier chrome-molybdène"
+                  }
+                ],
+                "options": [
+                  "Freins montés sur la poignée du fauteuil",
+                  "Commande de frein déportée à gauche ou à droite pour l'accompagnant",
+                  "Autres teintes sur demande (RAL en supplément)"
+                ],
+                "pros": [
+                  "Meilleur confort de roulage que le 12 pouces sur sols irréguliers.",
+                  "Installation rapide, direction précise.",
+                  "Structure robuste, sans motorisation."
+                ],
+                "cons": [
+                  "Caractéristiques de poids et de charge fournies pour l'ensemble de la gamme Lomo 360 (pas de valeurs propres au 16\" sur la fiche produit).",
+                  "Dispositif non inscrit à la LPPR : non remboursable par l'Assurance Maladie (financement via PCH / aides complémentaires).",
+                  "Sans motorisation : l'effort de propulsion reste à la charge de l'utilisateur ou de l'accompagnant.",
+                  "Compatibilité à valider avec le fauteuil lors d'un essai."
+                ],
+                "colors": [
+                  {
+                    "name": "Noir mat",
+                    "hex": "#1C1C1C"
+                  },
+                  {
+                    "name": "Gris platine mat",
+                    "hex": "#8E9094"
+                  }
+                ]
+              }
+            }
+          ]
+        }
       ]
     },
     {
