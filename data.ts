@@ -26671,6 +26671,354 @@ export const CATEGORIES: Category[] = [
               }
               }
           ]
+        },
+        {
+          "id": "marconnet",
+          "name": "Marconnet",
+          "models": [
+            {
+              "id": "MARCONNET-STRICKER-LIPO-LOMO-PICO-8",
+              "name": "Lipo Lomo Pico 8\"",
+              "description": "La Pico est une roue motorisée compacte et légère (9,5 kg sans batterie) de la marque Stricker, destinée aux fauteuils roulants manuels. Elle se fixe via une barre d'ancrage universelle, se transporte facilement en voiture, en train ou en avion (batterie agréée IATA) et offre une assistance électrique simple pour les trajets du quotidien.",
+              "imageUrl": "https://storage.googleapis.com/website-mt/produits/handbikes/handbikes%20tout%20elec/lipo%20lomo%20pico%208/handbike-tout-elec-8-1.jpg",
+              "manufacturerUrl": "https://marconnet-technologies.com/handbikes/handbikes-tout-electrique/handbike-tout-electrique-8/29",
+              "isPediatric": false,
+              "isBariatric": false,
+              "details": {
+                "presentation": [
+                  "Roue motorisée avant compacte de 8 pouces pour fauteuil roulant manuel, fixée par barre d'ancrage universelle.",
+                  "Légère et peu encombrante : facile à transporter, compatible transport aérien sous réserve d'acceptation par la compagnie.",
+                  "Marche arrière de série et guidon pliable de série.",
+                  "Conçue, fabriquée et assemblée en Allemagne ; garantie 2 ans sur l'électronique, l'électrique et la batterie."
+                ],
+                "specs": [
+                  {
+                    "label": "Moteur",
+                    "value": "Brushless 350 W"
+                  },
+                  {
+                    "label": "Batterie",
+                    "value": "Lithium 36 V 8,4 Ah (14 Ah en option), agréée IATA"
+                  },
+                  {
+                    "label": "Autonomie",
+                    "value": "40 km (60 km avec batterie HC)"
+                  },
+                  {
+                    "label": "Vitesse maximale",
+                    "value": "Jusqu'à 10 km/h selon la législation"
+                  },
+                  {
+                    "label": "Roue avant",
+                    "value": "Gonflable 8 pouces (200 mm)"
+                  },
+                  {
+                    "label": "Freinage",
+                    "value": "Frein à disque"
+                  },
+                  {
+                    "label": "Poids",
+                    "value": "9,5 kg sans batterie"
+                  },
+                  {
+                    "label": "Marche arrière",
+                    "value": "De série"
+                  },
+                  {
+                    "label": "Stationnement",
+                    "value": "Béquille de stationnement"
+                  },
+                  {
+                    "label": "Guidon",
+                    "value": "Pliable de série"
+                  }
+                ],
+                "options": [
+                  "Batterie 14 Ah (version HC)"
+                ],
+                "pros": [
+                  "Très légère et facile à transporter.",
+                  "Marche arrière et guidon pliable de série.",
+                  "Garantie 2 ans, fabrication allemande."
+                ],
+                "cons": [
+                  "Vitesse limitée à 10 km/h : usage plutôt urbain et de courte à moyenne distance.",
+                  "Moteur 350 W : moins adaptée aux fortes pentes et terrains difficiles que les modèles GX.",
+                  "Dispositif non inscrit à la LPPR : non remboursable par l'Assurance Maladie (financement via PCH / aides complémentaires).",
+                  "Compatibilité à valider avec le fauteuil (barre d'ancrage / adaptateur) lors d'un essai."
+                ],
+                "colors": [
+                  {
+                    "name": "Noir",
+                    "hex": "#1A1A1A"
+                  },
+                  {
+                    "name": "Imitation carbone",
+                    "hex": "#3A3A3C"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "MARCONNET-STRICKER-MICRO-GX-12",
+              "name": "Micro GX 12\"",
+              "description": "La Micro GX 12\" est une 3ème roue électrique compacte de la marque Stricker, équipée d'un moteur direct drive de 500 W et d'une roue de 12 pouces. Elle intègre un régulateur de vitesse, un frein moteur automatique avec récupération d'énergie et un accélérateur bidirectionnel, pour une conduite urbaine fluide.",
+              "imageUrl": "https://storage.googleapis.com/website-mt/produits/handbikes/handbikes%20tout%20elec/micro%20gx%2012/Img%20stricker.png",
+              "manufacturerUrl": "https://marconnet-technologies.com/handbikes/handbikes-tout-electrique/micro-gx-12/61",
+              "isPediatric": false,
+              "isBariatric": false,
+              "details": {
+                "presentation": [
+                  "3ème roue électrique compacte avec roue de 12 pouces et pneus larges pour une bonne traction.",
+                  "Accélérateur bidirectionnel : avancer comme reculer.",
+                  "Freinage moteur intelligent avec récupération d'énergie.",
+                  "Écran couleur et kits réfléchissants colorés."
+                ],
+                "specs": [
+                  {
+                    "label": "Usage",
+                    "value": "Ville"
+                  },
+                  {
+                    "label": "Moteur",
+                    "value": "Direct drive 500 W"
+                  },
+                  {
+                    "label": "Roue",
+                    "value": "12 pouces"
+                  },
+                  {
+                    "label": "Batterie",
+                    "value": "48 V : 6 Ah (IATA), 13 Ah (standard), 17,5 Ah"
+                  },
+                  {
+                    "label": "Autonomie",
+                    "value": "40 km (jusqu'à 50 km en batterie standard, jusqu'à 120 km avec options selon le constructeur)"
+                  },
+                  {
+                    "label": "Poids",
+                    "value": "17 kg"
+                  }
+                ],
+                "options": [
+                  "Batterie 6 Ah agréée IATA",
+                  "Batterie 17,5 Ah",
+                  "Kits réfléchissants colorés"
+                ],
+                "pros": [
+                  "Compacte, polyvalente, conduite fluide.",
+                  "Régulateur de vitesse et freinage moteur avec récupération.",
+                  "Accélérateur bidirectionnel."
+                ],
+                "cons": [
+                  "Autonomie annoncée différente selon les rubriques du site (40 km / 50 km / jusqu'à 120 km avec options).",
+                  "Dispositif non inscrit à la LPPR : non remboursable par l'Assurance Maladie (financement via PCH / aides complémentaires).",
+                  "Compatibilité à valider avec le fauteuil (barre d'ancrage / adaptateur) lors d'un essai."
+                ],
+                "colors": []
+              }
+            },
+            {
+              "id": "MARCONNET-STRICKER-LOMO-GX-14",
+              "name": "Lomo GX 14\"",
+              "description": "La Lomo GX 14\" est une 3ème roue électrique Stricker polyvalente, équipée d'un moteur direct drive de 1000 W et d'une roue de 14 pouces, pensée pour un usage tous terrains. Elle propose régulateur de vitesse, frein moteur automatique, assistance à la traction et accélérateur bidirectionnel.",
+              "imageUrl": "https://storage.googleapis.com/website-mt/produits/handbikes/handbikes%20tout%20elec/lomo%20gx%2014/Lomo%20GX%2014.png",
+              "manufacturerUrl": "https://marconnet-technologies.com/handbikes/handbikes-tout-electrique/lomo-gx-14/62",
+              "isPediatric": false,
+              "isBariatric": false,
+              "details": {
+                "presentation": [
+                  "3ème roue électrique compacte et puissante pour la ville comme pour des trajets plus exigeants.",
+                  "Moteur direct drive 1000 W, roue de 14 pouces.",
+                  "Afficheur digital moderne, accélérateur bidirectionnel, assistance à la traction.",
+                  "Couleurs personnalisables."
+                ],
+                "specs": [
+                  {
+                    "label": "Usage",
+                    "value": "Tous terrains"
+                  },
+                  {
+                    "label": "Moteur",
+                    "value": "Direct drive 1000 W"
+                  },
+                  {
+                    "label": "Roue",
+                    "value": "14 pouces"
+                  },
+                  {
+                    "label": "Batterie",
+                    "value": "48 V : 6 Ah (IATA), 13 Ah (standard), 17,5 Ah"
+                  },
+                  {
+                    "label": "Autonomie",
+                    "value": "40 km (jusqu'à 50 km selon le constructeur)"
+                  },
+                  {
+                    "label": "Poids",
+                    "value": "20 kg"
+                  }
+                ],
+                "options": [
+                  "Batterie 6 Ah agréée IATA",
+                  "Batterie 17,5 Ah",
+                  "Couleurs personnalisables"
+                ],
+                "pros": [
+                  "Puissance 1000 W adaptée aux reliefs.",
+                  "Régulateur de vitesse, frein moteur automatique, accélérateur bidirectionnel."
+                ],
+                "cons": [
+                  "Plus lourde (20 kg) que les modèles Pico et Micro GX.",
+                  "Autonomie annoncée différente selon les rubriques du site (40 km / 50 km).",
+                  "Dispositif non inscrit à la LPPR : non remboursable par l'Assurance Maladie (financement via PCH / aides complémentaires).",
+                  "Compatibilité à valider avec le fauteuil (barre d'ancrage / adaptateur) lors d'un essai."
+                ],
+                "colors": []
+              }
+            },
+            {
+              "id": "MARCONNET-STRICKER-LOMO-GX-16",
+              "name": "Lomo GX 16\"",
+              "description": "La Lomo GX 16\" est une 3ème roue électrique Stricker conçue pour les terrains exigeants (montagne, chemins escarpés). Moteur à engrenages de 500 W, roue de 16 pouces à pneus larges, assistance à la traction, régulateur de vitesse et accélérateur bidirectionnel.",
+              "imageUrl": "https://storage.googleapis.com/website-mt/produits/handbikes/handbikes%20tout%20elec/lomo%20gx%2016/Lomo%20GX%2016.png",
+              "manufacturerUrl": "https://marconnet-technologies.com/handbikes/handbikes-tout-electrique/lomo-gx-16-pouces/63",
+              "isPediatric": false,
+              "isBariatric": false,
+              "details": {
+                "presentation": [
+                  "3ème roue électrique pour terrains accidentés et reliefs, avec roue de 16 pouces et pneus larges.",
+                  "Moteur à engrenages 500 W, conduite silencieuse et stable.",
+                  "Freinage moteur intelligent avec récupération d'énergie, écran couleur.",
+                  "Kits réfléchissants colorés."
+                ],
+                "specs": [
+                  {
+                    "label": "Usage",
+                    "value": "Montagne et chemins escarpés"
+                  },
+                  {
+                    "label": "Moteur",
+                    "value": "Geared drive 500 W"
+                  },
+                  {
+                    "label": "Roue",
+                    "value": "16 pouces"
+                  },
+                  {
+                    "label": "Batterie",
+                    "value": "48 V : 6 Ah (IATA), 13 Ah (standard), 17,5 Ah ; 840 Wh en extension"
+                  },
+                  {
+                    "label": "Autonomie",
+                    "value": "40 km (jusqu'à 50 km selon le constructeur)"
+                  },
+                  {
+                    "label": "Poids",
+                    "value": "18 kg"
+                  }
+                ],
+                "options": [
+                  "Batterie 6 Ah agréée IATA",
+                  "Batterie 17,5 Ah / 840 Wh",
+                  "Couleurs personnalisables"
+                ],
+                "pros": [
+                  "Adaptée aux terrains difficiles et aux pentes.",
+                  "Pneus larges, bonne adhérence.",
+                  "Régulateur de vitesse et assistance à la traction."
+                ],
+                "cons": [
+                  "Autonomie annoncée différente selon les rubriques du site (40 km / 50 km).",
+                  "Dispositif non inscrit à la LPPR : non remboursable par l'Assurance Maladie (financement via PCH / aides complémentaires).",
+                  "Compatibilité à valider avec le fauteuil (barre d'ancrage / adaptateur) lors d'un essai."
+                ],
+                "colors": []
+              }
+            },
+            {
+              "id": "MARCONNET-STRICKER-CROSSBIKE-16",
+              "name": "Crossbike 16\"",
+              "description": "Le Crossbike 16\" est la 3ème roue électrique la plus puissante de la gamme Stricker : moteur 1500 W (2000 W en option), pneus type scooter, double frein à disque et frein moteur. Il s'adresse aux utilisateurs recherchant un usage route et tout-terrain, avec jusqu'à 120 kg d'utilisateur.",
+              "imageUrl": "https://storage.googleapis.com/website-mt/produits/handbikes/handbikes%20tout%20elec/crossbike%2016/handbike-crossbike-16-1.jpg",
+              "manufacturerUrl": "https://marconnet-technologies.com/handbikes/handbikes-tout-electrique/handbike-crossbike-16/31",
+              "isPediatric": false,
+              "isBariatric": false,
+              "details": {
+                "presentation": [
+                  "3ème roue électrique puissante pour route et tout-terrain, pneus résistants type scooter.",
+                  "Freinage par double disque (droite/gauche) et frein moteur, avec régénération à la décélération.",
+                  "Affichage haute résolution ; toute couleur RAL disponible.",
+                  "Une manipulation sûre est requise : essai recommandé."
+                ],
+                "specs": [
+                  {
+                    "label": "Moteur",
+                    "value": "1500 W (2000 W en option)"
+                  },
+                  {
+                    "label": "Vitesse",
+                    "value": "6 à 32 km/h (20 km/h annoncés en présentation)"
+                  },
+                  {
+                    "label": "Batterie",
+                    "value": "Lithium-ion 48 V 13 Ah / 624 Wh (4 kg) ; option 17 Ah / 816 Wh ou 2 × 17 Ah"
+                  },
+                  {
+                    "label": "Autonomie",
+                    "value": "≈ 40 km (13 Ah) / ≈ 50 km (17 Ah) sur terrain plat"
+                  },
+                  {
+                    "label": "Temps de charge",
+                    "value": "6,5 h (chargeur 48 V 2 A)"
+                  },
+                  {
+                    "label": "Freinage",
+                    "value": "Double disque + frein moteur"
+                  },
+                  {
+                    "label": "Poids utilisateur maximum",
+                    "value": "120 kg"
+                  },
+                  {
+                    "label": "Poids de transport",
+                    "value": "25 kg (≈ 20 kg sans batterie)"
+                  },
+                  {
+                    "label": "Poids total",
+                    "value": "30 kg"
+                  }
+                ],
+                "options": [
+                  "Accélérateur à la gâchette",
+                  "Équipement quadriplégique T3",
+                  "Double frein (1 levier, 2 câbles)",
+                  "Deuxième batterie",
+                  "Béquilles de maintien diverses",
+                  "Pneus route ou tout-terrain",
+                  "Support Klickfix, porte-bagages, panier, sac",
+                  "Rétroviseur",
+                  "Frein à disque hydraulique",
+                  "Adaptateur pour fauteuils à repose-pieds amovibles",
+                  "Couleur RAL au choix",
+                  "Moteur 2000 W"
+                ],
+                "pros": [
+                  "Puissance et autonomie élevées, utilisable en tout-terrain.",
+                  "Freinage performant (double disque + frein moteur).",
+                  "Nombreuses options et personnalisation (RAL)."
+                ],
+                "cons": [
+                  "Vitesse annoncée de 20 km/h dans le texte, 6-32 km/h dans les caractéristiques : à vérifier selon la réglementation applicable.",
+                  "Manipulation exigeante, notamment en équipement quadriplégique : essai indispensable.",
+                  "Poids important (25 à 30 kg).",
+                  "Dispositif non inscrit à la LPPR : non remboursable par l'Assurance Maladie (financement via PCH / aides complémentaires).",
+                  "Compatibilité à valider avec le fauteuil (barre d'ancrage / adaptateur) lors d'un essai."
+                ],
+                "colors": []
+              }
+            }
+          ]
         }
       ]
     },
