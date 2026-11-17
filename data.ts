@@ -17057,56 +17057,6 @@ export const CATEGORIES: Category[] = [
             name: "Whill",
             models: [
               {
-                id: "whill-model-f",
-                name: "WHILL Model F",
-                description: "Fauteuil roulant électrique pliable, léger et compact, pensé pour les voyages en voiture, en avion ou en train. Il se plie d'un seul mouvement en moins de 3 secondes (465 mm de long plié), pèse 24 kg sans batterie et se pilote aussi par smartphone en Bluetooth. Batterie lithium-ion approuvée pour l'avion.",
-                imageUrl: "https://whill.inc/_next/static/media/product-f-seo.39zvf_8vzadm5.webp",
-                manufacturerUrl: "https://whill.inc/fr/model-f",
-                isPediatric: false,
-                isBariatric: false,
-                details: {
-                  presentation: [
-                    "Pliage en un mouvement, en moins de 3 secondes.",
-                    "Très maniable dans les espaces restreints (ascenseurs).",
-                    "Batterie lithium-ion amovible, approuvée pour le transport aérien.",
-                    "Contrôle à distance via smartphone (Bluetooth)."
-                  ],
-                  specs: [
-                    { label: "Poids sans batterie", value: "24 kg" },
-                    { label: "Poids avec batterie", value: "26,7 kg" },
-                    { label: "Poids maximal utilisateur", value: "115 kg" },
-                    { label: "Autonomie", value: "20 km" },
-                    { label: "Vitesse maximale", value: "6 km/h" },
-                    { label: "Longueur plié", value: "465 mm" },
-                    { label: "Pente", value: "jusqu'à 10°" },
-                    { label: "Rayon de braquage", value: "780 mm" },
-                    { label: "Franchissement d'obstacle (site assistant-ergo.fr)", value: "35 mm" }
-                  ],
-                  options: [
-                    "Panier de rangement sous le siège",
-                    "Crochets arrière pour sac à dos"
-                  ],
-                  pros: [
-                    "Très facile à plier et à transporter",
-                    "Léger (24 kg sans batterie)",
-                    "Design moderne et élégant"
-                  ],
-                  cons: [
-                    "Franchissement d'obstacle limité (35 mm)",
-                    "Charge maximale plus faible (115 kg)",
-                    "Largeur d'assise non précisée : isPediatric à vérifier",
-                    "Coloris issus du site assistant-ergo.fr (non précisés sur la page WHILL)"
-                  ],
-                  colors: [
-                    { name: "Blanc", hex: "#F5F5F5" },
-                    { name: "Bleu ciel", hex: "#7EC8E3" },
-                    { name: "Vert", hex: "#2F7D4F" },
-                    { name: "Noir", hex: "#1A1A1A" },
-                    { name: "Rouge", hex: "#C8102E" }
-                  ]
-                }
-              },
-              {
                 id: "whill-model-c-lite",
                 name: "WHILL Model C Lite",
                 description: "Fauteuil roulant électrique pliable ultra-léger (17 kg) avec cadre en fibre de carbone moulée recyclée. Pliage rapide en 2 secondes, roues avant omnidirectionnelles, suspension en lame de carbone, double moteur Nidec et batterie lithium-ion amovible rechargeable en USB-C. Réglage de la vitesse et verrouillage via l'application WHILL.",
