@@ -90,6 +90,70 @@ export const JOURNAL_ISSUES: JournalIssue[] = [
 `,
     lienWeb: 'http://sh1.sendinblue.com/nrzrsnmt4c.html',
   },
+  {
+    numero: 2,
+    dateEnvoi: '2026-11-09',
+    titre: 'Sunrise Medical rachète Spinergy',
+    chapeau: "Un gros nom du fauteuil actif change de mains, le Permobil M4 Nexa arrive aux États-Unis, et l'échéance du 30 novembre approche toujours sans texte officiel.",
+    sommaire: ['À la une : Sunrise Medical rachète Spinergy', 'Nouveauté : Permobil M4 Nexa', 'Sur assistant-ergo.fr : Quickie QS7 X et eFOLDi Navigator', 'Ailleurs dans le monde', 'Agenda', 'Remboursement et LPPR', 'Sécurité'],
+    contenu: `
+<p>Bonjour,</p>
+<p>Semaine plutôt calme côté nouveaux fauteuils. Mais un gros nom du fauteuil actif change de mains. Et l'échéance du 30 novembre approche, sans texte officiel pour la confirmer. Je vous fais le point, simplement.</p>
+<h3>À la une · Sunrise Medical rachète Spinergy</h3>
+<p>Le 2 novembre, Sunrise Medical (Quickie, Sopur, Zippie, Breezy) a annoncé le rachat de Spinergy. Spinergy, c'est la marque américaine des roues à rayons en fibre et des mains courantes qu'on voit souvent sur les fauteuils actifs et de sport.</p>
+<p>Spinergy garde son nom, son équipe et continue de travailler avec les autres fabricants de fauteuils. Le montant n'est pas communiqué. Rien n'est dit pour l'Europe ou la France.</p>
+<p><strong>Ce que ça change sur le terrain :</strong> pour l'instant, rien de concret. Les roues Spinergy restent disponibles comme avant, selon l'annonce. À surveiller dans les prochains mois : tarifs, délais et options proposées sur les fauteuils des autres marques.</p>
+<p>Sources : <a href="https://www.sunrisemedical.com/company-information/press-releases/2026/november/sunrise-medical-acquires-spinergy" target="_blank" rel="noopener">communiqué Sunrise Medical</a> · <a href="https://mobilitymgmt.com/sunrise-medical-acquires-spinergy/" target="_blank" rel="noopener">Mobility Management</a></p>
+<h3>Nouveauté · Permobil M4 Nexa</h3>
+<p>Annoncé fin septembre aux États-Unis, ce fauteuil électrique compact est en cours de déploiement depuis le 1er novembre. Il est pensé pour les personnes de petite taille : assise très basse (38 cm du sol), bascule vers l'avant pour faciliter les transferts, profondeur d'assise de 25 à 56 cm, petit rayon de braquage. Les petites roues avant permettent de glisser les repose-pieds dessous pour s'approcher d'une table ou d'un plan de travail.</p>
+<p><strong>Pour qui ?</strong> Adolescents et adultes de petite taille, qui devaient souvent choisir entre un fauteuil bien ajusté et un fauteuil fonctionnel.</p>
+<p><strong>Encore inconnu :</strong> la date d'arrivée en France, le prix et l'inscription à la LPPR. <a href="https://www.homecaremag.com/permobil-launches-new-compact-power-wheelchair/" target="_blank" rel="noopener">Source : HomeCare</a></p>
+<h3>Sur assistant-ergo.fr</h3>
+<p><a href="https://assistant-ergo.fr/?cat=manuel&sous=FRMC&marque=sunrise&modele=sunrise-medical-quickie-qs7-x">Quickie QS7 X</a> (Sunrise Medical) : un fauteuil manuel de la marque qui vient de racheter Spinergy.<br><a href="https://assistant-ergo.fr/?cat=electrique&sous=FRE_CLASSE_A&marque=efoldi&modele=efoldi-navigator">eFOLDi Navigator</a> : le fauteuil électrique pliant de la marque anglaise eFOLDi, qui agrandit son équipe cette semaine.</p>
+<h3>Ailleurs dans le monde</h3>
+<p><strong>États-Unis.</strong> Josh Turek, utilisateur de fauteuil roulant né avec un spina bifida et ancien professionnel des aides techniques chez un revendeur, a été élu au Sénat américain le 3 novembre. Quand les gens qui connaissent le terrain arrivent là où se prennent les décisions, les sujets comme le remboursement des fauteuils avancent mieux. <a href="https://mobilitymgmt.com/take-5-coffee-break-former-atp-flips-iowa-senate-seat-dollywood-earns-high-accessibility-marks/" target="_blank" rel="noopener">Source</a></p>
+<p><strong>Japon.</strong> WHILL, qui fait rouler des fauteuils électriques autonomes dans les aéroports (Tokyo-Haneda, Singapour), entre dans un programme de Tokyo pour développer ce service dans le monde. De quoi imaginer des fauteuils en libre-service pour les longs trajets dans nos gares et aéroports. <a href="https://whill.inc/us/news/" target="_blank" rel="noopener">Source</a></p>
+<p><strong>Royaume-Uni.</strong> Le fabricant de tricycles Jorvik signe une année record (+35 %) et promet plus de modèles accessibles. Le tricycle comme vraie solution de mobilité et de loisir, pas seulement de rééducation. <a href="https://thiis.co.uk/jorvik-tricycles-promises-more-accessible-options-as-it-celebrates-record-financial-year/" target="_blank" rel="noopener">Source</a></p>
+<h3>Agenda</h3>
+<p><strong>2 et 3 décembre</strong> · Autonomic Lille Europe, Lille Grand Palais (gares Lille Flandres et Lille Europe à 5 min à pied, métro ligne 2). Salon handicap et grand âge des Hauts-de-France, entrée gratuite avec badge à réserver en ligne. L'occasion d'essayer et de comparer des fauteuils côte à côte et de poser ses questions directement aux fabricants. <a href="https://www.autonomic-expo.com/salon/autonomic-lille-europe" target="_blank" rel="noopener">Infos et badge</a></p>
+<h3>Remboursement et LPPR</h3>
+<p>La fin de la période où ancienne et nouvelle nomenclature cohabitent est annoncée au 30 novembre 2026 par plusieurs acteurs, sans texte officiel trouvé pour le confirmer. Par prudence, un dossier encore monté sur l'ancienne nomenclature est à faire aboutir avant fin novembre, en vérifiant auprès de la CPAM. Pas de nouvelle inscription de fauteuil à la LPPR cette semaine. Sources : <a href="https://www.orisha.com/fr/blog/psad-psdm-reforme-vph" target="_blank" rel="noopener">Orisha</a> · <a href="https://mobile.cerahtec.fr/fr/news?c=VPH%2CLPPr" target="_blank" rel="noopener">CERAHTEC</a></p>
+<h3>Sécurité</h3>
+<p>Aucun rappel ni avis de sécurité sur un fauteuil, un scooter ou une motorisation repéré cette semaine sur le site de l'ANSM.</p>
+`,
+  },
+  {
+    numero: 1,
+    dateEnvoi: '2026-11-02',
+    titre: 'Ottobock cède ses fauteuils roulants à DHCare',
+    chapeau: "Premier numéro : un gros mouvement dans le secteur, la nouvelle assistance électrique Empulse R90, les Quickie QS3 X et QS7 X, et quelques idées venues des États-Unis.",
+    sommaire: ['À la une : Ottobock cède ses fauteuils roulants à DHCare', 'Nouveauté : assistance électrique Empulse R90', 'Sur assistant-ergo.fr : Quickie QS3 X et QS7 X', 'Ailleurs dans le monde', 'Remboursement et LPPR', 'Sécurité'],
+    contenu: `
+<p>Bonjour,</p>
+<p>Chaque semaine, je trie ce qui bouge chez les fabricants, en France et ailleurs. Pas tout. Juste ce qui peut changer quelque chose pour les personnes qu'on accompagne. Cette semaine : un gros mouvement dans le secteur, une nouvelle assistance électrique, et quelques idées venues des États-Unis.</p>
+<h3>À la une · Ottobock cède ses fauteuils roulants à DHCare</h3>
+<p>L'accord a été signé le 19 juin 2026. DHCare, c'est le nouveau groupe né de la fusion d'Invacare Europe et de Direct Healthcare Group, détenu par le fonds Rhône. Il récupère toute l'activité « Human Mobility » d'Ottobock : fauteuils manuels, électriques, et le spécialiste pédiatrique veldink4Kids.</p>
+<p>La finalisation est attendue au second semestre 2026. En France, la filiale fait l'objet de négociations exclusives à part.</p>
+<p><strong>Ce que ça change sur le terrain :</strong> rien dans l'immédiat. Ottobock reste l'interlocuteur jusqu'à la finalisation. À surveiller ensuite : gammes conservées ou fusionnées avec Invacare et Küschall, SAV, contacts commerciaux.</p>
+<p>Sources : <a href="https://live.deutsche-boerse.com/news/EQS-News-Ottobock-sells-its-Human-Mobility-wheelchair-business-e9c011b9-ed97-4a0b-823b-d28eb1d2d314" target="_blank" rel="noopener">communiqué Ottobock</a> · <a href="https://www.invacare.com/news/dhcare-signs-definitive-agreement-to-acquire-ottobocks-human-mobility-division/" target="_blank" rel="noopener">communiqué DHCare</a></p>
+<h3>Nouveauté · Sunrise Medical lance l'assistance électrique Empulse R90</h3>
+<p>Annoncée le 30 octobre. Un module ultraléger placé sous l'assise, qui se relève et se démonte à tout moment (fixation V-Lock). Commande sans fil à placer où on veut sur le châssis. Batterie amovible. Réglages via l'appli Sunrise Intelligence.</p>
+<p><strong>Pour qui ?</strong> Les personnes en manuel qui fatiguent sur les distances ou les pentes, et veulent garder leur fauteuil.</p>
+<p><strong>Encore inconnu :</strong> poids, autonomie, vitesse, prise en charge LPPR. À comparer avec SmartDrive ou e-pilot. <a href="https://www.sunrisemedical.fr/company-information/news/france/2026/assistance-electrique-r90" target="_blank" rel="noopener">Source : Sunrise Medical France</a></p>
+<h3>Sur assistant-ergo.fr · Quickie QS3 X et QS7 X, les deux nouveaux pliants actifs</h3>
+<p>Sortis en octobre. Le QS7 X joue la carte du pliage le plus compact et du poids. Le QS3 X, celle d'un pliant actif solide et polyvalent. Les fiches complètes sont sur le site : dimensions, options, coloris.</p>
+<p><a href="https://assistant-ergo.fr/?cat=manuel&sous=FRMC&marque=sunrise&modele=sunrise-medical-quickie-qs3-x">Quickie QS3 X</a> : pliant actif, jusqu'à 130 kg.<br><a href="https://assistant-ergo.fr/?cat=manuel&sous=FRMC&marque=sunrise&modele=sunrise-medical-quickie-qs7-x">Quickie QS7 X</a> : pliant ultra-compact, alu série 7000.</p>
+<p>Sources : <a href="https://www.sunrisemedical.fr/company-information/news/france/2026/fauteuil-roulant-manuel-actif-pliant-qs3x" target="_blank" rel="noopener">annonce QS3 X</a> · <a href="https://www.sunrisemedical.fr/company-information/news/france/2026/fauteuil-roulant-manuel-actif-pliant-qs7x" target="_blank" rel="noopener">annonce QS7 X</a> (Sunrise Medical France)</p>
+<h3>Ailleurs dans le monde</h3>
+<p><strong>États-Unis.</strong> Permobil M4 Nexa : un électrique à traction centrale compact pour ados et adultes de petit gabarit, avec bascule, inclinaison, lift et repose-jambes électriques. Les fonctions des « grands » fauteuils, dans un petit format. <a href="https://newmobility.com/m4-nexa/" target="_blank" rel="noopener">Source</a></p>
+<p><strong>États-Unis.</strong> SOUL Mobility Power-Flex : un module qui remplace les roues d'un manuel léger et le transforme en électrique en 30 secondes environ, sans outil. Joystick, suspension, bascule 30°. L'idée du fauteuil « hybride » qui suit les journées avec et sans fatigue. <a href="https://mobilitymgmt.com/working-a-new-angle/" target="_blank" rel="noopener">Source</a></p>
+<p><strong>États-Unis.</strong> Raz Design, bariatrique : des sangles de dossier qui laissent de la place au fessier pour une assise plus profonde, et un verrou pour ne plus perdre les repose-pieds en établissement. Un détail simple, une vraie question de terrain. <a href="https://mobilitymgmt.com/briefly-raz-design-highlights-gluteal-shelf-foot-support-lock-kids-with-sma-should-be-monitored-for-respiratory-issues/" target="_blank" rel="noopener">Source</a></p>
+<h3>Remboursement et LPPR</h3>
+<p>Rien de neuf au Journal officiel cette semaine. Point de vigilance : la fin de la cohabitation entre ancienne et nouvelle nomenclature VPH, annoncée pour fin novembre 2026.</p>
+<h3>Sécurité</h3>
+<p>Aucun avis de sécurité <a href="https://ansm.sante.fr/informations-de-securite/" target="_blank" rel="noopener">ANSM</a> concernant un VPH publié cette semaine.</p>
+`,
+  },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
