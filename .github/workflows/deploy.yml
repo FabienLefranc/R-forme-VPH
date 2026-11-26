@@ -7,10 +7,10 @@
 # Codes à enregistrer une seule fois dans GitHub :
 #   Settings > Secrets and variables > Actions > New repository secret
 #     (adresse du serveur : ftp.assistant-ergo.fr, écrite plus bas)
-#     LEFRANC2        identifiant FTP
-#     LEFRANC3        mot de passe FTP
+#     (identifiant FTP : u637903544, écrit plus bas)
+#     LEFRANC3        mot de passe FTP du compte u637903544
 #     FTP_SERVER_DIR  (facultatif) dossier du site sur le serveur,
-#                     par défaut ./domains/assistant-ergo.fr/public_html/
+#                     par défaut ./public_html/
 #
 # Pour relancer une mise en ligne à la main : onglet Actions >
 # « Mise en ligne sur Hostinger » > Run workflow.
@@ -48,11 +48,11 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp.assistant-ergo.fr
-          username: ${{ secrets.LEFRANC2 }}
+          username: u637903544
           password: ${{ secrets.LEFRANC3 }}
           protocol: ftps
           local-dir: ./dist/
-          server-dir: ${{ secrets.FTP_SERVER_DIR || './domains/assistant-ergo.fr/public_html/' }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR || './public_html/' }}
           # Ne remplace que les fichiers du site : .htaccess et les autres
           # fichiers ajoutés par Hostinger ne sont jamais supprimés.
           exclude: |
