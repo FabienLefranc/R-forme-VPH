@@ -1135,7 +1135,7 @@ export const CATEGORIES: Category[] = [
                   "Le fauteuil roulant de transfert Pocket est conçu pour offrir une solution pratique, compacte et légère pour les déplacements quotidiens des personnes en perte d'autonomie. Ce modèle se distingue par sa facilité de transport et son système de double freinage.",
                 imageUrl:
                   "https://www.recyclaides34.fr/1582-medium_default/fauteuil-roulant-de-transfert-pocket-t42-vermeiren.jpg",
-                manufacturerUrl: "https://www.vermeiren.fr",
+                manufacturerUrl: "",
                 isPediatric: false,
                 isBariatric: false,
                 details: {
@@ -2775,7 +2775,7 @@ export const CATEGORIES: Category[] = [
                 name: 'Meyra EUROCHAIR 1.850',
                 description: "Fauteuil roulant manuel léger et pliant de la gamme EUROCHAIR (modèle 1.850), supportant jusqu'à 150 kg. Conçu pour la propulsion autonome ou la poussée par une tierce personne, à domicile comme en extérieur sur chemins stabilisés. Système modulaire adaptable à différents handicaps et morphologies.",
                 imageUrl: 'https://www.meyra.fr/shopproducts/_processed_/9/2/csm_eurochair_4_19f4ed8486.png',
-                manufacturerUrl: 'https://www.meyra.fr/fauteuils-roulants/informations-detaillees-sur-le-produit/eurochair-1850',
+                manufacturerUrl: '',
                 isPediatric: false,
                 isBariatric: true,
                 details: {
@@ -10990,7 +10990,7 @@ export const CATEGORIES: Category[] = [
                 name: 'RGK Tiga F2',
                 description: "Fauteuil roulant rigide de conception classique pour découvrir un équipement 100 % personnalisé. Fabriqué à la main en aluminium 7020, il allie légèreté, efficacité et fonctionnalité grâce à plus de 30 mesures adaptables à la morphologie de l'utilisateur. Cadre ouvert ou fermé, centre de gravité réglable. Poids de transport à partir de 5,5 kg, jusqu'à 115 kg.",
                 imageUrl: 'https://tween-europe.com/cdn/shop/files/tiga-f2-angle_cut-2---ed_1.png?v=1718808478',
-                manufacturerUrl: 'https://www.sunrisemedical.fr/fauteuils-roulants/rgk/fauteuil-roulant-tiga-f2',
+                manufacturerUrl: '',
                 isPediatric: true,
                 isBariatric: false,
                 details: {
@@ -13142,7 +13142,7 @@ export const CATEGORIES: Category[] = [
                 name: 'RGK AllStar G2',
                 description: "Fauteuil roulant multisport haute performance pour joueurs adultes de niveau intermédiaire en club, fabriqué sur mesure (plus de 30 mesures) en aluminium 7020. Cadre rigide, léger et réactif, qui offre le bon niveau de contrôle et d'équilibre, avec un mélange de réglages fixes et ajustables pour affiner la configuration, pour le basket-ball, le tennis et d'autres sports. Poids de transport 7,2 kg, jusqu'à 115 kg.",
                 imageUrl: 'https://www.sunrisemedical.fr/getmedia/947aa371-0fab-403f-9734-a5921f61a56b/rgk-AllStar-G2-main.jpg?width=765',
-                manufacturerUrl: 'https://www.sunrisemedical.co.uk/wheelchairs/rgk/sports-wheelchairs/allstar-g2',
+                manufacturerUrl: '',
                 isPediatric: true,
                 isBariatric: false,
                 details: {
