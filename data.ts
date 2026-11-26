@@ -1330,7 +1330,7 @@ export const CATEGORIES: Category[] = [
                 name: 'DeVilbiss Multitec',
                 description: "Fauteuil roulant de soins multifonctionnel à assise et dossier inclinables indépendamment, soutenus par des amortisseurs à gaz. Il offre un réglage continu de la profondeur d'assise, des poignées de poussée réglables en hauteur, des repose-jambes relevables avec coussinets genoux et mollets, un appui-tête et des supports anti-basculement de série. Version avec frein à tambour pour l'accompagnateur.",
                 imageUrl: 'https://static.wixstatic.com/media/e5cb69_094632bc6b664a20923bc9c6c935dfed~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg',
-                manufacturerUrl: 'https://www.drivedevilbiss.fr/',
+                manufacturerUrl: 'https://www.drivedevilbiss.fr/index.php/produits/items/multitec-fauteuil-de-confort.html',
                 isPediatric: false,
                 isBariatric: false,
                 details: {
@@ -1758,7 +1758,7 @@ export const CATEGORIES: Category[] = [
                 name: 'Vermeiren Inovys II Evo T30',
                 description: "Fauteuil de confort à pousser avec bascule d'assise et inclinaison de dossier, conçu pour la prévention des escarres et le confort de l'utilisateur. La version T30 est la variante à roues arrière de 16'' pour accompagnant. Les réglages (poignées, repose-jambes, accoudoirs, profondeur d'assise) se font sans outil, et des coussins d'assise et de dossier préformés réglables sont proposés.",
                 imageUrl: 'https://m.media-amazon.com/images/I/61jISnLJogL.jpg',
-                manufacturerUrl: 'https://www.vermeiren.fr/product/orderform.nsf/O/49204797BDF55F18C1258E970028E9A5/%24FILE/FRMP%20-%20Inovys%20II%20Evo%20T30.pdf',
+                manufacturerUrl: 'https://www.vermeiren.fr/web/web.nsf/detailproduct.xsp?CountryVFFRProductGroupFauteuils+ManuelsSubGroupFauteuils+de+confortSelectedInovys+II+Evo=',
                 isPediatric: false,
                 isBariatric: false,
                 details: {
@@ -4226,7 +4226,7 @@ export const CATEGORIES: Category[] = [
                 name: 'Life & Mobility Neox',
                 description: "Fauteuil roulant léger, très réglable et à propulsion facile, pour les personnes qui dépendent d'un fauteuil au quotidien et veulent entreprendre des activités de façon autonome. Il intègre la vision d'assise Newton : un contour de châssis préformé et un dossier flexible réglable individuellement (Newton FLX) assurent les bons angles d'assise. Châssis pliant parallèle, de qualité, réglable en largeur, avec seulement 2 châssis pour toutes les tailles.",
                 imageUrl: 'https://www.life-mobility.com/en/uploads/producten/producten_product/Neox1_THF0112_4.jpg',
-                manufacturerUrl: 'https://www.life-mobility.com/en/products/wheelchairs/neox/',
+                manufacturerUrl: 'https://www.life-mobility.com/fr/produits/neox/fauteuils-roulants-manuels/',
                 isPediatric: true,
                 isBariatric: false,
                 details: {
@@ -18591,7 +18591,7 @@ export const CATEGORIES: Category[] = [
                 name: "Karma Morgan M Lectus",
                 description: "Fauteuil électrique multi-position à roues centrales, modèle haut de gamme de la famille Morgan M. Il combine une suspension indépendante sur 6 roues et l'assise Lectus, qui donne accès à une gamme complète d'options de posture. Bascule d'assise de 3 à 48°, dossier de -4° à 93°. Franchissement de 75 mm et pente de 12°. Charge max 136 kg.",
                 imageUrl: "https://www.karmamobility.co.uk/wp-content/uploads/2025/02/MorganM-Lectus-S-1050x960-1.png",
-                manufacturerUrl: "https://www.karmamobility.co.uk/featured_item/morgan-m-lectus/",
+                manufacturerUrl: "https://www.life-mobility.com/fr/produits/fauteuils-electriques-multi-positions/morgan-m-lectus/",
                 isPediatric: false,
                 isBariatric: false,
                 details: {
@@ -18682,7 +18682,7 @@ export const CATEGORIES: Category[] = [
                 name: "Life & Mobility Leon Versus",
                 description: "Fauteuil électrique à propulsion (roues arrière motrices), performant en extérieur tout en restant maniable en intérieur. Châssis robuste et suspension articulée, conception modulaire qui reçoit bascule, dossier et lift électriques. Largeur de 620 mm, rayon de braquage de 840 mm, jusqu'à 140 kg.",
                 imageUrl: "https://www.life-mobility.com/fr/uploads/producten/producten_product/THF_0186b800x800.jpg",
-                manufacturerUrl: "https://www.life-mobility.com/fr/produits/fauteuils-electriques-multi-positions/leon/",
+                manufacturerUrl: "https://www.life-mobility.com/fr/produits/fauteuils-electriques-multi-positions/leon-r-versus/",
                 isPediatric: false,
                 isBariatric: true,
                 details: {
@@ -18778,7 +18778,7 @@ export const CATEGORIES: Category[] = [
                 name: "Life & Mobility MID Lectus",
                 description: "Fauteuil à roues centrales motrices, premium et très manœuvrable (62 cm de large), avec six suspensions hydrauliques indépendantes et l'assise multi-positions Lectus : bascule 50°, dossier jusqu'à 180° et lift de 30 cm. Électronique R-Net.",
                 imageUrl: "https://www.life-mobility.com/fr/uploads/producten/producten_product/Mid_Lectus_THF_0190f_1800x800.jpg",
-                manufacturerUrl: "https://www.life-mobility.com/fr/produits/fauteuils-electriques-multi-positions/mid-lectus/",
+                manufacturerUrl: "https://www.karmamobility.co.uk/product/mid-lts/",
                 isPediatric: false,
                 isBariatric: true,
                 details: {
@@ -19063,7 +19063,7 @@ export const CATEGORIES: Category[] = [
                 name: "New Live Mobility Magix II",
                 description: "Fauteuil électrique ultra-compact et tout-chemin, fabriqué en Alsace, à six roues motrices : 58 cm de large et rayon de giration de 520 mm. Franchit des trottoirs de 15 cm, lift de 40 à 80 cm, dossier et assise inclinables, batterie lithium garantie 3 ans.",
                 imageUrl: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1080,h_1440/https://newlive.fr/wp-content/uploads/2022/01/magix2-new-live-fauteuil-roulant-electrique-assise.gif",
-                manufacturerUrl: "https://newlive.fr/",
+                manufacturerUrl: "https://newlive.fr/fr/fauteuil-roulant-electrique-magix-ii/",
                 isPediatric: false,
                 isBariatric: true,
                 details: {
@@ -19119,7 +19119,7 @@ export const CATEGORIES: Category[] = [
                 name: "Osmoso Handicap Viva Grand",
                 description: "Fauteuil électrique tout-terrain à propulsion arrière pour chemins, herbe, terre et sable, homologué pour la route. Châssis renforcé, suspensions indépendantes, larges pneus basse pression, moteurs à couple élevé, garde au sol de 100 mm et charge de 160 kg. Siège ergonomique multiréglable de type Captain Seat.",
                 imageUrl: "https://www.osmosohandicap.com/wp-content/uploads/2018/12/viva-grand4.jpg",
-                manufacturerUrl: "https://www.osmosohandicap.com/produit/viva-grand/",
+                manufacturerUrl: "https://www.sks-rehab.com/fr/produkte/multipositionen/swiss-viva-grand/u/2/",
                 isPediatric: false,
                 isBariatric: true,
                 details: {
@@ -20999,7 +20999,7 @@ export const CATEGORIES: Category[] = [
                 name: "Magic Mobility Extreme X8",
                 description: "Véritable fauteuil électrique tout-terrain 4x4 pour sable, neige, boue et chantiers : quatre moteurs de 700 W, direction à fusée, pneus basse pression de 14\" avec bande anti-crevaison. Franchissement de 120 mm, jusqu'à 182 kg, résistant aux éclaboussures.",
                 imageUrl: "https://fr.sunrisemedical.be/getmedia/83c9ebd1-3b8b-4945-85b2-2464119ecb29/magic-mobility-x8-powerchair.jpg?width=765",
-                manufacturerUrl: "https://fr.sunrisemedical.be/produits/magic-mobility/extreme-x8",
+                manufacturerUrl: "https://www.sunrisemedical.eu/powered-wheelchairs/magic-mobility/off-road-powered-wheelchairs/extreme-x8",
                 isPediatric: false,
                 isBariatric: true,
                 details: {
@@ -21098,7 +21098,7 @@ export const CATEGORIES: Category[] = [
                 name: "Vermeiren Forest 3 Advance",
                 description: "Version premium de la gamme Forest, avec l'essieu arrière articulé qui garde les 4 roues au sol et un monte-trottoir intégré (jusqu'à 10 cm). Assise multi-réglable, réglages électriques de série, lift de 300 mm, repose-jambes électriques à compensation, LiNX avec écran couleur et Bluetooth.",
                 imageUrl: "https://www.vermeiren.fr/product/picture.nsf/O/BB427BB2E463A71FC12583D7002D9FBC/$FILE/web_Forest%203%20C8%20Lift-%203Q%20view..jpg",
-                manufacturerUrl: "https://vermeiren.fr/web/web.nsf/detailproduct.xsp?CountryVFFRProductGroupFauteuils%20roulants%20%C3%A9lectriquesSubGroupFauteuils%20%C3%A0%20usage%20mixte%20int%C3%A9rieur/ext%C3%A9rieurSelectedFOREST%203",
+                manufacturerUrl: "https://www.vermeiren.fr/web/web.nsf/detailproduct.xsp?CountryVFFRProductGroupFauteuils%20roulants%20%C3%A9lectriquesSubGroupFauteuils%20%C3%A0%20usage%20mixte%20int%C3%A9rieur/ext%C3%A9rieurSelectedFOREST%203",
                 isPediatric: false,
                 isBariatric: false,
                 details: {
@@ -22158,7 +22158,7 @@ export const CATEGORIES: Category[] = [
                 name: "Life & Mobility Levo Combi",
                 description: "Fauteuil verticalisateur à traction avant, polyvalent : positions assise, relax, couchée à 180° et station debout jusqu'à 85°. Bascule d'assise jusqu'à 35°, largeur de 640 mm, assise Sedeo Pro en option. Pour des besoins cliniques complexes avec changements de position fréquents.",
                 imageUrl: "https://www.life-mobility.com/fr/uploads/producten/producten_product/LEVO_Combi_2800x800.jpg",
-                manufacturerUrl: "https://www.life-mobility.com/fr/produits/fauteuils-verticalisateurs/levo-combi/",
+                manufacturerUrl: "https://www.levo.ch/products/combi/",
                 isPediatric: false,
                 isBariatric: false,
                 details: {
@@ -22413,7 +22413,7 @@ export const CATEGORIES: Category[] = [
                 name: "Osmoso Handicap Viva Grand S",
                 description: "Version verticalisatrice du Viva Grand : fauteuil tout-terrain à propulsion arrière avec mise en station debout jusqu'à 85°, y compris en extérieur. Larges pneus crantés, suspensions articulées, garde au sol de 100 mm, cale-genoux amovibles et sangle thoracique.",
                 imageUrl: "https://www.osmosohandicap.com/wp-content/uploads/2020/04/viva-grand-S-droit-de-face.png",
-                manufacturerUrl: "https://www.osmosohandicap.com/produit/fauteuil-roulant-verticalisateur-viva-grand-s/",
+                manufacturerUrl: "https://www.sks-rehab.com/fr/produkte/stehfunktion/swiss-viva-grand-s/u/4/",
                 isPediatric: false,
                 isBariatric: false,
                 details: {
@@ -22864,7 +22864,7 @@ export const CATEGORIES: Category[] = [
                 name: "Cree Corzino",
                 description: "Poussette canne thérapeutique pliable, compacte et ultra-légère, en 4 tailles de la petite enfance à l'adulte. Châssis aluminium brossé, pliage parapluie, dossier inclinable 2 positions, harnais 5 points.",
                 imageUrl: "https://www.vyv-equipement-medical.fr/media/catalog/product/p/o/poussette_corzino_cree_8a07.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=547&width=547&canvas=547:547&format=jpeg",
-                manufacturerUrl: "https://www.cree.fr/",
+                manufacturerUrl: "https://cree.fr/produit/poussette-a-dossier-inlcinable-corzino-pour-enfant/",
                 isPediatric: true,
                 isBariatric: false,
                 details: {
@@ -22930,7 +22930,7 @@ export const CATEGORIES: Category[] = [
                 name: "Ottobock Eco Buggy",
                 description: "Poussette de transport la plus légère de la gamme Ottobock (9 kg), pour les enfants avec un besoin de soutien postural minimal. Pliage parapluie ultra-compact, dossier inclinable, repose-pieds escamotable.",
                 imageUrl: "https://images.ctfassets.net/8ks1shyq5m87/7HCj31yVwVYyC2I0Sw91Dj/175ba0dafadbf0e9b92448e9fc34ff74/3174938.jpg?fm=avif&w=1600&h=1600&q=100",
-                manufacturerUrl: "https://www.ottobock.com/en-ie/eco-buggy",
+                manufacturerUrl: "https://www.ottobock.com/fr-fr/product/HR32100001-011-106574",
                 isPediatric: true,
                 isBariatric: false,
                 details: {
@@ -23085,7 +23085,7 @@ export const CATEGORIES: Category[] = [
                 name: "Cree Stingray (R82)",
                 description: "Poussette de pédiatrie et de rééducation R82 (groupe Etac), à assise orientable à 180° sans sortir l'enfant. Châssis carbone léger, bascule de -45° à +45°, dossier jusqu'à 170°. Pour des besoins modérés à complexes.",
                 imageUrl: "https://img.medicalexpo.fr/images_me/photo-mg/76114-17560357.webp",
-                manufacturerUrl: "https://www.etac.com/",
+                manufacturerUrl: "https://www.etac.com/products/paediatrics/r82-stingray",
                 isPediatric: true,
                 isBariatric: false,
                 details: {
@@ -24435,7 +24435,7 @@ export const CATEGORIES: Category[] = [
                 name: "Pride Mobility Colt Plus",
                 description: "Scooter à 4 roues pour l'autonomie en extérieur : suspensions avant et arrière, éclairage LED complet avec feux de signalisation, siège pivotant réglable en profondeur avec accoudoirs relevables, démontage Feather-Touch.",
                 imageUrl: "https://i.ibb.co/gLpSdHxG/Capture-d-cran-2026-09-08-114223.png",
-                manufacturerUrl: "https://www.pridemobility.fr/wp-content/uploads/sites/16/2026/06/SCO-B-COLT-PLUS-2026.pdf",
+                manufacturerUrl: "https://www.pridemobility.fr/produits/colt/",
                 isPediatric: false,
                 isBariatric: true,
                 details: {
@@ -24551,7 +24551,7 @@ export const CATEGORIES: Category[] = [
                 name: "Vermeiren Kuarz",
                 description: "Scooter moderne au design rétro-futuriste (European Product Design Award 2025), construit dans les usines européennes de Vermeiren. Éclairage LED SBS avec clignotants, écran LCD à luminosité adaptative, siège rotatif réglable, anti-basculement et frein de stationnement.",
                 imageUrl: "https://www.vermeiren-scooter.com/wp-content/themes/vermeiren/assets/img/kuarz.png",
-                manufacturerUrl: "https://www.vermeiren-scooter.com/fr/",
+                manufacturerUrl: "https://www.vermeiren.fr/web/web.nsf/detailproduct.xsp?CountryVFFRProductGroupScootersSubGroupSelectedKuarz=",
                 isPediatric: false,
                 isBariatric: true,
                 details: {
