@@ -1,0 +1,60 @@
+# Mise en ligne automatique sur Hostinger
+#
+# À chaque mise à jour de la branche main (par exemple quand une pull request
+# est fusionnée), GitHub construit le site (npm run build) et envoie le dossier
+# dist sur Hostinger par FTP. Plus besoin de VS Code ni de copier dist à la main.
+#
+# Codes à enregistrer une seule fois dans GitHub :
+#   Settings > Secrets and variables > Actions > New repository secret
+#     LEFRANC         adresse du serveur FTP (hPanel > Fichiers > Comptes FTP)
+#     LEFRANC2        identifiant FTP
+#     LEFRANC3        mot de passe FTP
+#     FTP_SERVER_DIR  (facultatif) dossier du site sur le serveur,
+#                     par défaut ./public_html/
+#
+# Pour relancer une mise en ligne à la main : onglet Actions >
+# « Mise en ligne sur Hostinger » > Run workflow.
+
+name: Mise en ligne sur Hostinger
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploiement-hostinger
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Installer les dépendances
+        run: npm install --no-audit --no-fund
+
+      - name: Construire le site (npm run build)
+        run: npm run build
+
+      - name: Envoyer dist sur Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.LEFRANC }}
+          username: ${{ secrets.LEFRANC2 }}
+          password: ${{ secrets.LEFRANC3 }}
+          protocol: ftps
+          local-dir: ./dist/
+          server-dir: ${{ secrets.FTP_SERVER_DIR || './public_html/' }}
+          # Ne remplace que les fichiers du site : .htaccess et les autres
+          # fichiers ajoutés par Hostinger ne sont jamais supprimés.
+          exclude: |
+            **/.htaccess
+            **/.well-known/**
