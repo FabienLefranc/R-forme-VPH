@@ -6,9 +6,9 @@
 #
 # Codes à enregistrer une seule fois dans GitHub :
 #   Settings > Secrets and variables > Actions > New repository secret
-#     FTP_SERVER      adresse du serveur FTP (hPanel > Fichiers > Comptes FTP)
-#     FTP_USERNAME    identifiant FTP
-#     FTP_PASSWORD    mot de passe FTP
+#     LEFRANC         adresse du serveur FTP (hPanel > Fichiers > Comptes FTP)
+#     LEFRANC2        identifiant FTP
+#     LEFRANC3        mot de passe FTP
 #     FTP_SERVER_DIR  (facultatif) dossier du site sur le serveur,
 #                     par défaut ./public_html/
 #
@@ -47,9 +47,9 @@ jobs:
       - name: Envoyer dist sur Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets.LEFRANC }}
+          username: ${{ secrets.LEFRANC2 }}
+          password: ${{ secrets.LEFRANC3 }}
           protocol: ftps
           local-dir: ./dist/
           server-dir: ${{ secrets.FTP_SERVER_DIR || './public_html/' }}
